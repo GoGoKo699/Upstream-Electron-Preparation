@@ -1,0 +1,514 @@
+{
+  "charged_sector_normalization": {
+    "dc_amplitude_is_one": true,
+    "rows": [
+      {
+        "coherent_fidelity": 1.0,
+        "comparison_width": 0.5,
+        "exact": 1.0,
+        "orbital_fidelity": 1.0000000000000004,
+        "time_shift": 0.0,
+        "width": 0.5
+      },
+      {
+        "coherent_fidelity": 0.8888888888888888,
+        "comparison_width": 1.0,
+        "exact": 0.8888888888888888,
+        "orbital_fidelity": 0.8888888888888784,
+        "time_shift": 0.0,
+        "width": 0.5
+      },
+      {
+        "coherent_fidelity": 0.6114649681528662,
+        "comparison_width": 0.8,
+        "exact": 0.6114649681528661,
+        "orbital_fidelity": 0.6114649681528662,
+        "time_shift": 0.6,
+        "width": 0.3
+      },
+      {
+        "coherent_fidelity": 0.43835616438356156,
+        "comparison_width": 0.4,
+        "exact": 0.4383561643835617,
+        "orbital_fidelity": 0.43835616438357383,
+        "time_shift": -1.3,
+        "width": 1.0
+      }
+    ],
+    "scope": "Equal-charge relative coherent displacement, not overlap of a charged pulse with the uncharged bosonic vacuum."
+  },
+  "equal_mixing_continuity": {
+    "equal": {
+      "a": 1.0,
+      "energy_ratio": 6.943528580169472,
+      "energy_tail_bound": 4.3289900041638305e-21,
+      "exponent_tail_bound": 2.9424458766792717e-24,
+      "fidelity": 0.9989999999999988,
+      "frequency_cutoff": 50.26548245743669,
+      "infidelity_exponent": 0.001000500333584715,
+      "mu": 0.00016992681167253134,
+      "other_output_energy_ratio": 5.9531154527294685,
+      "p": 0.5,
+      "quadrature_error_estimate": 1.1206758171036645e-10,
+      "selected_output_energy_ratio": 0.9904131274400041
+    },
+    "scope": "Continuity at fixed nonzero error; no contradiction with diverging exact-target energy.",
+    "slightly_imbalanced": {
+      "a": 1.0,
+      "energy_ratio": 6.943524170667351,
+      "energy_tail_bound": 4.32898030430666e-21,
+      "exponent_tail_bound": 2.9424458766792717e-24,
+      "fidelity": 0.9989999999999988,
+      "frequency_cutoff": 50.26548245743669,
+      "infidelity_exponent": 0.0010005003335847144,
+      "mu": 0.0001699271924240448,
+      "other_output_energy_ratio": 5.95311105294677,
+      "p": 0.50001,
+      "quadrature_error_estimate": 1.1207059683944445e-10,
+      "selected_output_energy_ratio": 0.9904131177205806
+    }
+  },
+  "fermionic_crosscheck": {
+    "bound": "N_h + 1 - n_target <= -log F for the charged target; probability of any holes <= 1-F.",
+    "neutral_phase_benchmark": [
+      {
+        "checks": [
+          {
+            "cutoff": 20,
+            "fidelity": 0.9900498337491681,
+            "mean_holes": 0.009950166319930074
+          },
+          {
+            "cutoff": 40,
+            "fidelity": 0.9900498337491681,
+            "mean_holes": 0.009950166319930074
+          }
+        ],
+        "coherent_exponent": 0.010000000000000002,
+        "phase_amplitude": 0.2
+      },
+      {
+        "checks": [
+          {
+            "cutoff": 20,
+            "fidelity": 0.7788007830714049,
+            "mean_holes": 0.22122316367381098
+          },
+          {
+            "cutoff": 40,
+            "fidelity": 0.7788007830714049,
+            "mean_holes": 0.22122316367381098
+          }
+        ],
+        "coherent_exponent": 0.25,
+        "phase_amplitude": 1.0
+      },
+      {
+        "checks": [
+          {
+            "cutoff": 20,
+            "fidelity": 0.3678794411714419,
+            "mean_holes": 0.6363538031745789
+          },
+          {
+            "cutoff": 40,
+            "fidelity": 0.3678794411714419,
+            "mean_holes": 0.6363538031745789
+          }
+        ],
+        "coherent_exponent": 1.0,
+        "phase_amplitude": 2.0
+      }
+    ],
+    "scope": "The finite circle benchmark tests coherent/Slater normalization; it is not a substitute for the finite-pulse theorem."
+  },
+  "finite_fidelity_table": [
+    {
+      "any_hole_probability_bound": 0.010000000000000009,
+      "mean_hole_bound": 0.01005033585350145,
+      "mu": 0.0001182297344428851,
+      "optimal_input_energy_over_target": 21.392732893894696,
+      "target_fidelity": 0.99,
+      "target_width_over_delay": 0.125
+    },
+    {
+      "any_hole_probability_bound": 0.0010000000000000009,
+      "mean_hole_bound": 0.0010005003335835344,
+      "mu": 1.1721752438905788e-06,
+      "optimal_input_energy_over_target": 213.54358386432085,
+      "target_fidelity": 0.999,
+      "target_width_over_delay": 0.125
+    },
+    {
+      "any_hole_probability_bound": 0.010000000000000009,
+      "mean_hole_bound": 0.01005033585350145,
+      "mu": 0.0007049715822018711,
+      "optimal_input_energy_over_target": 7.602113261774269,
+      "target_fidelity": 0.99,
+      "target_width_over_delay": 0.25
+    },
+    {
+      "any_hole_probability_bound": 0.0010000000000000009,
+      "mean_hole_bound": 0.0010005003335835344,
+      "mu": 7.006620828666316e-06,
+      "optimal_input_energy_over_target": 71.90861670082083,
+      "target_fidelity": 0.999,
+      "target_width_over_delay": 0.25
+    },
+    {
+      "any_hole_probability_bound": 0.010000000000000009,
+      "mean_hole_bound": 0.01005033585350145,
+      "mu": 0.014766959454006447,
+      "optimal_input_energy_over_target": 1.5566877013922127,
+      "target_fidelity": 0.99,
+      "target_width_over_delay": 0.5
+    },
+    {
+      "any_hole_probability_bound": 0.0010000000000000009,
+      "mean_hole_bound": 0.0010005003335835344,
+      "mu": 0.00016992681167253134,
+      "optimal_input_energy_over_target": 6.943528580169472,
+      "target_fidelity": 0.999,
+      "target_width_over_delay": 0.5
+    },
+    {
+      "any_hole_probability_bound": 0.010000000000000009,
+      "mean_hole_bound": 0.01005033585350145,
+      "mu": 0.17316705015957776,
+      "optimal_input_energy_over_target": 0.9085815345629531,
+      "target_fidelity": 0.99,
+      "target_width_over_delay": 1.0
+    },
+    {
+      "any_hole_probability_bound": 0.0010000000000000009,
+      "mean_hole_bound": 0.0010005003335835344,
+      "mu": 0.02650066490301375,
+      "optimal_input_energy_over_target": 1.1166194058046133,
+      "target_fidelity": 0.999,
+      "target_width_over_delay": 1.0
+    }
+  ],
+  "global_quadratic_optimum": {
+    "completion_exact": true,
+    "monotonicity": [
+      {
+        "a": 0.25,
+        "analytic_dD_dR": -0.028,
+        "frontier": [
+          {
+            "a": 0.25,
+            "energy_ratio": 73.21260590025656,
+            "energy_tail_bound": 2.2589416435763676e-18,
+            "exponent_tail_bound": 3.6143066297221886e-22,
+            "fidelity": 0.9970819424624919,
+            "frequency_cutoff": 182.212373908208,
+            "infidelity_exponent": 0.0029223233680513248,
+            "mu": 1e-05,
+            "other_output_energy_ratio": 72.22155272533533,
+            "p": 0.5,
+            "quadrature_error_estimate": 1.316021640513178e-09,
+            "selected_output_energy_ratio": 0.991053174921235
+          },
+          {
+            "a": 0.25,
+            "energy_ratio": 7.424740836293952,
+            "energy_tail_bound": 2.2589416435763675e-20,
+            "exponent_tail_bound": 3.6143066297221886e-22,
+            "fidelity": 0.9711476989870105,
+            "frequency_cutoff": 182.212373908208,
+            "infidelity_exponent": 0.029276712076095855,
+            "mu": 0.001,
+            "other_output_energy_ratio": 6.512860639987336,
+            "p": 0.5,
+            "quadrature_error_estimate": 3.3958849489706195e-10,
+            "selected_output_energy_ratio": 0.911880196306616
+          },
+          {
+            "a": 0.25,
+            "energy_ratio": 0.6552598772921204,
+            "energy_tail_bound": 2.258941643576368e-22,
+            "exponent_tail_bound": 3.6143066297221886e-22,
+            "fidelity": 0.73302510524565,
+            "frequency_cutoff": 182.212373908208,
+            "infidelity_exponent": 0.31057532768793766,
+            "mu": 0.1,
+            "other_output_energy_ratio": 0.2577708060472325,
+            "p": 0.5,
+            "quadrature_error_estimate": 3.3796741861732575e-11,
+            "selected_output_energy_ratio": 0.3974890712448879
+          }
+        ],
+        "observed_dD_dR": -0.0279999998622889
+      },
+      {
+        "a": 1.0,
+        "analytic_dD_dR": -0.007,
+        "frontier": [
+          {
+            "a": 1.0,
+            "energy_ratio": 25.321806307064413,
+            "energy_tail_bound": 7.356114691698178e-20,
+            "exponent_tail_bound": 2.9424458766792717e-24,
+            "fidelity": 0.999757540404809,
+            "frequency_cutoff": 50.26548245743669,
+            "infidelity_exponent": 0.00024248899327066327,
+            "mu": 1e-05,
+            "other_output_energy_ratio": 24.324105395972595,
+            "p": 0.5,
+            "quadrature_error_estimate": 1.6553275523465032e-10,
+            "selected_output_energy_ratio": 0.997700911091818
+          },
+          {
+            "a": 1.0,
+            "energy_ratio": 3.462027677663945,
+            "energy_tail_bound": 7.356114691698179e-22,
+            "exponent_tail_bound": 2.9424458766792717e-24,
+            "fidelity": 0.99756456453165,
+            "frequency_cutoff": 50.26548245743669,
+            "infidelity_exponent": 0.002438405965259355,
+            "mu": 0.001,
+            "other_output_energy_ratio": 2.4857390275597346,
+            "p": 0.5,
+            "quadrature_error_estimate": 1.249693171187235e-10,
+            "selected_output_energy_ratio": 0.9762886501042102
+          },
+          {
+            "a": 1.0,
+            "energy_ratio": 0.9619946019749883,
+            "energy_tail_bound": 7.35611469169818e-24,
+            "exponent_tail_bound": 2.9424458766792717e-24,
+            "fidelity": 0.9654631662858071,
+            "frequency_cutoff": 50.26548245743669,
+            "infidelity_exponent": 0.03514732772652674,
+            "mu": 0.1,
+            "other_output_energy_ratio": 0.21916725621258426,
+            "p": 0.5,
+            "quadrature_error_estimate": 2.94143099038285e-11,
+            "selected_output_energy_ratio": 0.7428273457624041
+          }
+        ],
+        "observed_dD_dR": -0.006999999966892991
+      },
+      {
+        "a": 2.0,
+        "analytic_dD_dR": -0.0035,
+        "frontier": [
+          {
+            "a": 2.0,
+            "energy_ratio": 3.263272983131345,
+            "energy_tail_bound": 1.4712229383396357e-19,
+            "exponent_tail_bound": 2.9424458766792717e-24,
+            "fidelity": 0.9999895306459821,
+            "frequency_cutoff": 25.132741228718345,
+            "infidelity_exponent": 1.046940882200272e-05,
+            "mu": 1e-05,
+            "other_output_energy_ratio": 2.2634843465455567,
+            "p": 0.5,
+            "quadrature_error_estimate": 1.145569539370825e-10,
+            "selected_output_energy_ratio": 0.9997886365857884
+          },
+          {
+            "a": 2.0,
+            "energy_ratio": 1.3654117951060203,
+            "energy_tail_bound": 1.4712229383396358e-21,
+            "exponent_tail_bound": 2.9424458766792717e-24,
+            "fidelity": 0.999892712196963,
+            "frequency_cutoff": 25.132741228718345,
+            "infidelity_exponent": 0.00010729355878504423,
+            "mu": 0.001,
+            "other_output_energy_ratio": 0.36874619013673415,
+            "p": 0.5,
+            "quadrature_error_estimate": 8.4345869557964e-11,
+            "selected_output_energy_ratio": 0.9966656049692861
+          },
+          {
+            "a": 2.0,
+            "energy_ratio": 0.986528844384007,
+            "energy_tail_bound": 1.471222938339636e-23,
+            "exponent_tail_bound": 2.9424458766792717e-24,
+            "fidelity": 0.9952063821813856,
+            "frequency_cutoff": 25.132741228718345,
+            "infidelity_exponent": 0.004805144054174146,
+            "mu": 0.1,
+            "other_output_energy_ratio": 0.10124521407133225,
+            "p": 0.5,
+            "quadrature_error_estimate": 7.815906496757102e-12,
+            "selected_output_energy_ratio": 0.8852836303126748
+          }
+        ],
+        "observed_dD_dR": -0.0034999999896342
+      }
+    ],
+    "scope": "Completion of the square proves all-input optimum; sampled points only check evaluation."
+  },
+  "quadrature_and_energy": [
+    {
+      "a": 1.0,
+      "direct_values": [
+        3.4620276776639387,
+        0.0024384059652524273,
+        0.976288650104211
+      ],
+      "mu": 0.001,
+      "p": 0.5,
+      "pole_aware": {
+        "a": 1.0,
+        "energy_ratio": 3.462027677663945,
+        "energy_tail_bound": 7.356114691698179e-22,
+        "exponent_tail_bound": 2.9424458766792717e-24,
+        "fidelity": 0.99756456453165,
+        "frequency_cutoff": 50.26548245743669,
+        "infidelity_exponent": 0.002438405965259355,
+        "mu": 0.001,
+        "other_output_energy_ratio": 2.4857390275597346,
+        "p": 0.5,
+        "quadrature_error_estimate": 1.249693171187235e-10,
+        "selected_output_energy_ratio": 0.9762886501042102
+      }
+    },
+    {
+      "a": 0.25,
+      "direct_values": [
+        3.947898724587548,
+        0.2167966875074598,
+        2.0321352310757255
+      ],
+      "mu": 0.05,
+      "p": 0.5,
+      "pole_aware": {
+        "a": 0.25,
+        "energy_ratio": 0.9869746811468871,
+        "energy_tail_bound": 4.517883287152736e-22,
+        "exponent_tail_bound": 3.6143066297221886e-22,
+        "fidelity": 0.805093638260789,
+        "frequency_cutoff": 182.212373908208,
+        "infidelity_exponent": 0.2167966875074599,
+        "mu": 0.05,
+        "other_output_energy_ratio": 0.47894087337795554,
+        "p": 0.5,
+        "quadrature_error_estimate": 9.927080517481575e-11,
+        "selected_output_energy_ratio": 0.5080338077689316
+      }
+    },
+    {
+      "a": 2.0,
+      "direct_values": [
+        0.5687725183352814,
+        0.0006498592327414763,
+        0.4839046121833175
+      ],
+      "mu": 0.02,
+      "p": 0.55,
+      "pole_aware": {
+        "a": 2.0,
+        "energy_ratio": 1.1375450366705662,
+        "energy_tail_bound": 7.356114691698178e-23,
+        "exponent_tail_bound": 2.9424458766792717e-24,
+        "fidelity": 0.9993503518800361,
+        "frequency_cutoff": 25.132741228718345,
+        "infidelity_exponent": 0.0006498592327414919,
+        "mu": 0.02,
+        "other_output_energy_ratio": 0.16973581230392787,
+        "p": 0.55,
+        "quadrature_error_estimate": 2.096810730625898e-11,
+        "selected_output_energy_ratio": 0.9678092243666383
+      }
+    }
+  ],
+  "residue_asymptotic": [
+    {
+      "B": 0.9241021802301748,
+      "C": 0.2134912098765406,
+      "a": 0.25,
+      "samples": [
+        {
+          "asymptotic_product": 0.2134912098765406,
+          "mu": 1e-05,
+          "product": 0.21395090905825204,
+          "scaled_D": 1.000019056363976,
+          "scaled_R": 1.002134149379137
+        },
+        {
+          "asymptotic_product": 0.2134912098765406,
+          "mu": 1e-07,
+          "product": 0.21353791167697347,
+          "scaled_D": 1.0000001907861902,
+          "scaled_R": 1.0002185619744393
+        },
+        {
+          "asymptotic_product": 0.2134912098765406,
+          "mu": 1e-09,
+          "product": 0.21349588739351053,
+          "scaled_D": 1.0000000019090003,
+          "scaled_R": 1.0000219077376016
+        }
+      ]
+    },
+    {
+      "B": 0.3779691967815285,
+      "C": 0.07143035685783691,
+      "a": 0.5,
+      "samples": [
+        {
+          "asymptotic_product": 0.07143035685783691,
+          "mu": 1e-05,
+          "product": 0.07204420411609036,
+          "scaled_D": 1.0000214273545887,
+          "scaled_R": 1.0085720357780303
+        },
+        {
+          "asymptotic_product": 0.07143035685783691,
+          "mu": 1e-07,
+          "product": 0.07149201600896504,
+          "scaled_D": 1.0000002147794491,
+          "scaled_R": 1.0008629915742728
+        },
+        {
+          "asymptotic_product": 0.07143035685783691,
+          "mu": 1e-09,
+          "product": 0.07143652553412169,
+          "scaled_D": 1.000000002148653,
+          "scaled_R": 1.0000863571605103
+        }
+      ]
+    },
+    {
+      "B": 0.07667737745588733,
+      "C": 0.005879420213512619,
+      "a": 1.0,
+      "samples": [
+        {
+          "asymptotic_product": 0.005879420213512619,
+          "mu": 1e-05,
+          "product": 0.006140259319194781,
+          "scaled_D": 1.0000570594601919,
+          "scaled_R": 1.044305179138497
+        },
+        {
+          "asymptotic_product": 0.005879420213512619,
+          "mu": 1e-07,
+          "product": 0.005905563051422457,
+          "scaled_D": 1.000000571022558,
+          "scaled_R": 1.0044459257465506
+        },
+        {
+          "asymptotic_product": 0.005879420213512619,
+          "mu": 1e-09,
+          "product": 0.0058820351003289065,
+          "scaled_D": 1.000000005711694,
+          "scaled_R": 1.0004447467819861
+        }
+      ]
+    }
+  ],
+  "scope": "Exact identities and small quadrature/matrix diagnostics; no independent review, exact numerical interval certificates, or implemented device.",
+  "scope_controls": {
+    "bandwidth_temperature_duration_and_calibration_unconstrained": true,
+    "charge_difference_forces_orthogonality": true,
+    "hole_free_is_not_target_fidelity": true,
+    "no_hole_minimization_claim": true,
+    "two_inputs_exact": true
+  },
+  "status": "PASS",
+  "tests_run": 7
+}

@@ -1,0 +1,2 @@
+usage: check_control_audit.py [-h] [--output OUTPUT]
+check_control_audit.py: error: Refusing existing output /mnt/data/electron_scout10/evidence/repeat_report.json

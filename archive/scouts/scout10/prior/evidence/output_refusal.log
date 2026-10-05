@@ -1,0 +1,2 @@
+usage: check_finite_accuracy.py [-h] [--output OUTPUT]
+check_finite_accuracy.py: error: Refusing existing output /mnt/data/fresh_after_singlet_scout09/evidence/repeat_report.json

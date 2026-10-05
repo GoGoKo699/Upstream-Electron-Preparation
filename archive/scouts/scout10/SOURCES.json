@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-05",
+  "scope": "Targeted claim-level novelty and optimizer-assumption audit; primary source formulas only.",
+  "records": [
+    {
+      "id": "I97",
+      "title": "Coherent states of alternating current",
+      "authors": "D. A. Ivanov, H. W. Lee, L. S. Levitov",
+      "publication": "Physical Review B 56, 6839-6850 (1997)",
+      "url": "https://arxiv.org/pdf/cond-mat/9501040",
+      "read": "Parsed Appendix C, Eqs. C1-C4, minimizing charge variance at fixed mean charge; Appendix D observation-window context. Requested page16 screenshot failed.",
+      "boundary": "A genuine existing optimal-pulse problem, but not fixed-energy upstream many-body target preparation. Do not claim a first pulse optimization."
+    },
+    {
+      "id": "L11",
+      "title": "Dynamical Resurrection of the Visibility in a Mach-Zehnder Interferometer",
+      "authors": "A. V. Lebedev, G. Blatter",
+      "publication": "Physical Review Letters 107, 076803 (2011)",
+      "url": "https://arxiv.org/pdf/1103.4046",
+      "read": "Parsed main Eqs.2-7, overlap maximization, capacitive one-edge model, downstream application of correcting voltage, and surrounding text. ArXiv/publisher metadata checked. Screenshot page1 failed.",
+      "boundary": "Already optimizes many-body overlap and restores the wavepacket. Additional downstream control and its one-edge phase transfer differ from the restricted upstream two-mode inverse. No contradiction or absence of prior overlap methods."
+    },
+    {
+      "id": "G13",
+      "title": "Fractionalization of minimal excitations in integer quantum Hall edge channels",
+      "authors": "C. Grenier et al.",
+      "publication": "Physical Review B 88, 085302 (2013)",
+      "url": "https://arxiv.org/pdf/1301.6777",
+      "read": "Parsed Section III.A.2 and Eq.20 coherent displacement, correction statement and actual reference67 (L11), short-range two-channel Eqs.21-22, long-range/temperature limitations. Requested page6 screenshot failed.",
+      "boundary": "The quantum transfer, pure output for voltage states and special clean fractionalization are inherited. The correction remark must not be treated as the same upstream energy-constrained theorem."
+    },
+    {
+      "id": "R21",
+      "title": "Processing Quantum Signals Carried by Electrical Currents",
+      "authors": "B. Roussel, C. Cabart, G. Feve, P. Degiovanni",
+      "publication": "PRX Quantum 2, 020314 (2021)",
+      "url": "https://journals.aps.org/prxquantum/pdf/10.1103/PRXQuantum.2.020314",
+      "read": "Full publisher PDF retrieved. Parsed introduction, Floquet-Bloch-Wannier excitation decomposition, entropy interpretation and Section V.A.2 mesoscopic-capacitor source optimization; its different objective and parameter family checked directly. Requested screenshots including pages9/11 failed.",
+      "boundary": "Not merely abstract-only now, but not a reproduction of all appendices or figures. The source does optimize source parameters, contrary to an overbroad claim of no optimization. No plotted/table numbers were imported."
+    },
+    {
+      "id": "C18",
+      "title": "Taming electronic decoherence in one-dimensional chiral ballistic quantum conductors",
+      "authors": "C. Cabart, B. Roussel, G. Feve, P. Degiovanni",
+      "publication": "Physical Review B 98, 155302 (2018)",
+      "url": "https://arxiv.org/abs/1804.04054",
+      "read": "Author and publisher abstracts and bibliographic record only. Multiple author/publisher full-text routes failed; an author-posted ResearchGate lead also failed on opening.",
+      "boundary": "Material/sample and closed-edge strategy advertised in abstract; exact full construction still unread. No universal non-overlap or novelty inference from absent access."
+    },
+    {
+      "id": "D13",
+      "title": "Minimal-excitation states for electron quantum optics using levitons",
+      "authors": "J. Dubois et al.",
+      "publication": "Nature 502, 659-663 (2013)",
+      "url": "https://www.nature.com/articles/nature12713",
+      "read": "Primary abstract/metadata for experimental existence of minimal Lorentzian excitations.",
+      "boundary": "No achieved state fidelity, calibration tolerance, input energy frontier or joint implementation is inferred."
+    },
+    {
+      "id": "K06",
+      "title": "Minimal Excitation States of Electrons in One-Dimensional Wires",
+      "authors": "J. Keeling, I. Klich, L. S. Levitov",
+      "publication": "Physical Review Letters 97, 116403 (2006)",
+      "url": "https://arxiv.org/abs/cond-mat/0604017",
+      "read": "Source record and construction already in the unchanged previous scout; no new full-paper reading claimed.",
+      "boundary": "Clean single-electron voltage targets are inherited, not a novel source proposed here."
+    }
+  ],
+  "access_limits": [
+    "No PDF screenshot succeeded in this pass. All paper reading is parsed text, not visually checked tables or graphs.",
+    "Several arXiv/APS full-text routes were unavailable. Successful alternates are recorded per source; C18 remains abstract-only.",
+    "An initially guessed cond-mat/9703057 identifier was unrelated and excluded; the verified Ivanov-Lee-Levitov source is cond-mat/9501040.",
+    "Search-only unrelated ion-source, electrical-vendor, generated and secondary pages were excluded. Null exact-phrase results do not prove priority.",
+    "Recent control-paper and finite-band source leads encountered only in abstracts were not used as construction-level comparisons or claimed experimental validation."
+  ],
+  "exhaustive_priority": false,
+  "independent_reader_report": false,
+  "complete_physical_premise_precedent_audit": false,
+  "third_party_papers_redistributed": false
+}

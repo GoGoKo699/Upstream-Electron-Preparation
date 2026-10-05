@@ -1,0 +1,10 @@
+test_asymptotic_constants_not_fitted (__main__.ControlAuditChecks.test_asymptotic_constants_not_fitted) ... ok
+test_derivative_quadrature_and_infinite_tail_controls (__main__.ControlAuditChecks.test_derivative_quadrature_and_infinite_tail_controls) ... ok
+test_exact_mismatch_identity_and_lorentzian_time_convention (__main__.ControlAuditChecks.test_exact_mismatch_identity_and_lorentzian_time_convention) ... ok
+test_finite_fidelity_calibration_and_duration_table (__main__.ControlAuditChecks.test_finite_fidelity_calibration_and_duration_table) ... ok
+test_independent_actual_output_mismatch_integral (__main__.ControlAuditChecks.test_independent_actual_output_mismatch_integral) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 5.819s
+
+OK

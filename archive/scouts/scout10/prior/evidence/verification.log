@@ -1,0 +1,1 @@
+PASS: all 12 prior manifest entries preserved; prior6 groups reproduce original JSON; final7 groups reproduce enriched report bytes; no warnings in geometric-subdivision runs; both patches reverse to initial source; existing output refused and unchanged. No repository accessed.

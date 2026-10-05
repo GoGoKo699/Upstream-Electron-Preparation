@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-05",
+  "records": [
+    {
+      "id": "G13",
+      "title": "Fractionalization of minimal excitations in integer quantum Hall edge channels",
+      "authors": "C. Grenier et al.",
+      "record": "Physical Review B 88,085302 (2013)",
+      "url": "https://arxiv.org/pdf/1301.6777",
+      "read": "Parsed Sections III.B Eqs.(19)-(22) and Appendix C coherent-state scattering; electron/hole context from Section II and IV. The displacement amplitude in Eq.(20) explicitly fixes the normalization.",
+      "boundary": "Base model, voltage-to-coherent-state mapping, clean pulse special cases and linear scattering are inherited. Requested page6/page14 screenshots failed. No figure numbers or unrendered plot data used."
+    },
+    {
+      "id": "K06",
+      "title": "Minimal excitation states of electrons in one-dimensional wires",
+      "authors": "J. Keeling, I. Klich and L. S. Levitov",
+      "record": "Physical Review Letters 97,116403 (2006)",
+      "url": "https://arxiv.org/pdf/cond-mat/0604017",
+      "read": "Parsed minimal pulse phase and one-electron orbital construction, consistent with the preserved scout08 reading. Requested page1 screenshot failed.",
+      "boundary": "The target class is prior work. No new minimal-excitation definition or full-paper reanalysis."
+    },
+    {
+      "id": "V15",
+      "title": "Electron and electron-hole quasiparticle states in a driven quantum contact",
+      "authors": "M. Vanevic, J. Gabelli, W. Belzig, B. Reulet",
+      "record": "Author preprint arXiv:1506.03878",
+      "url": "https://arxiv.org/pdf/1506.03878",
+      "read": "Parsed opening state decomposition Eq.(1), occupied/unoccupied pair decomposition and probabilities Eqs.(2)-(3), plus distinction between waveform and quasiparticle wavefunctions. Requested page1 screenshot failed.",
+      "boundary": "Standard Slater pair structure is inherited; the target-relative inequality is explicitly proved in the new note. Regenerated PDF date is not treated as a new publication date. No experimental figure/table values are imported."
+    },
+    {
+      "id": "I97",
+      "title": "Coherent states of alternating current",
+      "authors": "D. A. Ivanov, H. W. Lee, L. S. Levitov",
+      "record": "Physical Review B 56,6839 (1997)",
+      "url": "https://doi.org/10.1103/PhysRevB.56.6839",
+      "read": "Primary publisher abstract and bibliographic record, with author preprint cond-mat/9501040 identified.",
+      "boundary": "Established pulse-shape noise/statistics optimization context, not a full construction-level comparison."
+    },
+    {
+      "id": "R21",
+      "title": "Processing Quantum Signals Carried by Electrical Currents",
+      "authors": "B. Roussel, C. Cabart, G. Feve, P. Degiovanni",
+      "record": "PRX Quantum 2,020314 (2021)",
+      "url": "https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.2.020314",
+      "read": "Primary abstract, popular summary and displayed references; author abstract https://arxiv.org/abs/2008.01580. PDF and HTML v1/v2 requested routes did not yield full text.",
+      "boundary": "Single-particle characterization and signal analysis are established. No exhaustive source-control theorem exclusion is claimed from this partial access."
+    },
+    {
+      "id": "C18",
+      "title": "Taming electronic decoherence in one-dimensional chiral ballistic quantum conductors",
+      "authors": "C. Cabart, B. Roussel, G. Feve, P. Degiovanni",
+      "record": "Physical Review B 98,155302 (2018)",
+      "url": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.98.155302",
+      "read": "Primary publisher abstract and author arXiv:1804.04054 abstract; direct PDF failed.",
+      "boundary": "Geometry/environment-based control is an actual predecessor, not the same stated one-port inverse. Full methods were not available and are not declared ruled out."
+    }
+  ],
+  "scope": "Targeted finite-accuracy derivation and source-control comparison; not exhaustive priority or an apparatus-premise count certificate.",
+  "failed_access": [
+    "G13 pages6,14, K06 page1 and V15 page1 PDF screenshot requests failed. All claimed equation reading was from parsed text, not visual data extraction.",
+    "R21 arXiv HTML and PDF routes failed before its primary abstract and publisher summary were obtained.",
+    "C18 direct author PDF unavailable in this pass.",
+    "Broad leviton/pulse searches returned many electrical-product, scraped and unrelated control pages. They were excluded and are not evidence for novelty or absence."
+  ],
+  "third_party_publications_redistributed": false,
+  "independent_reader": false,
+  "exhaustive_priority": false,
+  "experimental_assumption_gate_complete": false
+}

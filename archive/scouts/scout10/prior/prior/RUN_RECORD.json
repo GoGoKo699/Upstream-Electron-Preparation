@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-05",
+  "scope": "Fresh scout08 after the Stark-pair checkpoint.",
+  "decision": "GO for one bounded finite-energy/finite-accuracy quantum-state test; no dedicated PRL project yet.",
+  "prior_mounted_context": {
+    "fresh_after_singlet_scout06_2026-10-05.md": {
+      "sha256": "9f1882bd9342e964c8bc167e987adb57fb367c81acbc539ac9622ae211914153",
+      "bytes": 18380,
+      "role": "Read-only context, not imported scientific code or rerun evidence."
+    },
+    "fresh_after_singlet_scout06_2026-10-05.zip": {
+      "sha256": "4a4d4828ebc58bc3499de236ad69a1855c0f27f8a54f15f0131872a8b6360104",
+      "bytes": 49388,
+      "role": "Read-only context, not imported scientific code or rerun evidence."
+    },
+    "fresh_after_singlet_scout07_2026-10-05.md": {
+      "sha256": "a54dec62c716853a2e4536400560c45bd6a0a30e354f5b8ebec25778709c9de2",
+      "bytes": 18240,
+      "role": "Read-only context, not imported scientific code or rerun evidence."
+    },
+    "fresh_after_singlet_scout07_2026-10-05.zip": {
+      "sha256": "6e699345b2464dc89f7cfb8b272fee79b5a794aefa2f56f696642d757cc6b043",
+      "bytes": 42435,
+      "role": "Read-only context, not imported scientific code or rerun evidence."
+    }
+  },
+  "charter_scope": "Separation instructions in the current conversation; no absent charter file or prior archive was falsely described as reverified.",
+  "selected_model": "One controlled voltage input, two initially equilibrium integer edge channels, equal or near-equal lossless dispersionless collective-mode mixing, finite clean pulse target.",
+  "new_groups": 6,
+  "complete_scientific_runs": 2,
+  "first_and_repeat": "PASS",
+  "byte_identical_reports": true,
+  "scientific_failures": 0,
+  "formula_or_tolerance_changes": false,
+  "report_sha256": "cdbef08bb43a1761e3694e7b5189e70206516213c9d5a4d2249328478c4e774d",
+  "script_sha256": "361cbf19527a00a38bd55a59bc875f42dabd6d21e3226eebef9161bd58f5b699",
+  "exclusive_output_refusal": {
+    "returncode": 2,
+    "existing_bytes_preserved": true
+  },
+  "numerical_scope": "Small coherence kernels, finite coefficient identities and one-dimensional pulse/energy quadrature; no many-body Hilbert-space or cloud simulation.",
+  "source_reading_boundary": "Inherited minimal-excitation theorem and exact G13 transfer. Specific arbitrary-input parity/orbit and energy claims are proved author-side; no assertion they are absent from all literature.",
+  "not_claimed": [
+    "Forbidden odd net charge or charge2e quasiparticles",
+    "A no-go with two independently driven inputs",
+    "An obstruction for infinite periodic drives or time-gated detection",
+    "A finite-error electron-fidelity or hole-count lower bound",
+    "A complete dispersive, finite-temperature or implemented-device result",
+    "An independent scientific report or exhaustive priority certificate"
+  ],
+  "next_decisive_test": "Meaningful finite-input-energy limitation on actual outgoing single-electron fidelity or hole contamination, with a precise closest-literature check. Stop if only an ideal singularity without physical significance or immediately inherited control result.",
+  "repositories_accessed": false,
+  "repositories_modified": false,
+  "repository_created": false,
+  "external_contact": false,
+  "manuscript_created": false
+}

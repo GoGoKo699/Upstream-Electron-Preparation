@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-05",
+  "repository": "GoGoKo699/Upstream-Electron-Preparation",
+  "base_commit": "7561c5d655087bde481bff26634be54ccc11c843",
+  "base_tree": "2f3f542aca59d8003c69a409c906abfbe3508ca9",
+  "operation": "Claim-driven initialization from the supplied scouts08-10 and readiness/Cabart record. No scientific extension.",
+  "authorization": "Owner created the repository and explicitly authorized initialization, modification and merge, then workspace handoff.",
+  "visibility_and_license": "Existing public visibility and MIT license retained.",
+  "source_integrity": "83 file copies mapped; all original archive members, active scientific source files, three reference JSON reports and existing license byte-preserved.",
+  "fresh_baseline": {
+    "status": "PASS",
+    "suites": [
+      {
+        "suite": "reachability",
+        "tests": 6,
+        "exit_code": 0,
+        "seconds": 1.969846487045288,
+        "bytes_identical": true,
+        "sha256": "cdbef08bb43a1761e3694e7b5189e70206516213c9d5a4d2249328478c4e774d"
+      },
+      {
+        "suite": "fidelity",
+        "tests": 7,
+        "exit_code": 0,
+        "seconds": 6.816382646560669,
+        "bytes_identical": true,
+        "sha256": "e3b94d8ca33d3a758488dadae9c756b40bac7a087f9ba2c9e9dd0f45aabe9927"
+      },
+      {
+        "suite": "control",
+        "tests": 5,
+        "exit_code": 0,
+        "seconds": 8.916988849639893,
+        "bytes_identical": true,
+        "sha256": "fabf7bd114e4e565e56eab5460caaea19825801e7eb991e4541407fb72cfc46a"
+      }
+    ],
+    "total_tests": 18
+  },
+  "editorial_changes": {
+    "research/EXACT_REACHABILITY.md": "Scout08 Sections2-6, equations and prose retained; new title/context/source routing; display delimiters changed for GitHub.",
+    "research/FIDELITY_FRONTIER.md": "Scout09 Sections1-6, same treatment.",
+    "research/OPTIMIZER_LIMITATIONS.md": "Scout10 Sections3-5, same treatment.",
+    "literature/CABART_2018_COMPARISON.md": "Construction comparison and cautions from the supplied readiness note; not a new paper audit.",
+    "other_active_documents": "Scope, model/claim map, source ledger, unfinished assumptions, workflow instructions and verification infrastructure."
+  },
+  "prohibited_imports": "No unrelated research repository, rejected scout archive, third-party publication PDF, font, private mailbox or account record.",
+  "access_failures": [
+    "Public git clone failed with Could not resolve host github.com. Live metadata and base files were read through the connected GitHub tools. No failed clone is counted as an execution.",
+    "Initial git diff --check flagged the byte-preserved helper's terminal blank line in its active and archival copies. Those original bytes were retained; new editorial/infrastructure files were checked separately. Scientific verification was then run successfully without that preliminary chain."
+  ],
+  "candidate_and_hosted": "Inspect the actual frozen candidate, PR and merged-main report and exact source snapshot. No future success is inferred from this baseline.",
+  "scope_limits": [
+    "No independent proof report or exhaustive priority certificate.",
+    "No manuscript, release, external invitation or new model.",
+    "Physical-premise benchmark unfinished; ideal finite tables are not apparatus performance."
+  ]
+}
