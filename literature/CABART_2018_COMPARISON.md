@@ -58,7 +58,7 @@ The model is based on linear electronic dispersion, linear screening and elastic
 
 Their discussion on page 15 also notes that sufficiently delayed contributions can overlap excitations from the next source half-period, invalidating an isolated-excitation comparison. That is relevant context for our long preparation tails: the existing isolated-pulse optimum must not be presented as an immediately realizable periodic source. This pass does not derive a repetition-rate bound or import their example's numerical times into our problem.
 
-The newly available paper closes a reading gap. It does not close finite-temperature, bandwidth, finite-start, calibration, detector, or model-matched preparation questions. Nor does it turn the incomplete physical-premise evidence audit into a completed one.
+The newly available paper closes a reading gap. It does not close finite-temperature, bandwidth, finite-start, calibration, detector, or model-matched preparation questions. At this construction-reading stage it did not complete the physical-premise evidence audit. The later [precedent map](PRECEDENT_MAP.md) and [readiness decision](../research/READINESS.md) record the subsequent formal-source closure while retaining the experimental limitations.
 
 
 ## Present status

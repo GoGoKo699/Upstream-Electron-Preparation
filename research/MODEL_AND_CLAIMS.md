@@ -1,6 +1,6 @@
 # Model, claims and proof dependencies
 
-**5 October 2026. Frontier, planning and bounded physical-premise audits completed.**
+**5 October 2026. Conditional scientific readiness assessed; C1–C2 retained.**
 
 ## Question and allowed resources
 
@@ -41,10 +41,41 @@ At exact equality, finite clean odd-electron targets are excluded. At every fixe
 
 Two independent upstream inputs can invert the full unitary matrix. A downstream voltage can cancel distortion after it occurs. Closing the inner channel changes the transfer function. All three are outside the fixed control/geometry specification, not contradictions of the bound. A long delayed compensating excitation cannot be ignored by a time gate when claiming global state fidelity.
 
+The [same-fidelity two-input comparison](CONTROL_COMPARISON.md) is a supporting
+corollary of C1 and unitarity. With net input charges $(1,0)$ and both launched
+energies counted, its minimum $R_2(D_0)$ at $D_0=-\ln\mathcal F_0>0$ is the
+$H=1$ frontier. For $0<p<1$, $R_2(D_0)<R_1(D_0;p,a)$ at the same target and
+full-state error. At equal splitting and fixed width ratio, $R_2\to1$ and
+$R_1/R_2\sim C(a)/D_0$ as $D_0\downarrow0$. At $p=0,1$ the costs coincide.
+This is an explicit comparison of changed control access, not an extension of
+the one-input central theorem or a claim that all finite-error one-input costs
+exceed the exact target energy.
+
 No optimal minimum duration, minimax-robust solution, causal-start theorem, thermal-state result, arbitrary-source result, detector theorem or achieved performance is included. Adding waveform restrictions under the same dynamics, energy and objective keeps the ideal optimum as a lower bound but may remove attainability. Changed dynamics or a thermal target do not automatically inherit that bound.
 
 ## Originality and current limit
 
-The ensemble preparation, clean Lorentzian criterion, bosonization, channel and correction frameworks are inherited. The optimization is elementary completion of a quadratic form. The candidate contribution is the particular complete restricted-source preparation law and its quantum-state/hole interpretation. [PRIOR_ART](../literature/PRIOR_ART.md) states the actual comparison depths. No first-ever or exhaustive novelty certificate is claimed.
+The clean Lorentzian criterion, bosonization, channel and correction frameworks
+are inherited. The optimization is elementary completion of a quadratic form.
+The candidate contribution is the complete restricted-source preparation law
+for the prescribed electron and sea. [CONTROL_PRIOR_ART](../literature/CONTROL_PRIOR_ART.md)
+attributes prescribed-current synthesis to M18, calibrated upstream interaction
+precompensation to B19, and two-input eigenmode protection to R20, alongside the
+existing L11/R21/C18 comparisons. The supporting energy comparison does not
+claim a new control principle. [PRIOR_ART](../literature/PRIOR_ART.md) states the
+actual reading depths. No first-ever or exhaustive novelty certificate is
+claimed.
 
-The [manuscript plan](MANUSCRIPT_PLAN.md) implements the bounded GO from [SIGNIFICANCE](SIGNIFICANCE.md). It uses C1–C2 as an exact ideal feasibility statement at fixed target, transfer and fidelity, with the optimizer's output-energy allocation and two-input comparison explaining the restricted-access cost. Neither consequence is a new general optimization principle. C3 is omitted from the planned argument, with its separate proof check still open. The [premise audit](../literature/PREMISE_AUDIT.md) retains this conditional wording and separates inherited formal support from experimental ingredients. Independent critical reading, priority, substantial impact, a joint operating regime and the broader precedent benchmark remain open; no manuscript, release or expanded model is initiated.
+The [manuscript plan](MANUSCRIPT_PLAN.md) centers on C1–C2 as an exact ideal
+feasibility statement at fixed target, transfer and fidelity. The optimizer's
+output-energy allocation and same-fidelity two-input comparison explain the
+restricted-access cost. C3 remains omitted, with its separate proof obligation
+outside the planned argument; C4–C5 remain subordinate. The
+[precedent map](../literature/PRECEDENT_MAP.md) meets the five-source formal
+benchmark at stated reading depths and explicit translations. It does not
+establish independent derivations or complete device demonstrations. The
+[premise audit](../literature/PREMISE_AUDIT.md) retains concrete experimental
+mismatches. [READINESS](READINESS.md) records completion of the named scientific
+preparation tasks for this conditional scope. Independent critical reading,
+exhaustive priority, substantial impact and a joint operating regime remain
+unestablished; no manuscript, release or expanded model is initiated.

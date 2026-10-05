@@ -1,12 +1,14 @@
 # Claim-driven manuscript plan
 
-**5 October 2026. Planning complete; bounded premise audit integrated; no manuscript drafted.**
+**5 October 2026. Conditional scientific preparation complete at the recorded scope; no manuscript drafted.**
 
-Base: `8506b6a7bd571be98c585259782ea882e00fcbda`, tree
-`0912045f6322c642ab47f92b8bd328e9888647cc`. This plan implements the bounded
-GO in [SIGNIFICANCE](SIGNIFICANCE.md). It selects the argument and records its
-dependencies; it adds no theorem, numerical campaign or claim of independent
-review.
+Original planning base: `8506b6a7bd571be98c585259782ea882e00fcbda`, tree
+`0912045f6322c642ab47f92b8bd328e9888647cc`. The original plan implemented the
+bounded GO in [SIGNIFICANCE](SIGNIFICANCE.md). The present update assesses base
+`125eb6e576f86aa985b19df955f6f7801adb83b3` and incorporates the
+[readiness decision](READINESS.md), formal precedent coverage and a supporting
+same-fidelity control comparison. C1–C2 and the model remain fixed. This is
+author-side scientific preparation, not independent review.
 
 ## 1. The question the paper must answer
 
@@ -80,7 +82,7 @@ normalization, algebraic and numerical checks; their counts are not proofs.
 | C1: lower bound over every allowed waveform | Same target, transfer, total-source budget and deterministic input class; nonnegative quadratic completion | Frontier Section 3, Eqs. (3)–(5); Audit Section 3, including infinite-$D$ competitors | Finite-fidelity: global completion/monotonicity and independent frequency quadrature |
 | C1: attainment and coverage | Hermitian spectrum; $L^1\cap L^2$ inverse, charge one and finite $D$; monotonic multiplier limits | Audit Sections 2–3 | Normalization and monotonicity checks support the analytic existence argument; they do not test arbitrary tails |
 | C2: fixed-width singular endpoint | Equal splitting; nonzero Lorentzian spectrum at transfer zeros; summable full-axis asymptotic bounds | [Reachability](EXACT_REACHABILITY.md), Section 3; Frontier Section 4; Audit Section 4 | Reachability: one-port zero; finite-fidelity: high-fidelity/width dependence and finite-error continuity |
-| Interpretation: access to both inputs removes the obstruction | Same unitary matrix, an additional independently driven contact; outputs fixed to target and sea | Reachability Section 6 | Reachability: two-input recovery and energy check |
+| Interpretation: access to both inputs reduces cost at the same fidelity | Same unitary matrix, target and error; inputs of net charges $(1,0)$; combined launched-edge energy | [Control comparison](CONTROL_COMPARISON.md), Sections 1–3; C1 with $H=1$ and unitarity | Analytic reduction, admissibility and strict inequality; existing exact two-input recovery/energy check supports the endpoint, not a newly counted test |
 | Interpretation: optimal energy flows to the unused output | Existing optimizer and unitarity; dominated convergence applied to its selected spectrum | Frontier Section 6, output-energy calculation | Existing energy-conservation check supports accounting; the new explicit limit has an analytic proof, not a separately counted test |
 
 ## 4. What changes in understanding or design
@@ -88,19 +90,31 @@ normalization, algebraic and numerical checks; their counts are not proofs.
 | Decision or interpretation | Warranted consequence | Boundary |
 |---|---|---|
 | Continue searching for a better pulse at a fixed budget? | The exact frontier rules out all permitted waveforms below the necessary cost and supplies an ideal optimum at it. | The fidelity requirement concerns the whole selected state, not an HOM contrast or an early detector gate. |
-| Increase energy, relax the target/error, or change control access? | The one-input law separates what pulse shaping can do from changing the task. Two driven inputs can prepare the exact target at combined energy $\mathcal E_\ell$. | The theorem does not rank contact hardware, calibration effort or practical implementation costs. Broadening the electron changes the target. |
+| Increase energy, relax the target/error, or change control access? | At the same prescribed fidelity, the minimum combined energy with two inputs is strictly below the one-input minimum for $0<p<1$. Exact two-input preparation costs $\mathcal E_\ell$. | The comparator changes accessible contacts, not the target or error. It does not rank contact hardware, calibration effort or practical implementation costs. Broadening the electron changes the target. |
 | Does an almost correct selected output imply modest source energy? | Along $A_\mu$, $R_{\rm sel}\le1$ and $R_{\rm sel}\to1$, but at equal splitting $R_{\rm unused}\sim R_\mu\to\infty$. | This follows from the optimizer's spectrum; fidelity convergence alone does not imply energy convergence. It is not a heat-production claim or an allocation law for every waveform. |
 | Apply the benchmark to restricted hardware? | Extra waveform restrictions under the same transfer, energy and fidelity definitions cannot lower the minimum and may destroy attainment. | Changed dynamics, thermal states, noise or a different observable need their own analysis. No device operating window or detector certificate is supplied. |
+
+Write $D_0=-\ln\mathcal F_0$. The [supporting corollary](CONTROL_COMPARISON.md)
+gives $0<R_2(D_0)<1$ and $R_2(D_0)<R_1(D_0;p,a)$ for $0<p<1$ and
+$D_0>0$. At equal splitting and fixed $a$, $R_2\to1$ while
+$R_1/R_2\sim C(a)/D_0$ as $D_0\downarrow0$. This compares both control classes
+at the same full-state error; it does not say that every finite-error
+one-input optimum costs more than the exact target energy. The auxiliary input
+has zero net charge and both injected energies are counted.
 
 The strongest objection remains that the calculation is ordinary quadratic
 regularization at known transmission zeros. Address it through the complete
 preparation statement and the two resource comparisons above. Attribute the
 transfer and coherent-state metric to their established sources; do not present
-the method or exponent as a new general principle. The specific L11/R21/C18
-comparisons and actual reading depths remain in [SIGNIFICANCE](SIGNIFICANCE.md)
-and [PRIOR_ART](../literature/PRIOR_ART.md). They support the recorded distinction
-without establishing exhaustive priority. Additional decimal places would not
-settle the significance objection.
+the method or exponent as a new general principle. The
+[control-prior-art comparison](../literature/CONTROL_PRIOR_ART.md) also records
+M18's prescribed-current synthesis, B19's calibrated upstream interaction
+precompensation, and R20's two-input eigenmode protection. These ideas are
+established; the candidate contribution is the complete constrained preparation
+cost. The same-fidelity corollary supports its interpretation and carries no
+separate control-principle priority claim. Actual reading depths remain in
+[PRIOR_ART](../literature/PRIOR_ART.md), without exhaustive priority evidence.
+Additional decimal places would not settle the significance objection.
 
 ## 5. Planned order and exclusions
 
@@ -109,8 +123,8 @@ settle the significance objection.
 | Opening question and specification | State the prescribed-electron task, accessible contact, budget and global fidelity before discussing an inverse or an optimizer. |
 | Central result | State C1–C2 together: exact finite-error frontier, attaining pulse, and fixed-width endpoint. Include the coefficient and the equal-splitting qualification. |
 | Short proof route | Derive the equal-charge metric, give the nonnegative completion, explain admissibility and the transmission-zero asymptote. Point to the detailed bounds. |
-| Physical consequences | Explain the feasibility decision, exact two-input control and optimal output-energy allocation. No apparatus-performance claim. |
-| Scope and attribution | Give asymmetry, width and finite-error continuity boundaries; attribute inherited ingredients and state unresolved premise/priority evidence. |
+| Physical consequences | Explain the feasibility decision, same-fidelity one-input/two-input energy comparison and optimal output-energy allocation. No apparatus-performance claim. |
+| Scope and attribution | Give asymmetry, width and finite-error continuity boundaries; attribute inherited ingredients and prior control ideas; distinguish formal precedent coverage from absent joint apparatus and exhaustive priority evidence. |
 | Detailed proof material | Retain infrared qualification, waveform tail/charge estimates and complete-axis asymptotic domination. These are necessary support, not redundant detail. |
 
 Omit C3 from this planned argument: neither the central theorem nor the energy
@@ -123,22 +137,25 @@ optimization claim. No new figure or numerical campaign is required. If a
 finite-error example is later useful, use an existing frontier table with its
 fixed target ratio and limits explicit.
 
-## 6. Blockers, evidence limits and stopping point
+## 6. Readiness, evidence limits and stopping point
 
 | Open item | Effect on this plan |
 |---|---|
 | No independent critical report | C1–C2 have an author-side proof/audit, not independent certification. The present review adds no such certification. |
-| Bounded premise map complete; broader evidence incomplete | The [premise audit](../literature/PREMISE_AUDIT.md) supports conditional wording and clarifies energy accounting. It does not establish a joint operating regime or complete the precedent benchmark in [ASSUMPTIONS](../literature/ASSUMPTIONS.md); no apparatus feasibility claim is allowed. |
+| Formal precedent benchmark met; joint operating regime absent | The [precedent map](../literature/PRECEDENT_MAP.md) supplies five relevant formal precedents per stated convention, including explicit translations and actual reading depths. These are not five independent derivations or device demonstrations. The [premise audit](../literature/PREMISE_AUDIT.md) retains experimental mismatches; no joint apparatus feasibility claim is allowed. |
 | Incomplete priority and impact case | Preserve the narrow candidate contribution. A directly covering prior result would change originality; usefulness to a concrete source-design problem remains unestablished. |
 | C3's separate proof check | Omission removes it as a dependency of the planned argument. It must be checked before being promoted into a later manuscript. |
 
-No new unresolved mathematical dependency of the conditional C1–C2 statement
-was identified in this planning pass. That is an author-side assessment, not a
-claim that future criticism cannot find one. The plan supports a compact
-conditional theory contribution; a persuasive case for substantial impact
-remains open.
+The [readiness decision](READINESS.md) finds no remaining named mathematical or
+source-evidence task required to state this conditional C1–C2 argument. The
+same-fidelity corollary closes the resource-comparison gap, and the
+[change record](../provenance/READINESS_CHANGE.md) records the correction limiting
+lower-bound inheritance to waveform restrictions under unchanged dynamics,
+energy and fidelity. Neither changes the central frontier.
 
-The bounded premise audit found no new blocker to this conditional argument.
-**Stop after its integration.** Do not convert the plan into manuscript prose,
-add a model or contact a reviewer automatically. The [work order](../work_orders/CURRENT.md)
-records a bounded readiness decision for a later continuation.
+This supports proceeding to a compact conditional theory manuscript when
+drafting is requested. It does not certify exhaustive priority, substantial
+impact, independent validation or a realized operating regime. **Stop scientific
+expansion after integration and verification.** No manuscript prose, expanded
+model, numerical campaign or outside contact is initiated by this plan. The
+[work order](../work_orders/CURRENT.md) records the handoff.
