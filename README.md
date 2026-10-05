@@ -32,18 +32,21 @@ R_{\min}(\mathcal F;a)\sim\frac{C(a)}{-\ln\mathcal F},\qquad
 C(a)=a\left[\pi\sum_{k\ge0}\frac{e^{-a(2k+1)\pi}}{\sqrt{(2k+1)\pi}}\right]^2.
 ```
 
-The full many-body fidelity also bounds unwanted hole content. Exact reachability and the nominal optimizer's duration/calibration sensitivity are supporting results, not alternative global optima. The proof and normalization are in [Fidelity frontier](research/FIDELITY_FRONTIER.md).
+The retained hole relation is outside the planned manuscript dependency chain and was not newly audited. Exact reachability, the same-fidelity control comparison and the nominal optimizer's duration/calibration sensitivity are supporting results, not alternative global optima. The proof and normalization are in [Fidelity frontier](research/FIDELITY_FRONTIER.md).
 
 ## Read in this order
 
 | Document | Purpose |
 |---|---|
+| [Scientific readiness](research/READINESS.md) | Completed pre-manuscript research, conditional drafting decision and evidence limits. |
 | [Model and claim map](research/MODEL_AND_CLAIMS.md) | The observable, allowed controls, result hierarchy and proof dependencies. |
 | [Manuscript plan](research/MANUSCRIPT_PLAN.md) | Selected C1–C2 argument, physical consequences, proof/evidence map and remaining blockers. |
 | [Fidelity frontier](research/FIDELITY_FRONTIER.md) | Equal-charge overlap, all-waveform optimality, existence, asymptote and hole bound. |
+| [Same-fidelity control comparison](research/CONTROL_COMPARISON.md) | Exact two-input frontier and strict one-input penalty at a common target and error. |
 | [Exact reachability](research/EXACT_REACHABILITY.md) | Finite-target classification, asymmetric inverse and control counterexamples. |
 | [Optimizer limitations](research/OPTIMIZER_LIMITATIONS.md) | Duration and sensitivity of the same nominal optimum, with finite values. |
 | [Premise audit](literature/PREMISE_AUDIT.md) | Direct formal support, experimental ingredients, energy accounting and unresolved joint regime. |
+| [Precedent map](literature/PRECEDENT_MAP.md) and [control prior art](literature/CONTROL_PRIOR_ART.md) | Counted formal support, experimental limits and closest control constructions. |
 | [Prior-art ledger](literature/PRIOR_ART.md) | Inherited ingredients, control-location comparisons and reading depth. |
 | [Cabart comparison](literature/CABART_2018_COMPARISON.md) | Why closing the inner channel changes this optimization problem. |
 | [Status](STATUS.md) and [workspace entry](WORKSPACE.md) | Established author-side route, open obligations and the next bounded task. |
@@ -69,7 +72,7 @@ The output directory must not already exist. The runner executes the unchanged t
 
 ## Status and provenance
 
-This is a theory research workspace. The bounded C1–C2 manuscript plan is complete; no manuscript or release has been initiated. It omits the separately unaudited C3 hole inequality from the central argument and retains the other results as supporting material. The bounded author-side audit of the overlap, admissibility and global optimum is complete, with one infrared-domain clarification and no change to the frontier. The bounded [premise audit](literature/PREMISE_AUDIT.md) retains the conditional theorem and clarifies injected-edge energy accounting. Independent validation, exhaustive priority, a demonstrated joint operating regime and the broader model-matched precedent benchmark are still absent. The specific Cabart full-text access gap has been closed at the recorded depth, not expanded into a claim of exhaustive review.
+This is a theory research workspace. The bounded C1–C2 manuscript plan is complete; no manuscript or release has been initiated. It omits the separately unaudited C3 hole inequality from the central argument and retains the other results as supporting material. The bounded author-side audit of the overlap, admissibility and global optimum is complete, with one infrared-domain clarification and no change to the frontier. The bounded [premise audit](literature/PREMISE_AUDIT.md) retains the conditional theorem and clarifies injected-edge energy accounting. The subsequent [readiness research](research/READINESS.md) completes the formal precedent benchmark, attributes the closest control constructions and proves a same-fidelity control comparison. It also corrects one overbroad scope sentence without changing C1–C2. The conditional argument is ready for drafting when requested. Independent validation, exhaustive priority and a demonstrated joint operating regime remain absent. The specific Cabart full-text access gap has been closed at the recorded depth, not expanded into a claim of exhaustive review.
 
 [Archive](archive/README.md) preserves the supplied scouts 08–10, development attempts and pre-import readiness record without editing their historical decisions. [Import manifest](provenance/IMPORT_MANIFEST.json) pins every protected copy. No unrelated scientific project or publisher PDF is imported.
 

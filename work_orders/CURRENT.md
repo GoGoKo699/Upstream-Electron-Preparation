@@ -1,49 +1,55 @@
-# Premise audit complete; stop after integration
+# Pre-manuscript research complete; integrate and verify
 
 **5 October 2026.** Work only in
 `GoGoKo699/Upstream-Electron-Preparation`. Repository changes and merge after
-verification are authorized. Manuscript drafting, release and outside contact
-remain on hold.
+verification are authorized. This research pass does not draft a manuscript,
+create a release or contact anyone.
 
 ## Entry and completed decisions
 
 Resolve live main and inspect its actual verification artifact and latest PR
-handoff. Read AGENTS, STATUS, the claim map, [frontier audit](../research/FRONTIER_AUDIT.md),
-[significance assessment](../research/SIGNIFICANCE.md),
-[manuscript plan](../research/MANUSCRIPT_PLAN.md) and
-[premise audit](../literature/PREMISE_AUDIT.md).
+handoff. Read AGENTS, STATUS, the claim map, [readiness decision](../research/READINESS.md),
+[manuscript plan](../research/MANUSCRIPT_PLAN.md),
+[precedent map](../literature/PRECEDENT_MAP.md) and
+[control prior art](../literature/CONTROL_PRIOR_ART.md).
 
-C1–C2 have a completed author-side proof audit, bounded GO significance
-decision, claim-driven plan and bounded physical-premise support/mismatch
-record. The conditional ideal feasibility statement survives. The budget is
-excess energy launched into the driven incoming edge, including both outputs,
-not complete bias-circuit work. No equation or reference report changed.
-C3 remains omitted from the plan; C4–C5 remain subordinate. Do not repeat these
-tasks without a concrete new objection or reopen the resolved C18 access gap.
+C1–C2 have completed author-side proof, physical-premise and closest-control
+checks, a bounded significance decision and a claim-driven plan. The formal
+five-source benchmark is now met for each physical subpremise at recorded
+depths. Printed formulas, explicit model uses and algebraic translations are
+distinguished; shared lineage does not provide independent confirmation.
+There is no demonstrated joint apparatus regime, exhaustive priority
+certificate or independent critical report.
 
-The premise record distinguishes formal pedigree, measured ingredients and
-the unestablished joint operating regime. The broader five-to-ten relevant
-precedent benchmark is still incomplete. Neither the audit nor assistant review
-certifies exhaustive priority, substantial impact or independent validation.
+The [matched-fidelity corollary](../research/CONTROL_COMPARISON.md) makes the
+control-resource comparison precise. The [scope correction](../provenance/READINESS_CHANGE.md)
+limits lower-bound inheritance to waveform restrictions with unchanged
+dynamics, energy and fidelity. Neither alters C1–C2 or the reference results.
+The budget remains launched-edge excess energy, including both outputs,
+rather than complete circuit work. C3 stays omitted from the manuscript;
+C4–C5 remain subordinate. Do not reopen the resolved C18 access gap.
 
 ## Current stopping point
 
 Complete repository integration, author-side review, fresh local verification,
-reviewed PR and merge, then inspect the actual merged-main artifact. Stop there.
-Do not turn the plan into manuscript prose, broaden the model, run an additional
-numerical campaign or contact a reviewer automatically.
+reviewed PR and merge, then inspect the actual merged-main artifact and retain
+the exact handoff. Stop there. Do not automatically draft, broaden the model,
+run another numerical campaign or contact a reviewer.
 
 ## Bounded next action on continuation
 
-Make one readiness decision using the existing proof, significance, plan and
-premise records: is the conditional contribution sufficiently supported to
-propose drafting, or is there a specific unresolved objection that must be
-addressed first? Distinguish mathematical validity, physical applicability,
-originality and impact. Keep the precedent benchmark visible; do not waive it,
-pad it, or mistake an unestablished apparatus regime for a mathematical
-counterexample. Identify any needed evidence by the exact decision it could
-change. Do not automatically reopen a general literature survey or draft the
-manuscript as part of that decision.
+The readiness decision supports drafting the fixed conditional C1–C2 argument
+from the existing plan when requested. Explain the full-state feasibility
+law, its attainable optimizer and fixed-width endpoint; use equal-error
+control access and optimal-output energy allocation for interpretation.
+Attribute current engineering, compensation and two-input protection as prior
+ideas. Do not substitute general pulse-shaping novelty or a device forecast.
+
+Further research needs a concrete trigger: a counterexample, a potentially
+covering result or a changed claim with new assumptions. The absence of an
+experimental operating window is a limitation of applicability, not a
+counterexample to the conditional theorem. External critical reading remains
+open and cannot be supplied by relabeling another assistant pass.
 
 ## Preservation and verification
 

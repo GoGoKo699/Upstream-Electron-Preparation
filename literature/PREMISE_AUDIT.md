@@ -1,12 +1,21 @@
 # Physical-premise support and mismatch audit
 
-**5 October 2026. Bounded author-side audit complete; conditional wording retained.**
+**5 October 2026. Initial bounded audit retained; subsequent formal-precedent closure recorded below.**
 
 Base: `04b83e78b6c39125497fc940cc3c566757ced72a`, tree
 `59ec3abc17bdbcd1dc9aea32cb9cc274c611b59c`. This record checks the three
 inherited premises used together by the [manuscript plan](../research/MANUSCRIPT_PLAN.md).
 It adds no theorem, numerical campaign or independent scientific certification.
 Source keys and actual reading depths are in [PRIOR_ART](PRIOR_ART.md).
+
+**Reading status:** Sections 1–5 preserve the initial audit at the base above,
+including its then-incomplete source count and stopping instruction. Section 6
+records the subsequent authorized extension at base
+`125eb6e576f86aa985b19df955f6f7801adb83b3`. The [precedent map](PRECEDENT_MAP.md)
+is the current count: five distinct formal sources for each dependency, with
+zero complete joint device demonstrations in the inspected pool. The earlier
+conditional wording, accounting derivation and experimental warnings remain
+active; the earlier incomplete count is superseded.
 
 ## 1. Decision
 
@@ -110,3 +119,53 @@ finds no concrete blocker to conditional C1–C2, but does not establish practic
 advantage or substantial impact. **Stop after repository integration.** No
 manuscript prose, additional model, external contact or numerical campaign is
 initiated; the [work order](../work_orders/CURRENT.md) preserves that boundary.
+
+## 6. Subsequent formal-precedent closure
+
+The additional targeted primary reading closes the named formal source-count
+gap without changing a formula, coefficient, baseline or proof dependency.
+The composite state and energy premises are split into the actual facts used
+by C1–C2:
+
+| Convention | Five distinct formal precedents | Evidence type |
+|---|---|---|
+| P1: local lossless two-mode propagation on two open channels | LS08, DG10, G13, W14, C18 | Direct scattering models and equivalent rotated quadratic Hamiltonians. |
+| P2a: coherent deterministic-voltage input and factorized outputs | G13, C18, F15, F14, R20 | Formal constructions or explicit coherent-scattering uses. |
+| P2b: prescribed clean Lorentzian electron plus sea | K06, G13, M15, MH16, F14 | Four constructions and one explicit clean-target use. |
+| P3a: launched-edge voltage-squared energy normalization | B14, M14, M16, G13, C18 | Three printed voltage/Joule laws and two exact-amplitude Parseval translations. |
+| P3b: integrated conservation across both outputs | DG10, G13, C18, F15, LS08 | Explicit conservation or lossless mode models, followed by the stated norm-to-energy implication. |
+
+The [passage map](PRECEDENT_MAP.md) and [reading ledger](PRIOR_ART.md) give
+equations, versions and actual depth. Each publication counts once within a
+row. Shared papers, authors and theoretical ancestry are not independent
+confirmations. Explicit model use is labeled as such. These counts are neither
+five printed whole-line energy formulas nor five independent experimental
+implementations of each convention.
+
+The new C18 check reads the exact voltage-displacement prefactor in Appendix A,
+immediately after Eq. (A6), from the author-uploaded manuscript, p. 23. Its
+pagination differs from the supplied publisher PDF; the earlier 28-page
+publisher construction audit remains authoritative. The prefactor agrees with
+G13 and supplies the same Section 4 Parseval translation. M14 Eq. (7) and M16
+Eq. (8) also provide printed contact/Joule normalization statements
+within their stated models. M14's erratum concerns reflected heat noise and
+does not change mean Eq. (7). MH17, distinct from the coherence paper MH16,
+adds a Lorentzian target-energy cross-check; it is not used to inflate the five
+general entries. None identifies complete circuit work with launched-edge
+energy or two reservoir contacts with our two copropagating outputs.
+
+The [control comparison](CONTROL_PRIOR_ART.md) additionally attributes M18's
+prescribed-current synthesis, B19's calibrated experimental precompensation and
+R20's two-input eigenmode protection. They narrow the contribution to the exact
+fixed-control preparation law. B19's periodic finite-harmonic Lorentzian
+experiment at filling factor three and finite temperature is not the present
+two-channel full-state frontier.
+
+There remain **zero complete joint operating-regime demonstrations in this
+inspected pool**. The initial dispersion, attenuation, temperature, source and
+observable mismatches are retained. No uniform physical regime as fidelity
+tends to one, direct detector certificate, exhaustive priority result or
+independent review follows from this closure. No new thermal, dissipative,
+circuit or finite-start model is introduced. The [readiness decision](../research/READINESS.md)
+uses this evidence to define the next bounded action; this extension adds no
+manuscript prose or numerical campaign.

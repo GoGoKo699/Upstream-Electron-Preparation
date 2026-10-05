@@ -1,11 +1,17 @@
 # Significance assessment of the fixed preparation law
 
-**5 October 2026. Decision: GO to bounded manuscript planning around C1–C2.**
+**5 October 2026. Historical decision: GO to bounded manuscript planning around C1–C2.**
 
 Assessed base: `ca492b05f0ddc3cabd99d8a82dd21fe8381ed011`, tree
 `ac8930712b2e762e156617501c2c7700659b2eae`. This is an author-side judgment
 about the value of the fixed result. It is not a priority certificate,
 independent scientific review, or a decision to submit a manuscript.
+
+The assessment below records that planning decision and its evidence at the
+assessed base. Subsequent scientific preparation is summarized in the
+[update at the end](#readiness-update-after-the-planning-decision) and in
+[READINESS](READINESS.md). Its completed source checks do not turn this
+historical assessment into independent review.
 
 ## The central physical statement
 
@@ -130,3 +136,39 @@ existing formulas. The source-energy frontier and infrared qualification are
 unchanged. The requested significance decision is complete; stop here and use
 the [manuscript plan](MANUSCRIPT_PLAN.md), now completed, for the selected argument
 and the [work order](../work_orders/CURRENT.md) for the remaining bounded task.
+
+## Readiness update after the planning decision
+
+The current [readiness decision](READINESS.md), assessed from base
+`125eb6e576f86aa985b19df955f6f7801adb83b3`, closes the named scientific
+preparation tasks for the conditional C1–C2 scope. The
+[precedent map](../literature/PRECEDENT_MAP.md) now meets the five-source formal
+benchmark at explicit reading depths and translations. The earlier incomplete
+count above is historical. Joint apparatus validation and independent critical
+review remain absent; source counts do not supply either.
+
+The [expanded control comparison](../literature/CONTROL_PRIOR_ART.md) narrows
+attribution: M18 supplies prescribed-current synthesis through a screened gate;
+B19 experimentally calibrates upstream harmonics to compensate interaction
+distortion; R20 uses two driven inputs to select a mode without fractionalization.
+Those ideas are established. The remaining candidate contribution is the exact
+one-source energy–full-state-fidelity law, including admissible attainment and
+the fixed-width endpoint. No inspected passage subsumes that whole law, and no
+exhaustive priority claim follows.
+
+The [same-fidelity supporting corollary](CONTROL_COMPARISON.md) strengthens the
+restricted-access interpretation without changing C1–C2. At the same selected
+target and error $D_0=-\ln\mathcal F_0>0$, two real voltage inputs of net charges
+$(1,0)$ have minimum combined energy $R_2(D_0)<R_1(D_0;p,a)$ for $0<p<1$.
+At equal splitting and fixed width ratio, $R_2\to1$ whereas
+$R_1/R_2\sim C(a)/D_0$. This follows directly from C1 with $H=1$ and unitarity;
+it is not a new principle of two-input control. Both inputs' launched-edge
+energies are counted. Waveform restrictions preserve the ideal lower bound only
+under unchanged dynamics, energy and objective.
+
+The original significance objection remains: the solution is standard
+regularized inversion applied to known electron optics. The complete
+preparation statement and matched resource comparison make its meaning precise;
+they do not establish substantial impact automatically. Scientific preparation
+can stop at this conditional contribution. C3 remains excluded and C4–C5
+subordinate; no manuscript has been drafted or new numerical campaign added.

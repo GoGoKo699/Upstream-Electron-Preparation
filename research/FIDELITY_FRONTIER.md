@@ -187,7 +187,7 @@ The energy in (7) is optimized for a specified many-body target fidelity, not fo
 
 ## 6. Controls, implementation and limits
 
-**Second contact.** Driving both inputs removes the exact obstruction by inversion of the full unitary scattering matrix; the combined source energy for outputs (target,sea) is E_ell. This is an additional independently controlled contact, not a counterexample to the one-input lower bound.
+**Second contact.** Driving both inputs removes the exact obstruction by inversion of the full unitary scattering matrix; the combined source energy for outputs (target,sea) is E_ell. This is an additional independently controlled contact, not a counterexample to the one-input lower bound. The [same-fidelity comparison](CONTROL_COMPARISON.md) also proves a strictly smaller combined-energy minimum for interior mixing at every fixed positive error, with the same target and fidelity on both sides.
 
 **Finite error versus exact parity.** At every fixed F<1 the one-input optimum is finite and continuous through equal mixing. Therefore the finite odd/even exact-reachability classification is not a discontinuous finite-error phase boundary. Its operational content at fixed duration is the energy-error law, not a probability ceiling.
 
@@ -213,9 +213,9 @@ approaches its finite-energy target. This is an energy-allocation statement
 along the optimum, not a bound on every approximate waveform or irreversible
 heat production. It adds no new control or optimization claim.
 
-**Duration and dispersion.** The optimized waveform has tails, with increasingly narrow compensating frequency features at high fidelity. Their implementation can require a long coherent control interval. No finite-start, finite-duration, peak-amplitude, finite-temperature, nonlinear-band, dispersive-mode or calibrated-contact error model has been solved. Such added restrictions can only worsen the ideal optimum, but the optimum itself need not be attainable with them. A table in dimensionless units is not a device-performance forecast.
+**Duration and dispersion.** The optimized waveform has tails, with increasingly narrow compensating frequency features at high fidelity. Their implementation can require a long coherent control interval. No finite-start, finite-duration, peak-amplitude, thermal, nonlinear-band or dispersive-mode optimization has been solved. C5 analyzes splitting miscalibration of the fixed nominal optimizer; it does not solve a joint constrained or minimax-robust control problem. Restricting waveforms under the same dynamics, energy and fidelity cannot lower the ideal minimum, but may remove attainment. Changed dynamics, thermal states or a changed objective do not automatically inherit that bound; the [readiness change record](../provenance/READINESS_CHANGE.md) corrects the earlier overbroad wording. A table in dimensionless units is not a device-performance forecast.
 
-**No independent phase-noise assumption.** Voltage shaping uses a prescribed coherent drive. Random classical pulse jitter, thermal density modes or uncontrolled environment excitations would change the state and hence its fidelity formula. They have not been asserted harmless. No experiment is logically required for the conditional theorem, but the requested model-matched premise precedents and a joint operating window remain incomplete.
+**No independent phase-noise assumption.** Voltage shaping uses a prescribed coherent drive. Random classical pulse jitter, thermal density modes or uncontrolled environment excitations would change the state and hence its fidelity formula. They have not been asserted harmless. No experiment is logically required for the conditional theorem. The [formal precedent benchmark](../literature/PRECEDENT_MAP.md) is now met at declared reading depths; a joint operating window remains unestablished. The [readiness decision](READINESS.md) keeps these conclusions separate.
 
 ## Attribution and boundary
 
