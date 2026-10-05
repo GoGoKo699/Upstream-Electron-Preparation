@@ -1,51 +1,45 @@
-# Current task: assess the significance of the fixed result
+# Current task: prepare one claim-driven manuscript plan
 
-**5 October 2026, after the bounded frontier proof audit.** Work only in
-`GoGoKo699/Upstream-Electron-Preparation`. The owner permits edits and merge after
-verification. Manuscript drafting, releases and outside invitations remain on hold.
+**5 October 2026, after the fixed-result significance assessment.** Work only in
+`GoGoKo699/Upstream-Electron-Preparation`. Repository changes and merge after
+verification are authorized. This task is planning; manuscript drafting, release
+and outside contact remain on hold.
 
-## Completed task and entry route
+## Entry and completed decisions
 
-The prior work order asked for an author-side challenge to exactly three
-implications: the equal-charge squared many-body overlap, admissibility of the
-optimizer, and global completion plus the whole-axis isolated-zero asymptote.
-The [audit](../research/FRONTIER_AUDIT.md) completes that task against base
-`2aef91fb235bcd5082d30805d5c4cd53f679b439`. The frontier and its coefficient
-survive; the [change record](../provenance/FRONTIER_AUDIT_CHANGE.md) documents the
-necessary qualification for divergent relative norms. Protected inputs and
-scientific reference outputs are unchanged. This is author-side work only.
+Resolve current main and inspect its actual verification artifact and latest PR
+handoff. Read AGENTS, STATUS, the claim map, the [frontier audit](../research/FRONTIER_AUDIT.md)
+and [significance assessment](../research/SIGNIFICANCE.md).
 
-At the next session, resolve current main and its actual verification artifact,
-then read STATUS, the claim map, the audit and the latest PR handoff. Do not rerun
-this completed audit absent a concrete new objection. Do not interpret this next
-work order as evidence that its task has already been performed.
+The proof task is complete, with an explicit infrared qualification and no change
+to C1–C2. The significance task gives a bounded GO to planning: a sharp attainable
+source-energy/full-state-fidelity law quantifies restricted access to one contact
+in a lossless two-channel device. The solution method is inherited quadratic
+regularization. Independent review, priority certainty and physical-premise
+mapping remain open. Do not repeat either completed task without a new objection.
 
-## One next decision
+## One bounded next deliverable
 
-Assess whether the **fixed** preparation law has enough distinct physical content
-to justify manuscript planning. Start from the [prior-art ledger](../literature/PRIOR_ART.md):
-the load-bearing concern is that the result may amount to elementary regularized
-inversion once the inherited voltage-state overlap is inserted.
+Prepare a compact manuscript plan centered on C1–C2. Map each intended claim to
+its necessary assumptions, proof passage and existing evidence. Lead with the
+fixed-electron preparation question and the one-input energy–fidelity law.
+Use the two-input comparison and the optimizer's output-energy allocation to
+explain the control restriction. Attribute the transfer model, coherent-state
+metric and quadratic optimization honestly.
 
-Identify which consequence, if any, adds physical understanding beyond the known
-filter and standard quadratic optimization. Any additional source reading must
-name the claim it could subsume, and compare control location, target observable,
-allowed waveform class and energy accounting. Cabart's recorded full-text access
-gap is closed and should not be reopened.
+The plan must distinguish a proof obligation needed by the central claim from
+optional supporting material. C3's separate occupied-space check is open: omit
+it from the central argument or identify its exact supporting role. Keep C4–C5
+subordinate. Do not make an implementation or detector claim unsupported by the
+premise map. No figure or extra numerical campaign is required for this plan.
 
-Deliver one reasoned assessment: proceed to manuscript planning with a concrete
-central claim, or hold the project because its added significance is insufficient.
-Separate that assessment from priority certainty and from independent review.
-Stop after that decision; do not enlarge the device or objective to rescue it.
+Deliver one navigable plan, not manuscript prose. Record any concrete blocker
+and its effect on a proposed claim. Stop at that plan; do not create new physical
+models, add actuators or broaden the target to sustain work.
 
-## Boundaries still open
+## Preservation and verification
 
-The independent critical reading and model-matched physical-premise evidence are
-still absent. No outside reader has been contacted. The separate occupied-space
-argument for C3 is not certified by the C1–C2 audit. No new series of audits,
-parameter plots, additional control ports, altered geometry, thermal states,
-causal-start optimization, minimax control or detector theorem is scheduled.
-
-Preserve all 83 protected inputs, warnings and numerical references. Follow AGENTS
-and VERIFICATION for any future change: a feature branch, reviewed PR, fresh local
-checks, and inspection of actual PR and merged-main source/report artifacts.
+All 83 protected copies, original scientific reports and warnings remain intact.
+Use a feature branch and reviewed PR, fresh local checks and actual PR/main
+artifact inspection under AGENTS and VERIFICATION. Additional assistant review
+remains author-side work. No outside reviewer is contacted under this work order.

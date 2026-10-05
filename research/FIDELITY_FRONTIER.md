@@ -193,10 +193,30 @@ The energy in (7) is optimized for a specified many-body target fidelity, not fo
 
 **The rest of the device.** The other output may carry many excitations and substantial energy. Unitarity equates the total input energy to both output energies together. Fidelity is demanded only in the selected output; no claim is made that the full two-channel state equals one electron plus two untouched seas.
 
+The 5 October significance assessment makes one direct consequence explicit.
+For the existing optimizer, let $R_{\rm sel}$ and $R_{\rm unused}$ be the
+output energies in units of $\mathcal E_\ell$. Since its selected spectral
+amplitude is $h_p f_a/(h_p+\mu x)$,
+
+```math
+R_{\rm sel}(\mu)=a\int_0^\infty
+\left[\frac{h_p(x)}{h_p(x)+\mu x}\right]^2e^{-ax}\,dx
+\le a\int_0^\infty e^{-ax}\,dx=1,
+\qquad R_{\rm unused}=R_\mu-R_{\rm sel}.
+```
+
+As $\mu\downarrow0$, dominated convergence gives $R_{\rm sel}\to1$:
+isolated transmission zeros have measure zero. At equal splitting and fixed
+$a>0$, Eq. (6) then yields $R_{\rm unused}\sim R_\mu\sim C(a)/D_\mu$.
+The divergent cost flows into the unused output while the selected output
+approaches its finite-energy target. This is an energy-allocation statement
+along the optimum, not a bound on every approximate waveform or irreversible
+heat production. It adds no new control or optimization claim.
+
 **Duration and dispersion.** The optimized waveform has tails, with increasingly narrow compensating frequency features at high fidelity. Their implementation can require a long coherent control interval. No finite-start, finite-duration, peak-amplitude, finite-temperature, nonlinear-band, dispersive-mode or calibrated-contact error model has been solved. Such added restrictions can only worsen the ideal optimum, but the optimum itself need not be attainable with them. A table in dimensionless units is not a device-performance forecast.
 
 **No independent phase-noise assumption.** Voltage shaping uses a prescribed coherent drive. Random classical pulse jitter, thermal density modes or uncontrolled environment excitations would change the state and hence its fidelity formula. They have not been asserted harmless. No experiment is logically required for the conditional theorem, but the requested model-matched premise precedents and a joint operating window remain incomplete.
 
 ## Attribution and boundary
 
-Bracketed source keys resolve in [PRIOR_ART](../literature/PRIOR_ART.md). The initialization introduced no new result, coefficient, domain, or numerical reference. The subsequent [audit qualification](../provenance/FRONTIER_AUDIT_CHANGE.md) makes the divergent-D interpretation explicit and leaves the waveform domain, optimizer, coefficient and numerical references unchanged. The calibration/duration quantities describe the existing energy optimizer, not separate global optima.
+Bracketed source keys resolve in [PRIOR_ART](../literature/PRIOR_ART.md). The initialization introduced no new result, coefficient, domain, or numerical reference. The subsequent [audit qualification](../provenance/FRONTIER_AUDIT_CHANGE.md) makes the divergent-D interpretation explicit and leaves the waveform domain, optimizer, coefficient and numerical references unchanged. The later [significance assessment](SIGNIFICANCE.md) makes the output-energy allocation in Section 6 explicit as a direct corollary. The calibration/duration quantities describe the existing energy optimizer, not separate global optima.
