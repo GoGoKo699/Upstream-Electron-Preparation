@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-05",
+  "source_archive": "fresh_after_singlet_scout10_2026-10-05.zip",
+  "source_archive_sha256": "c070dc246e5b0c85d0d3246ccebf4f80f7849444ee4dc9719ea1efb856778ad3",
+  "unchanged_source_entries": 63,
+  "source_note_matches_delivered_note": true,
+  "newly_supplied_primary_paper": "Cabart et al., Phys. Rev. B 98,155302 (2018)",
+  "paper_sha256": "6113d031e78a5ed5f0b2015be2742de5ea86640e7d0914edef2c115eda4e5152",
+  "paper_pages": 28,
+  "runs": [
+    {
+      "suite": "exact_reachability",
+      "returncode": 0,
+      "tests_expected": 6,
+      "status": "PASS",
+      "actual_tests": 6,
+      "seconds": 1.3673297389999846,
+      "report": "exact_reachability.json",
+      "source_script_sha256": "361cbf19527a00a38bd55a59bc875f42dabd6d21e3226eebef9161bd58f5b699",
+      "report_sha256": "cdbef08bb43a1761e3694e7b5189e70206516213c9d5a4d2249328478c4e774d",
+      "reference": "prior/prior/evidence/first.json",
+      "reference_bytes_identical": true
+    },
+    {
+      "suite": "finite_fidelity",
+      "returncode": 0,
+      "tests_expected": 7,
+      "status": "PASS",
+      "actual_tests": 7,
+      "seconds": 5.08488241400002,
+      "report": "finite_fidelity.json",
+      "source_script_sha256": "c3badb222f39032818bc17761027281397ce1d37dda8915ce11f0cacc478513a",
+      "report_sha256": "e3b94d8ca33d3a758488dadae9c756b40bac7a087f9ba2c9e9dd0f45aabe9927",
+      "reference": "prior/evidence/verified_report.json",
+      "reference_bytes_identical": true
+    },
+    {
+      "suite": "calibration_duration",
+      "returncode": 0,
+      "tests_expected": 5,
+      "status": "PASS",
+      "actual_tests": 5,
+      "seconds": 7.1340167859999895,
+      "report": "calibration_duration.json",
+      "source_script_sha256": "a484c5bd38b1da5a7a0533509f69c9d1c5287ec54dd2c5820c245b723dd69575",
+      "report_sha256": "fabf7bd114e4e565e56eab5460caaea19825801e7eb991e4541407fb72cfc46a",
+      "reference": "evidence/final_report.json",
+      "reference_bytes_identical": true
+    }
+  ],
+  "total_test_groups": 18,
+  "all_pass": true,
+  "all_report_bytes_identical": true,
+  "reading_scope": "All paper sections screened in supplied text; construction-level check of Sections II.C.3–4, III.A, IV.A–C, Appendix A, and scope checks in III.D, V and Appendix E. Figures 6 and 24 and pages 7,8,19,20 visually checked. No rederivation of all paper numerical plots or appendices.",
+  "repository_action": "None; assessment and local handoff only.",
+  "verification_boundary": "Checks existing author-side results, not independent proof or exhaustive priority. No source/reference/tolerance changed."
+}

@@ -1,0 +1,38 @@
+--- before/check_finite_accuracy.py
++++ enriched/check_finite_accuracy.py
+@@ -146,6 +146,35 @@
+             probabilities=rng.uniform(0,.7,size=7)
+             F=np.prod(1-probabilities);D=-np.log(F)
+             self.assertLessEqual(probabilities.sum(),D)
++        # A second finite-circle check uses the actual optimized error waveform.
++        # The target phase is removed first, so the remaining drive is neutral.
++        optimized=[]
++        for step in (.2,.1):
++            cutoff=256;frequency=step*np.arange(1,cutoff+1)
++            mu=.05;a=1.;h=np.cos(frequency/2)**2
++            error=-mu*frequency*np.exp(-a*frequency/2)/(h+mu*frequency)
++            phase_coeff=1j*error/np.arange(1,cutoff+1)
++            nt=8192;arr=np.zeros(nt,complex)
++            arr[1:cutoff+1]=phase_coeff;arr[-cutoff:]=phase_coeff[::-1].conjugate()
++            phase=np.fft.fft(arr).real
++            unitary_coeff=np.fft.ifft(np.exp(-1j*phase))
++            m=np.arange(1,cutoff+1)[:,None];q=np.arange(cutoff)[None,:]
++            cross=unitary_coeff[(-m-q)%nt]
++            holes=cross@cross.conjugate().T
++            sign,logF=np.linalg.slogdet(np.eye(cutoff)-holes)
++            Dc=float(np.sum(abs(error)**2/np.arange(1,cutoff+1)))
++            Fc=float(np.exp(-Dc));Fd=float(np.exp(logF))
++            self.assertLess(abs(sign-1),1e-12)
++            self.assertLess(abs(Fc-Fd),2e-11)
++            self.assertLessEqual(float(np.trace(holes).real),Dc+2e-11)
++            optimized.append(dict(frequency_step=step,fermionic_cutoff=cutoff,
++                coherent_fidelity=Fc,determinant_fidelity=Fd,
++                neutral_error_mean_holes=float(np.trace(holes).real),
++                circle_exponent=Dc,continuum_exponent=frontier(mu,a)['infidelity_exponent']))
++        self.assertLess(abs(optimized[1]['circle_exponent']-optimized[1]['continuum_exponent']),
++                        abs(optimized[0]['circle_exponent']-optimized[0]['continuum_exponent']))
++        REPORT['optimized_error_fermionic_check']=dict(rows=optimized,
++            scope='Finite-circle regularization of the neutral relative phase; continuum optimality and the physical charged-state hole inequality are proved separately.')
+         REPORT['fermionic_crosscheck']=dict(neutral_phase_benchmark=rows,
+           bound='N_h + 1 - n_target <= -log F for the charged target; probability of any holes <= 1-F.',
+           scope='The finite circle benchmark tests coherent/Slater normalization; it is not a substitute for the finite-pulse theorem.')

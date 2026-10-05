@@ -1,0 +1,11 @@
+test_fermionic_minimal_pulse_kernel (__main__.ReachabilityChecks.test_fermionic_minimal_pulse_kernel) ... ok
+test_integer_orbit_divisibility_and_complete_construction (__main__.ReachabilityChecks.test_integer_orbit_divisibility_and_complete_construction) ... ok
+test_inverse_energy_and_fixed_width_divergence (__main__.ReachabilityChecks.test_inverse_energy_and_fixed_width_divergence) ... ok
+test_two_channel_scattering_and_one_port_zero (__main__.ReachabilityChecks.test_two_channel_scattering_and_one_port_zero) ... ok
+test_two_input_recovery_and_delayed_companion_control (__main__.ReachabilityChecks.test_two_input_recovery_and_delayed_companion_control) ... ok
+test_vandermonde_grouping_does_not_mix_distinct_orbits (__main__.ReachabilityChecks.test_vandermonde_grouping_does_not_mix_distinct_orbits) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.210s
+
+OK

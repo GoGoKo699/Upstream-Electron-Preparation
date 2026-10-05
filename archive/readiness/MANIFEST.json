@@ -1,0 +1,42 @@
+{
+  "ASSESSMENT_RECORD.json": {
+    "bytes": 2614,
+    "sha256": "e9772783294626274237182310ebf1d7cccb16d6f4923c955c43d57787c101e3"
+  },
+  "REPOSITORY_HANDOFF.md": {
+    "bytes": 13812,
+    "sha256": "d1be8cff4ff027862b41f68493b6478db50f58c3573ff21fd1d565c2420108e0"
+  },
+  "environment.json": {
+    "bytes": 183,
+    "sha256": "6ab5c7ed1a4a06d655938466d4fafa23c74cda6f97d275c32e0df5e668cf0bd7"
+  },
+  "verification/RUNS.json": {
+    "bytes": 1456,
+    "sha256": "c8af21c3e027323920e5bfb7fafa63bc68fe7d71dee2f4d8253bb75f25481497"
+  },
+  "verification/calibration_duration.json": {
+    "bytes": 8656,
+    "sha256": "fabf7bd114e4e565e56eab5460caaea19825801e7eb991e4541407fb72cfc46a"
+  },
+  "verification/calibration_duration.log": {
+    "bytes": 787,
+    "sha256": "5b15f974c7a997ce08fe07dde951244e8004048e9e4cb02c819df1d7aa4f2042"
+  },
+  "verification/exact_reachability.json": {
+    "bytes": 5975,
+    "sha256": "cdbef08bb43a1761e3694e7b5189e70206516213c9d5a4d2249328478c4e774d"
+  },
+  "verification/exact_reachability.log": {
+    "bytes": 912,
+    "sha256": "81e373dae92a95d5b3bfcccce8a0bd371a0d3b3e27168c52d09441bfa35405ac"
+  },
+  "verification/finite_fidelity.json": {
+    "bytes": 18168,
+    "sha256": "e3b94d8ca33d3a758488dadae9c756b40bac7a087f9ba2c9e9dd0f45aabe9927"
+  },
+  "verification/finite_fidelity.log": {
+    "bytes": 1097,
+    "sha256": "f9607b3ae4a660f99ccfd78b257849eda40d8e87f09328af268d51b6a3b907a2"
+  }
+}

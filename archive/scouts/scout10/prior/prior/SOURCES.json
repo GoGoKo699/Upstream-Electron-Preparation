@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-05",
+  "records": [
+    {
+      "id": "I19",
+      "title": "Quantum percolation of monopole paths and the response of quantum spin ice",
+      "authors": "M. Stern, C. Castelnovo, R. Moessner, V. Oganesyan, S. Gopalakrishnan",
+      "url": "https://arxiv.org/abs/1911.05742",
+      "read": "Primary indexed abstract only.",
+      "boundary": "A coherent-diffusion predecessor for the generic screened question; no material or all spin-ice dynamics claim."
+    },
+    {
+      "id": "A25",
+      "title": "Tracking Adiabaticity in Non-Equilibrium Many-Body Systems: The Hard Case of the X-ray Photoemission in Metals",
+      "authors": "G. Diniz, F. D. Picoli, L. N. Oliveira, I. D’Amico",
+      "url": "https://arxiv.org/abs/2502.11313",
+      "publisher_url": "https://journals.aps.org/pra/abstract/10.1103/m17z-4g58",
+      "read": "Primary abstract and associated publisher abstract describing localized time-dependent scattering.",
+      "boundary": "No selected ramp theorem or claim every local adiabaticity problem is solved."
+    },
+    {
+      "id": "A22",
+      "title": "Bounds on quantum adiabaticity in driven many-body systems from generalized orthogonality catastrophe and quantum speed limit",
+      "authors": "J.-H. Chen and V. Cheianov",
+      "url": "https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.4.043055",
+      "read": "Primary abstract only.",
+      "boundary": "General overlap/adiabaticity context, not used in the pulse proof."
+    },
+    {
+      "id": "K06",
+      "title": "Minimal excitation states of electrons in one-dimensional wires",
+      "authors": "J. Keeling, I. Klich, L. S. Levitov",
+      "url": "https://arxiv.org/pdf/cond-mat/0604017",
+      "read": "Parsed author PDF v2, 6 June 2006; minimal excitations, phase construction, one-electron energy profile, equations (1)–(6). Requested page index1 screenshot failed.",
+      "boundary": "Minimal voltage-source class is inherited. No unrendered figure values or full source reanalysis."
+    },
+    {
+      "id": "G13",
+      "title": "Fractionalization of minimal excitations in integer quantum Hall edge channels",
+      "authors": "C. Grenier, J. Dubois, T. Jullien, P. Roulleau, D. C. Glattli, P. Degiovanni",
+      "url": "https://arxiv.org/pdf/1301.6777",
+      "read": "Parsed author PDF with v1 header: Section II minimality condition, equations (19)–(22) and coherent inputs in III.B, integer fractionalization text in IV.A, Appendix C. Requested page indices6 and8 screenshots failed.",
+      "boundary": "Full basic model, outgoing-voltage map, standard even-charge examples and periodic revivals are prior work. No unviewed numerical figure/table reproduction. General arbitrary-input classification is an author-side deduction, not a quoted new result."
+    },
+    {
+      "id": "E13",
+      "title": "Minimal-excitation states for electron quantum optics using levitons",
+      "authors": "J. Dubois et al.",
+      "url": "https://www.nature.com/articles/nature12713",
+      "read": "Primary abstract, 23 October 2013 publication record.",
+      "boundary": "Experimental context only, not demonstration of the inverse waveform or new threshold."
+    },
+    {
+      "id": "B25",
+      "title": "Eigenstate control of plasmon wavepackets with electron-channel blockade",
+      "authors": "S. Takada et al.",
+      "url": "https://www.nature.com/articles/s41467-025-64876-z",
+      "read": "Primary abstract and introductory account, publication12 November2025.",
+      "boundary": "Different circuit/mode intervention; not the fixed single-input model. No all-architectures no-go is claimed."
+    },
+    {
+      "id": "R21",
+      "title": "Processing Quantum Signals Carried by Electrical Currents",
+      "authors": "B. Roussel, C. Cabart, G. Fève, P. Degiovanni",
+      "url": "https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.2.020314",
+      "read": "Primary abstract only.",
+      "boundary": "Relevant control/coherence lead, not a completed construction-level novelty exclusion."
+    }
+  ],
+  "scope": "Targeted scout, not exhaustive priority or a completed five-to-ten-per-convention physical audit.",
+  "retrieval_limits": [
+    "Author HTML requests1301.6777v2 and1806.03897v2 failed; the readable G13 PDF supplied stated passages.",
+    "Web PDF screenshots of G13 indices6,8 and K06 index1 failed. Parsed equations/text were used, not unseen figure/table data.",
+    "Indexed DIPC author page surfaced Creation and characterization of leviton excitations in tight-binding chains with malformed arXiv2609.0782. Direct page access failed. No full-paper reading, corrected identifier or priority exclusion asserted.",
+    "Broad search produced many irrelevant electrical-product pages for the brand Leviton; none was used. Secondary/generated pages and failed searches are not absence evidence.",
+    "Other fractional-quantum-Hall leviton abstracts appeared but their different tunneling settings were not imported as coverage of this integer-edge source-control question."
+  ],
+  "exhaustive_priority": false,
+  "independent_review": false,
+  "apparatus_claim": false,
+  "third_party_publications_included": false
+}

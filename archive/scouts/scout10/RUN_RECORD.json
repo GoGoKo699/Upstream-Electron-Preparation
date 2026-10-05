@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-05",
+  "candidate": "Fixed one-input preparation of a prescribed clean electron after two-mode fractionalization",
+  "decision": "GO for focused theoretical development; PRL significance, exhaustive priority and implementation remain provisional.",
+  "prior_archive_sha256": "a6c46d844891a76c865785a5b692fcb5cbe394bd205bfcac88d75fb45d9f93dd",
+  "prior_manifest_entries_preserved": 39,
+  "latest_note_matches_prior_snapshot": true,
+  "new_test_groups": 5,
+  "new_completed_runs": 3,
+  "prior_finite_accuracy_groups_rerun": 7,
+  "prior_reachability_groups_rerun": 6,
+  "new_scientific_failures": 0,
+  "tolerances_relaxed": false,
+  "exact_comparisons": [
+    {
+      "current": "evidence/first_report.json",
+      "reference_or_repeat": "evidence/final_report.json",
+      "byte_identical": true,
+      "sha256": "fabf7bd114e4e565e56eab5460caaea19825801e7eb991e4541407fb72cfc46a"
+    },
+    {
+      "current": "evidence/final_report.json",
+      "reference_or_repeat": "evidence/repeat_report.json",
+      "byte_identical": true,
+      "sha256": "fabf7bd114e4e565e56eab5460caaea19825801e7eb991e4541407fb72cfc46a"
+    },
+    {
+      "current": "evidence/prior_accuracy_rerun.json",
+      "reference_or_repeat": "prior/evidence/verified_report.json",
+      "byte_identical": true,
+      "sha256": "e3b94d8ca33d3a758488dadae9c756b40bac7a087f9ba2c9e9dd0f45aabe9927"
+    },
+    {
+      "current": "evidence/prior_reachability_rerun.json",
+      "reference_or_repeat": "prior/prior/evidence/first.json",
+      "byte_identical": true,
+      "sha256": "cdbef08bb43a1761e3694e7b5189e70206516213c9d5a4d2249328478c4e774d"
+    }
+  ],
+  "script_sha256": "a484c5bd38b1da5a7a0533509f69c9d1c5287ec54dd2c5820c245b723dd69575",
+  "integral_module_sha256": "726bafba0147cd317c2d9eab6e8545ee11bd635684e4fce5c972a71815715886",
+  "organizational_change": "Renamed probe helper to control_integrals.py and updated import; exploratory and earlier checker versions retained. No integral, equation, tolerance or output changed.",
+  "output_refusal": {
+    "returncode": 2,
+    "existing_bytes_preserved": true
+  },
+  "scope": "Exact same-model calibration identity, Fourier time-moment identities and refined scalar quadratures. Not a minimax robust optimizer, minimum-duration theorem or attained apparatus.",
+  "new_claims": [
+    "Nominal symmetric optimizer has D_actual=D_nom+epsilon^2 K_mu exactly for a fixed splitting calibration error.",
+    "K_mu*D_mu tends to an explicit positive coefficient; relative-error control for this family requires calibration proportional to D.",
+    "The RMS source-energy duration of this optimizer grows inversely with D at fixed target width."
+  ],
+  "remaining_limits": [
+    "C18 full construction not read.",
+    "No genuinely separate proof report.",
+    "No complete physical-assumption count gate or operating-device implementation.",
+    "No finite-bandwidth, finite-start or finite-temperature frontier."
+  ],
+  "repositories_accessed": false,
+  "repositories_modified": false,
+  "repository_created": false,
+  "external_contact": false,
+  "manuscript_created": false
+}

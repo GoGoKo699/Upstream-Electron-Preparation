@@ -1,0 +1,36 @@
+--- initial/check_finite_accuracy.py
++++ final/check_finite_accuracy.py
+@@ -57,20 +57,24 @@
+     for k in range(cells):
+         zero=(2*k+1)*pi
+         scale=2*np.sqrt(mu*zero+d*d)
+-        bound=np.arctan(pi/scale)
+-        def integrand(angle,which):
+-            tangent=np.tan(angle);s=scale*tangent;x=zero+s
+-            if -1e-11<x<0:x=0.
++        # Geometric subdivision resolves the narrow notch without a tangent-map
++        # endpoint boundary layer. No quadrature warnings are suppressed.
++        cuts=[0.,min(scale,pi)]
++        while cuts[-1]<pi:cuts.append(min(2*cuts[-1],pi))
++        def integrand(s,which):
++            x=zero+s
+             h=np.sin(s/2)**2+d*d*np.cos(s/2)**2
+             den=h+mu*x
+-            jac=scale*(1+tangent*tangent)
+-            base=np.exp(-a*x)*jac/(den*den)
++            base=np.exp(-a*x)/(den*den)
+             return (h if which==0 else mu*mu*x if which==1 else h*h)*base
+         values=[]
+         for j in range(3):
+-            left=quad(lambda t:integrand(t,j),-bound,0,epsabs=tol,epsrel=tol,limit=160)
+-            right=quad(lambda t:integrand(t,j),0,bound,epsabs=tol,epsrel=tol,limit=160)
+-            values.append(left[0]+right[0]);err+=left[1]+right[1]
++            value=0.
++            for low,high in zip(cuts[:-1],cuts[1:]):
++                left=quad(lambda s:integrand(s,j),-high,-low,epsabs=tol,epsrel=tol,limit=160)
++                right=quad(lambda s:integrand(s,j),low,high,epsabs=tol,epsrel=tol,limit=160)
++                value+=left[0]+right[0];err+=left[1]+right[1]
++            values.append(value)
+         U+=values[0];D+=values[1];Eout+=values[2]
+     cutoff=2*pi*cells
+     tail_R=np.exp(-a*cutoff)/(4*mu*cutoff)

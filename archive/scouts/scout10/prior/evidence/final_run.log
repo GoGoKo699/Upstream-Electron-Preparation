@@ -1,0 +1,12 @@
+test_fermionic_determinants_holes_and_probability (__main__.FiniteAccuracyChecks.test_fermionic_determinants_holes_and_probability) ... ok
+test_fixed_fidelity_costs_and_no_finite_accuracy_transition (__main__.FiniteAccuracyChecks.test_fixed_fidelity_costs_and_no_finite_accuracy_transition) ... ok
+test_global_optimality_completion_and_monotonicity (__main__.FiniteAccuracyChecks.test_global_optimality_completion_and_monotonicity) ... ok
+test_high_fidelity_asymptotic_and_width_dependence (__main__.FiniteAccuracyChecks.test_high_fidelity_asymptotic_and_width_dependence) ... ok
+test_independent_frequency_quadrature_and_energy_conservation (__main__.FiniteAccuracyChecks.test_independent_frequency_quadrature_and_energy_conservation) ... ok
+test_quantum_overlap_normalization_and_charge (__main__.FiniteAccuracyChecks.test_quantum_overlap_normalization_and_charge) ... ok
+test_reference_controls_and_metric_warning (__main__.FiniteAccuracyChecks.test_reference_controls_and_metric_warning) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 4.993s
+
+OK

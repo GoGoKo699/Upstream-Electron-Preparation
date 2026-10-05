@@ -1,0 +1,206 @@
+{
+  "clean_target_kernel": [
+    {
+      "electron_count": 1,
+      "kernel_error": 7.760827903334328e-17,
+      "orbital_orthogonality_error": 1.9984014443252818e-15
+    },
+    {
+      "electron_count": 2,
+      "kernel_error": 1.2973248233755876e-16,
+      "orbital_orthogonality_error": 2.010976272238632e-15
+    },
+    {
+      "electron_count": 4,
+      "kernel_error": 2.0862967075521518e-16,
+      "orbital_orthogonality_error": 2.989786726409687e-15
+    }
+  ],
+  "finite_energy_inverse": {
+    "asymptotic": "E_in/E_target ~ [pi*a/sinh(pi*a)]/abs(2p-1), a=2w/tau fixed",
+    "boundary": "This is exact-target source energy, not a finite-error electron-fidelity or hole-number bound.",
+    "independent_overlap": [
+      {
+        "mixing": 0.7,
+        "spectral_energy_ratio": 1.5806654427731732,
+        "terms": 91,
+        "time_overlap_energy_ratio": 1.580665442773174
+      },
+      {
+        "mixing": 0.55,
+        "spectral_energy_ratio": 3.7472273997257033,
+        "terms": 251,
+        "time_overlap_energy_ratio": 3.7472273997257037
+      },
+      {
+        "mixing": 0.51,
+        "spectral_energy_ratio": 14.669135038274524,
+        "terms": 901,
+        "time_overlap_energy_ratio": 14.669135038274508
+      }
+    ],
+    "integral_rows": [
+      {
+        "a": 0.2,
+        "energy_ratio": 9.469539528327184,
+        "imbalance": 0.1,
+        "quadrature_error": 6.425257442591628e-13,
+        "scaled_to_asymptotic": 1.0105025419601972
+      },
+      {
+        "a": 0.2,
+        "energy_ratio": 93.81581850988844,
+        "imbalance": 0.01,
+        "quadrature_error": 9.57016898880805e-12,
+        "scaled_to_asymptotic": 1.0011165040995993
+      },
+      {
+        "a": 0.2,
+        "energy_ratio": 937.2171936827207,
+        "imbalance": 0.001,
+        "quadrature_error": 7.927545052307022e-10,
+        "scaled_to_asymptotic": 1.000112364230758
+      },
+      {
+        "a": 1.0,
+        "energy_ratio": 3.747227399725705,
+        "imbalance": 0.1,
+        "quadrature_error": 4.693840699109317e-14,
+        "scaled_to_asymptotic": 1.3775099869283531
+      },
+      {
+        "a": 1.0,
+        "energy_ratio": 28.275937466258476,
+        "imbalance": 0.01,
+        "quadrature_error": 2.7058758531676254e-12,
+        "scaled_to_asymptotic": 1.03944549114857
+      },
+      {
+        "a": 1.0,
+        "energy_ratio": 273.1069532418596,
+        "imbalance": 0.001,
+        "quadrature_error": 2.3173266034601845e-11,
+        "scaled_to_asymptotic": 1.0039624379822119
+      },
+      {
+        "a": 2.0,
+        "energy_ratio": 1.3866428989567847,
+        "imbalance": 0.1,
+        "quadrature_error": 1.5800756165184857e-14,
+        "scaled_to_asymptotic": 5.908890760068437
+      },
+      {
+        "a": 2.0,
+        "energy_ratio": 3.5161178269810303,
+        "imbalance": 0.01,
+        "quadrature_error": 1.412143178694e-13,
+        "scaled_to_asymptotic": 1.4983205953595427
+      },
+      {
+        "a": 2.0,
+        "energy_ratio": 24.638167275631858,
+        "imbalance": 0.001,
+        "quadrature_error": 4.4755819235109554e-12,
+        "scaled_to_asymptotic": 1.0499043341982948
+      }
+    ]
+  },
+  "finite_target_classification_checks": {
+    "all_reachable_counts_even": true,
+    "construction_error": 4.440892098500626e-16,
+    "even_unequal_width_target_has_nonzero_zero_frequency_amplitude": 1.2793002040817822,
+    "multiplicity_patterns": 502,
+    "output_weights": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "reachable_patterns": 139,
+    "signed_input_weights": [
+      2,
+      -2,
+      2
+    ]
+  },
+  "orbit_grouping": {
+    "meaning": "Finite examples only; Vandermonde linear independence proves the arbitrary finite number of groups analytically.",
+    "target_zero_residuals": [
+      7.371969551472062e-16,
+      1.5732278932627534e-16,
+      6.323980074912062e-17,
+      9.321077670402498e-19,
+      5.280818688914261e-19,
+      9.166965154045076e-20,
+      2.971318712908331e-21,
+      1.2431060383586734e-21
+    ],
+    "vandermonde_determinant_modulus": 1.3659656182955418e-06
+  },
+  "scope": "Exact algebra and small waveform/Fourier checks. No independent proof review, many-body simulation, apparatus certificate, or exhaustive priority.",
+  "scope_controls": {
+    "finite_train_rows": [
+      {
+        "companion_delay": 1,
+        "error": 0.0,
+        "last_input_index": 0,
+        "net_output_charge_in_e": 2
+      },
+      {
+        "companion_delay": 2,
+        "error": 4.440892098500626e-16,
+        "last_input_index": 1,
+        "net_output_charge_in_e": 0
+      },
+      {
+        "companion_delay": 3,
+        "error": 8.881784197001252e-16,
+        "last_input_index": 2,
+        "net_output_charge_in_e": 2
+      },
+      {
+        "companion_delay": 4,
+        "error": 5.273559366969494e-16,
+        "last_input_index": 3,
+        "net_output_charge_in_e": 0
+      },
+      {
+        "companion_delay": 7,
+        "error": 8.881784197001252e-16,
+        "last_input_index": 6,
+        "net_output_charge_in_e": 2
+      }
+    ],
+    "interpretation": "One-driven-input restriction is essential. Counting only an early time window can hide the later electron or hole; no Cooper-pair or parity-conservation claim is made.",
+    "target_fluence": 12.566370614359174,
+    "total_two_port_fluence": 12.566370614359176,
+    "two_port_output_errors": [
+      4.440892098500626e-16,
+      2.220446049250313e-16
+    ]
+  },
+  "spectral_obstruction": {
+    "meaning": "The exact single-Lorentzian inverse is not square-integrable at an equal-mixing transmission zero.",
+    "pole_coefficient": "4*exp(-pi*a)>0",
+    "rows": [
+      {
+        "minimum_modulus_bound": 0.8,
+        "mixing": 0.1
+      },
+      {
+        "minimum_modulus_bound": 0.0,
+        "mixing": 0.5
+      },
+      {
+        "minimum_modulus_bound": 0.3999999999999999,
+        "mixing": 0.7
+      },
+      {
+        "minimum_modulus_bound": 0.98,
+        "mixing": 0.99
+      }
+    ]
+  },
+  "status": "PASS",
+  "tests_run": 6
+}

@@ -1,0 +1,16 @@
+test_fermionic_determinants_holes_and_probability (__main__.FiniteAccuracyChecks.test_fermionic_determinants_holes_and_probability) ... ok
+test_fixed_fidelity_costs_and_no_finite_accuracy_transition (__main__.FiniteAccuracyChecks.test_fixed_fidelity_costs_and_no_finite_accuracy_transition) ... /mnt/data/fresh_after_singlet_scout09/check_finite_accuracy.py:71: IntegrationWarning: The integral is probably divergent, or slowly convergent.
+  left=quad(lambda t:integrand(t,j),-bound,0,epsabs=tol,epsrel=tol,limit=160)
+ok
+test_global_optimality_completion_and_monotonicity (__main__.FiniteAccuracyChecks.test_global_optimality_completion_and_monotonicity) ... ok
+test_high_fidelity_asymptotic_and_width_dependence (__main__.FiniteAccuracyChecks.test_high_fidelity_asymptotic_and_width_dependence) ... /mnt/data/fresh_after_singlet_scout09/check_finite_accuracy.py:72: IntegrationWarning: The integral is probably divergent, or slowly convergent.
+  right=quad(lambda t:integrand(t,j),0,bound,epsabs=tol,epsrel=tol,limit=160)
+ok
+test_independent_frequency_quadrature_and_energy_conservation (__main__.FiniteAccuracyChecks.test_independent_frequency_quadrature_and_energy_conservation) ... ok
+test_quantum_overlap_normalization_and_charge (__main__.FiniteAccuracyChecks.test_quantum_overlap_normalization_and_charge) ... ok
+test_reference_controls_and_metric_warning (__main__.FiniteAccuracyChecks.test_reference_controls_and_metric_warning) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 4.284s
+
+OK

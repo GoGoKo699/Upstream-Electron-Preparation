@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-05",
+  "candidate": "Finite-energy preparation fidelity through the same single-input fractionalization channel",
+  "decision": "Bounded scientific GO: the finite-accuracy test passes. PRL priority/significance and exact implementation remain unestablished; no new repository.",
+  "prior_archive_sha256": "4669643d1e42579555d22826b9b7897bd7706d109ffa304ed6f306e641fb7cbf",
+  "prior_manifest_entries_unchanged": 12,
+  "inputs_pinned_read_only": {
+    "fresh_after_singlet_scout06_2026-10-05.md": {
+      "bytes": 18380,
+      "sha256": "9f1882bd9342e964c8bc167e987adb57fb367c81acbc539ac9622ae211914153",
+      "role": "Scout08 is the selected proof input; scouts06/07 only protected context, not imported code or reopened science."
+    },
+    "fresh_after_singlet_scout06_2026-10-05.zip": {
+      "bytes": 49388,
+      "sha256": "4a4d4828ebc58bc3499de236ad69a1855c0f27f8a54f15f0131872a8b6360104",
+      "role": "Scout08 is the selected proof input; scouts06/07 only protected context, not imported code or reopened science."
+    },
+    "fresh_after_singlet_scout07_2026-10-05.zip": {
+      "bytes": 42435,
+      "sha256": "6e699345b2464dc89f7cfb8b272fee79b5a794aefa2f56f696642d757cc6b043",
+      "role": "Scout08 is the selected proof input; scouts06/07 only protected context, not imported code or reopened science."
+    },
+    "fresh_after_singlet_scout08_2026-10-05.md": {
+      "bytes": 20554,
+      "sha256": "50c14b6225fe8010cc8081b63304d41ad8d8f8ced778153ddf741f7bde8c1d32",
+      "role": "Scout08 is the selected proof input; scouts06/07 only protected context, not imported code or reopened science."
+    },
+    "fresh_after_singlet_scout08_2026-10-05.zip": {
+      "bytes": 30170,
+      "sha256": "4669643d1e42579555d22826b9b7897bd7706d109ffa304ed6f306e641fb7cbf",
+      "role": "Scout08 is the selected proof input; scouts06/07 only protected context, not imported code or reopened science."
+    },
+    "fresh_after_singlet_scout07_2026-10-05.md": {
+      "bytes": 18240,
+      "sha256": "a54dec62c716853a2e4536400560c45bd6a0a30e354f5b8ebec25778709c9de2",
+      "role": "Scout08 is the selected proof input; scouts06/07 only protected context, not imported code or reopened science."
+    }
+  },
+  "new_groups": 7,
+  "new_completed_runs": 4,
+  "prior_groups_rerun": 6,
+  "scientific_assertion_failures": 0,
+  "first_run_numerical_warnings": "IntegrationWarning in tangent-coordinate integration; initial code/log/report preserved.",
+  "final_integration_warnings": 0,
+  "quadrature_formulas_changed": false,
+  "tolerances_relaxed": false,
+  "changes": "Geometric subdivision replaces tangent-mapped quadrature; later optimized-waveform fermionic check enriches existing group without changing objective or group count.",
+  "exact_report_comparisons": [
+    {
+      "current": "evidence/verified_report.json",
+      "reference_or_repeat": "evidence/repeat_report.json",
+      "byte_identical": true,
+      "sha256": "e3b94d8ca33d3a758488dadae9c756b40bac7a087f9ba2c9e9dd0f45aabe9927"
+    },
+    {
+      "current": "evidence/prior_rerun.json",
+      "reference_or_repeat": "prior/evidence/first.json",
+      "byte_identical": true,
+      "sha256": "cdbef08bb43a1761e3694e7b5189e70206516213c9d5a4d2249328478c4e774d"
+    }
+  ],
+  "script_sha256": "c3badb222f39032818bc17761027281397ce1d37dda8915ce11f0cacc478513a",
+  "reverse_patches_recover_initial_script": true,
+  "output_refusal": {
+    "returncode": 2,
+    "existing_bytes_preserved": true
+  },
+  "largest_fermionic_matrix": 256,
+  "numeric_boundary": "One-dimensional quadrature and finite-circle determinant checks; no large many-body or cloud simulation and no interval-certified numerical table.",
+  "claimed_quantum_objective": "Squared many-body selected-channel overlap with a prescribed one-electron state above the zero-temperature sea.",
+  "not_claimed": [
+    "Optimal hole number irrespective of target waveform",
+    "Mixed-temperature fidelity or randomized energy-budget ensembles",
+    "Finite-duration, finite-start or bandwidth-limited realization",
+    "Both-channel global state recovery with a single port",
+    "Independent proof review or exhaustive novelty"
+  ],
+  "repositories_accessed": false,
+  "repositories_modified": false,
+  "repository_created": false,
+  "external_contact": false,
+  "manuscript_created": false
+}

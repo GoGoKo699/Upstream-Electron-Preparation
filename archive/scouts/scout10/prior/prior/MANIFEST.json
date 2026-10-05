@@ -1,0 +1,50 @@
+{
+  "README.md": {
+    "bytes": 2819,
+    "sha256": "1b5d4b1c0447695c91dea30774f6953931e26eaff0e6c106511d4627c2562dac"
+  },
+  "RUN_RECORD.json": {
+    "bytes": 3294,
+    "sha256": "3cafd6e1b61a375ece191501025ca1814c100b1ff517790aaa9f2cc784796279"
+  },
+  "SCOUT_08.md": {
+    "bytes": 20554,
+    "sha256": "50c14b6225fe8010cc8081b63304d41ad8d8f8ced778153ddf741f7bde8c1d32"
+  },
+  "SOURCES.json": {
+    "bytes": 5200,
+    "sha256": "2b5fc409c2063c7dc7ea2cdac5c882c165f7429a7a0f5ab6910f5ad3ffd6cb21"
+  },
+  "check_pulse_reachability.py": {
+    "bytes": 12311,
+    "sha256": "361cbf19527a00a38bd55a59bc875f42dabd6d21e3226eebef9161bd58f5b699"
+  },
+  "environment.json": {
+    "bytes": 224,
+    "sha256": "1ca21277664147c4679d784599e17ca973f9e1b6dd46dcbf1a50327075737716"
+  },
+  "evidence/first.json": {
+    "bytes": 5975,
+    "sha256": "cdbef08bb43a1761e3694e7b5189e70206516213c9d5a4d2249328478c4e774d"
+  },
+  "evidence/first.log": {
+    "bytes": 912,
+    "sha256": "7f9f8c0b377732d57c29b1e65d97ab62a87050b4e44bba2389f57b71c2a19905"
+  },
+  "evidence/output_refusal.log": {
+    "bytes": 178,
+    "sha256": "49c3e2bb5785ed4fd91337a2fb80d24837a39b0e394e19cc22542d0871bf3036"
+  },
+  "evidence/repeat.json": {
+    "bytes": 5975,
+    "sha256": "cdbef08bb43a1761e3694e7b5189e70206516213c9d5a4d2249328478c4e774d"
+  },
+  "evidence/repeat.log": {
+    "bytes": 912,
+    "sha256": "a74495da993065408f38dd9c76a56a82827f9ab566653e1f6db2ddfce8d26c38"
+  },
+  "verify_and_package.py": {
+    "bytes": 10029,
+    "sha256": "2625a12d8e962c5c2c11dbc71dc6d974e5468ec1e0e50ae4f7b65c61fd171042"
+  }
+}

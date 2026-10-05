@@ -1,0 +1,2 @@
+usage: check_pulse_reachability.py [-h] [--output OUTPUT]
+check_pulse_reachability.py: error: Refusing existing output /mnt/data/fresh_after_singlet_scout08/evidence/repeat.json

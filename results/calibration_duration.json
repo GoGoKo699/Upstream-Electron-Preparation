@@ -1,0 +1,308 @@
+{
+  "algebra_and_duration_convention": {
+    "exact_cross_term": 0,
+    "lorentzian_controls": [
+      {
+        "Parseval_second_moment": 0.0625,
+        "time_second_moment": 0.062499999999999896,
+        "width": 0.25
+      },
+      {
+        "Parseval_second_moment": 0.48999999999999994,
+        "time_second_moment": 0.4900000000000006,
+        "width": 0.7
+      },
+      {
+        "Parseval_second_moment": 4.0,
+        "time_second_moment": 4.0,
+        "width": 2.0
+      }
+    ],
+    "mean_source_time_over_tau": "-1/2"
+  },
+  "asymptotic_checks": {
+    "proof_scope": "Limits derived from isolated transmission zeros in SCOUT_10.md; not inferred from these samples.",
+    "samples": [
+      {
+        "a": 0.25,
+        "mu": 1e-05,
+        "ratios": {
+          "D_K": 0.9952182098496037,
+          "D_duration": 0.998951442853179,
+          "K": 0.9951992489813679,
+          "derivative_norm": 0.9999955564876917
+        }
+      },
+      {
+        "a": 0.25,
+        "mu": 1e-07,
+        "ratios": {
+          "D_K": 0.9995192267788948,
+          "D_duration": 0.9998909054433832,
+          "K": 0.9995190359911842,
+          "derivative_norm": 0.9999999553185326
+        }
+      },
+      {
+        "a": 0.25,
+        "mu": 1e-09,
+        "ratios": {
+          "D_K": 0.9999518966922757,
+          "D_duration": 0.9999890479967681,
+          "K": 0.9999518947832366,
+          "derivative_norm": 0.9999999995529576
+        }
+      },
+      {
+        "a": 0.5,
+        "mu": 1e-05,
+        "ratios": {
+          "D_K": 1.0018215194857751,
+          "D_duration": 0.9957636966931944,
+          "K": 1.0018000624243026,
+          "derivative_norm": 1.000002064218309
+        }
+      },
+      {
+        "a": 0.5,
+        "mu": 1e-07,
+        "ratios": {
+          "D_K": 1.0001841763359822,
+          "D_duration": 0.999569007744831,
+          "K": 1.000183961488514,
+          "derivative_norm": 1.0000000194772338
+        }
+      },
+      {
+        "a": 0.5,
+        "mu": 1e-09,
+        "ratios": {
+          "D_K": 1.0000184380897648,
+          "D_duration": 0.9999568264615433,
+          "K": 1.0000184359410291,
+          "derivative_norm": 1.0000000001936318
+        }
+      },
+      {
+        "a": 1.0,
+        "mu": 1e-05,
+        "ratios": {
+          "D_K": 1.0264653209780956,
+          "D_duration": 0.978619947203041,
+          "K": 1.0264067679513356,
+          "derivative_norm": 1.0000138402024543
+        }
+      },
+      {
+        "a": 1.0,
+        "mu": 1e-07,
+        "ratios": {
+          "D_K": 1.002660592146061,
+          "D_duration": 0.9977850538132317,
+          "K": 1.0026600195076947,
+          "derivative_norm": 1.0000001239598946
+        }
+      },
+      {
+        "a": 1.0,
+        "mu": 1e-09,
+        "ratios": {
+          "D_K": 1.0002662017998183,
+          "D_duration": 0.9997777070794666,
+          "K": 1.000266196086462,
+          "derivative_norm": 1.0000000012252503
+        }
+      }
+    ],
+    "universal_integral": "pi/4"
+  },
+  "duration_and_tail_checks": [
+    {
+      "K_tail_bound": 4.2675339856167865e-31,
+      "a": 0.25,
+      "derivative_tail_bound": 2.259810194666762e-28,
+      "direct_derivative_norm": 204.17110354773985,
+      "geometric_derivative_norm": 204.1711035477397,
+      "max_local_derivative_error": 1.2495533154835183e-10,
+      "mu": 0.003
+    },
+    {
+      "K_tail_bound": 1.0081963313486948e-31,
+      "a": 0.5,
+      "derivative_tail_bound": 2.762199484622785e-27,
+      "direct_derivative_norm": 467.7008491198089,
+      "geometric_derivative_norm": 467.70084911980604,
+      "max_local_derivative_error": 1.1937541005822194e-10,
+      "mu": 0.001
+    },
+    {
+      "K_tail_bound": 2.0163926626973896e-32,
+      "a": 1.0,
+      "derivative_tail_bound": 6.22862359233303e-30,
+      "direct_derivative_norm": 3.273093810997756,
+      "geometric_derivative_norm": 3.27309381099776,
+      "max_local_derivative_error": 1.2441604878564386e-10,
+      "mu": 0.01
+    }
+  ],
+  "finite_target_table": [
+    {
+      "K": 990.9738770854885,
+      "a": 0.25,
+      "energy_ratio": 213.54358425943542,
+      "fidelity_at_p_offset_0_001": 0.9980105074583976,
+      "mu": 1.1721752395496863e-06,
+      "nominal_fidelity": 0.999,
+      "p_offset_for_10percent_extra_log_infidelity": 0.00031774411507744964,
+      "rms_energy_duration_over_tau": 176.01276212492206,
+      "source_mean_time_over_tau": -0.5,
+      "target_width_over_tau": 0.125
+    },
+    {
+      "K": 179.00690817320012,
+      "a": 0.5,
+      "energy_ratio": 71.90861650065371,
+      "fidelity_at_p_offset_0_001": 0.9988211881034949,
+      "mu": 7.006620867952508e-06,
+      "nominal_fidelity": 0.999,
+      "p_offset_for_10percent_extra_log_infidelity": 0.0007476076266823504,
+      "rms_energy_duration_over_tau": 74.45128693491232,
+      "source_mean_time_over_tau": -0.5,
+      "target_width_over_tau": 0.25
+    },
+    {
+      "K": 8.278274337796823,
+      "a": 1.0,
+      "energy_ratio": 6.94352857971085,
+      "fidelity_at_p_offset_0_001": 0.9989917300381659,
+      "mu": 0.00016992681169895324,
+      "nominal_fidelity": 0.999,
+      "p_offset_for_10percent_extra_log_infidelity": 0.003476471805642466,
+      "rms_energy_duration_over_tau": 14.081241427766923,
+      "source_mean_time_over_tau": -0.5,
+      "target_width_over_tau": 0.5
+    },
+    {
+      "K": 0.29066534804590816,
+      "a": 2.0,
+      "energy_ratio": 1.1166194058046162,
+      "fidelity_at_p_offset_0_001": 0.9989997096253596,
+      "mu": 0.026500664903014,
+      "nominal_fidelity": 0.999,
+      "p_offset_for_10percent_extra_log_infidelity": 0.01855290790914676,
+      "rms_energy_duration_over_tau": 0.9369291252436354,
+      "source_mean_time_over_tau": -0.5,
+      "target_width_over_tau": 1.0
+    }
+  ],
+  "independent_mismatch_checks": [
+    {
+      "a": 0.25,
+      "actual_p": 0.48,
+      "difference": 4.163336342344337e-17,
+      "direct_D": 0.058105228801988214,
+      "identity_D": 0.05810522880198817,
+      "mu": 0.003
+    },
+    {
+      "a": 0.25,
+      "actual_p": 0.499,
+      "difference": 2.7755575615628914e-17,
+      "direct_D": 0.0509031768896139,
+      "identity_D": 0.05090317688961387,
+      "mu": 0.003
+    },
+    {
+      "a": 0.25,
+      "actual_p": 0.501,
+      "difference": 3.469446951953614e-17,
+      "direct_D": 0.050903176889613905,
+      "identity_D": 0.05090317688961387,
+      "mu": 0.003
+    },
+    {
+      "a": 0.25,
+      "actual_p": 0.52,
+      "difference": 4.163336342344337e-17,
+      "direct_D": 0.058105228801988214,
+      "identity_D": 0.05810522880198817,
+      "mu": 0.003
+    },
+    {
+      "a": 0.5,
+      "actual_p": 0.48,
+      "difference": 4.728856195512776e-15,
+      "direct_D": 0.018828128768215012,
+      "identity_D": 0.01882812876821974,
+      "mu": 0.0002
+    },
+    {
+      "a": 0.5,
+      "actual_p": 0.499,
+      "difference": 1.8821749714348357e-16,
+      "direct_D": 0.005381256053953555,
+      "identity_D": 0.0053812560539537434,
+      "mu": 0.0002
+    },
+    {
+      "a": 0.5,
+      "actual_p": 0.501,
+      "difference": 1.8735013540549517e-16,
+      "direct_D": 0.005381256053953556,
+      "identity_D": 0.0053812560539537434,
+      "mu": 0.0002
+    },
+    {
+      "a": 0.5,
+      "actual_p": 0.52,
+      "difference": 4.721917301608869e-15,
+      "direct_D": 0.01882812876821502,
+      "identity_D": 0.01882812876821974,
+      "mu": 0.0002
+    },
+    {
+      "a": 1.0,
+      "actual_p": 0.48,
+      "difference": 1.734723475976807e-18,
+      "direct_D": 0.008726100976941327,
+      "identity_D": 0.008726100976941329,
+      "mu": 0.01
+    },
+    {
+      "a": 1.0,
+      "actual_p": 0.499,
+      "difference": 3.469446951953614e-18,
+      "direct_D": 0.00808384075267567,
+      "identity_D": 0.008083840752675674,
+      "mu": 0.01
+    },
+    {
+      "a": 1.0,
+      "actual_p": 0.501,
+      "difference": 3.469446951953614e-18,
+      "direct_D": 0.00808384075267567,
+      "identity_D": 0.008083840752675674,
+      "mu": 0.01
+    },
+    {
+      "a": 1.0,
+      "actual_p": 0.52,
+      "difference": 3.469446951953614e-18,
+      "direct_D": 0.008726100976941325,
+      "identity_D": 0.008726100976941329,
+      "mu": 0.01
+    }
+  ],
+  "overcompensation_control": {
+    "actual_D_first": 0.003688987319243166,
+    "actual_D_more_ideal": 0.3398407875445501,
+    "fixed_a": 0.25,
+    "fixed_p_error": 0.001,
+    "mu_first": 1e-07,
+    "mu_more_ideal": 1e-11,
+    "scope": "Fixed nominal symmetric optimizer, not the known-asymmetric or minimax-robust optimum."
+  },
+  "scope": "Analytic same-model diagnostics and refined 1D quadrature, not microscopic device performance, a general robustness bound, or a novelty certificate.",
+  "status": "PASS",
+  "tests_run": 5
+}
