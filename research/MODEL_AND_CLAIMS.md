@@ -1,6 +1,6 @@
 # Model, claims and proof dependencies
 
-**5 October 2026. Fixed-frontier audit and bounded C1–C2 manuscript plan completed.**
+**5 October 2026. Frontier, planning and bounded physical-premise audits completed.**
 
 ## Question and allowed resources
 
@@ -8,7 +8,7 @@ How much total excess energy must one upstream voltage source inject to prepare 
 
 The input is real $v=eV/\hbar\in L^1(\mathbb R)\cap L^2(\mathbb R)$ with integral $2\pi$, with polarity chosen so that positive charge-one pulses inject electrons. Either sign, incoming holes, and arbitrarily long predetermined tails are permitted. It is a deterministic waveform, not a randomized strategy constrained only on average. The target is the voltage-generated charge-one Lorentzian with fixed width $w>0$ and fixed center after removing a common delay. Its energy is $\mathcal E_\ell=\hbar/(2w)$.
 
-The effective output voltage is $pv(t)+(1-p)v(t-\tau)$, $0\le p\le1$, $\tau>0$. The weight $p$ describes collective modes; it is not an individual electron's path probability. The two-port scattering matrix is unitary. The energy $\mathcal E_{\rm in}=\hbar\int v(t)^2dt/(4\pi)$ counts everything injected at the driven contact, including energy eventually carried by the unused channel. It is not heat production or a cost charged only to the selected output.
+The effective output voltage is $pv(t)+(1-p)v(t-\tau)$, $0\le p\le1$, $\tau>0$. The weight $p$ describes collective modes; it is not an individual electron's path probability. The two-port scattering matrix is unitary. The energy $\mathcal E_{\rm in}=\hbar\int v(t)^2dt/(4\pi)$ counts excess energy launched into the driven incoming edge, including energy eventually carried by the unused channel. It is not the full electrical work of the bias circuit, heat production or a cost charged only to the selected output; see the [premise accounting check](../literature/PREMISE_AUDIT.md#4-energy-convention-and-accounting-check).
 
 ## Operational objective
 
@@ -41,10 +41,10 @@ At exact equality, finite clean odd-electron targets are excluded. At every fixe
 
 Two independent upstream inputs can invert the full unitary matrix. A downstream voltage can cancel distortion after it occurs. Closing the inner channel changes the transfer function. All three are outside the fixed control/geometry specification, not contradictions of the bound. A long delayed compensating excitation cannot be ignored by a time gate when claiming global state fidelity.
 
-No optimal minimum duration, minimax-robust solution, causal-start theorem, thermal-state result, arbitrary-source result, detector theorem or achieved performance is included. Adding restrictions keeps the ideal optimum as a lower bound but may remove attainability.
+No optimal minimum duration, minimax-robust solution, causal-start theorem, thermal-state result, arbitrary-source result, detector theorem or achieved performance is included. Adding waveform restrictions under the same dynamics, energy and objective keeps the ideal optimum as a lower bound but may remove attainability. Changed dynamics or a thermal target do not automatically inherit that bound.
 
 ## Originality and current limit
 
 The ensemble preparation, clean Lorentzian criterion, bosonization, channel and correction frameworks are inherited. The optimization is elementary completion of a quadratic form. The candidate contribution is the particular complete restricted-source preparation law and its quantum-state/hole interpretation. [PRIOR_ART](../literature/PRIOR_ART.md) states the actual comparison depths. No first-ever or exhaustive novelty certificate is claimed.
 
-The [manuscript plan](MANUSCRIPT_PLAN.md) implements the bounded GO from [SIGNIFICANCE](SIGNIFICANCE.md). It uses C1–C2 as an exact ideal feasibility statement at fixed target, transfer and fidelity, with the optimizer's output-energy allocation and two-input comparison explaining the restricted-access cost. Neither consequence is a new general optimization principle. C3 is omitted from the planned argument, with its separate proof check still open. The [workspace work order](../work_orders/CURRENT.md) records the next premise-evidence audit. Independent critical reading, priority, substantial impact and physical-premise evidence remain open; no manuscript, release or expanded model is initiated.
+The [manuscript plan](MANUSCRIPT_PLAN.md) implements the bounded GO from [SIGNIFICANCE](SIGNIFICANCE.md). It uses C1–C2 as an exact ideal feasibility statement at fixed target, transfer and fidelity, with the optimizer's output-energy allocation and two-input comparison explaining the restricted-access cost. Neither consequence is a new general optimization principle. C3 is omitted from the planned argument, with its separate proof check still open. The [premise audit](../literature/PREMISE_AUDIT.md) retains this conditional wording and separates inherited formal support from experimental ingredients. Independent critical reading, priority, substantial impact, a joint operating regime and the broader precedent benchmark remain open; no manuscript, release or expanded model is initiated.

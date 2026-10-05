@@ -1,6 +1,6 @@
-# Manuscript plan complete; next bounded task: premise evidence
+# Premise audit complete; stop after integration
 
-**5 October 2026. Stop at the completed plan in this work session.** Work only in
+**5 October 2026.** Work only in
 `GoGoKo699/Upstream-Electron-Preparation`. Repository changes and merge after
 verification are authorized. Manuscript drafting, release and outside contact
 remain on hold.
@@ -9,44 +9,47 @@ remain on hold.
 
 Resolve live main and inspect its actual verification artifact and latest PR
 handoff. Read AGENTS, STATUS, the claim map, [frontier audit](../research/FRONTIER_AUDIT.md),
-[significance assessment](../research/SIGNIFICANCE.md) and
-[manuscript plan](../research/MANUSCRIPT_PLAN.md).
+[significance assessment](../research/SIGNIFICANCE.md),
+[manuscript plan](../research/MANUSCRIPT_PLAN.md) and
+[premise audit](../literature/PREMISE_AUDIT.md).
 
-C1–C2 have a completed author-side proof audit, a bounded GO significance decision
-and one claim-driven plan. The selected argument is an exact ideal feasibility
-benchmark for preparing a prescribed electron and sea through one source. Its
-physical interpretation uses the two-input construction and the optimizer's
-output-energy allocation. C3 is omitted; C4–C5 remain subordinate. Do not repeat
-these completed tasks without a new concrete objection. The plan is not a
-manuscript or a certificate of priority, substantial impact or independent review.
+C1–C2 have a completed author-side proof audit, bounded GO significance
+decision, claim-driven plan and bounded physical-premise support/mismatch
+record. The conditional ideal feasibility statement survives. The budget is
+excess energy launched into the driven incoming edge, including both outputs,
+not complete bias-circuit work. No equation or reference report changed.
+C3 remains omitted from the plan; C4–C5 remain subordinate. Do not repeat these
+tasks without a concrete new objection or reopen the resolved C18 access gap.
 
-## Next task on continuation
+The premise record distinguishes formal pedigree, measured ingredients and
+the unestablished joint operating regime. The broader five-to-ten relevant
+precedent benchmark is still incomplete. Neither the audit nor assistant review
+certifies exhaustive priority, substantial impact or independent validation.
 
-Prepare one primary-source support/mismatch record for the inherited premises
-needed together by that argument: the fixed open two-channel transfer,
-voltage-generated coherent output state, and total-source energy functional.
-Start from the actual passages and reading depths already recorded in
-[PRIOR_ART](../literature/PRIOR_ART.md) and
-[ASSUMPTIONS](../literature/ASSUMPTIONS.md); do not reopen the resolved C18 access gap.
+## Current stopping point
 
-Map each source to the exact premise it supports and distinguish a formal model,
-experimental evidence for an ingredient, and support for a joint operating
-regime. Keep the outstanding five-to-ten relevant-precedent benchmark visible;
-do not satisfy it by counting generic citations or counting one paper repeatedly.
-Search further only for an identified support gap. Record inaccessible and
-unread sources as unknown. No parameter choice or achieved device performance
-may be invented to close a mismatch.
+Complete repository integration, author-side review, fresh local verification,
+reviewed PR and merge, then inspect the actual merged-main artifact. Stop there.
+Do not turn the plan into manuscript prose, broaden the model, run an additional
+numerical campaign or contact a reviewer automatically.
 
-This is an evidence audit of existing premises, not a new thermal, bandwidth,
-duration, detector or robustness model. It need not resolve every apparatus gap
-to establish a conditional theorem. Its deliverable must state whether the
-planned wording can remain, must be narrowed, or encounters a concrete blocker.
-Stop after that record and its repository integration. Do not begin manuscript
-prose or contact an outside reviewer automatically.
+## Bounded next action on continuation
+
+Make one readiness decision using the existing proof, significance, plan and
+premise records: is the conditional contribution sufficiently supported to
+propose drafting, or is there a specific unresolved objection that must be
+addressed first? Distinguish mathematical validity, physical applicability,
+originality and impact. Keep the precedent benchmark visible; do not waive it,
+pad it, or mistake an unestablished apparatus regime for a mathematical
+counterexample. Identify any needed evidence by the exact decision it could
+change. Do not automatically reopen a general literature survey or draft the
+manuscript as part of that decision.
 
 ## Preservation and verification
 
 All 83 protected copies, original scientific reports and warnings remain intact.
 Use a feature branch and reviewed PR, fresh local checks and actual PR/main
-artifact inspection under AGENTS and VERIFICATION. Additional assistant review
-remains author-side work. No extra numerical campaign is requested.
+artifact inspection under AGENTS and VERIFICATION. Report assertion success,
+numerical differences and byte equality separately. Additional assistant review
+remains author-side work. Preserve exact revision identifiers and evidence in
+the PR handoff; do not infer a new tree's result from a prior passing run.
