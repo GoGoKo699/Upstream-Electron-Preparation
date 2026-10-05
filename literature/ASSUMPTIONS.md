@@ -16,4 +16,4 @@ The requested model-matched precedent benchmark (roughly five to ten relevant pr
 
 A conditional theory need not await an experiment. Conversely, none of the finite tables is an achieved preparation. New evidence should address an exact mismatch in this table; it should not trigger an automatic new platform or a broader optimization project. The paper cited as C18 notes isolated-pulse/repetition limitations and nonlinearity/dissipation limits; those are warnings, not imported numerical specifications.
 
-Source keys and reading depths are in [PRIOR_ART](PRIOR_ART.md). The bounded frontier proof audit is complete. The [workspace task](../work_orders/CURRENT.md) is now a significance decision for that fixed result; this evidence map is not thereby completed.
+Source keys and reading depths are in [PRIOR_ART](PRIOR_ART.md). The bounded frontier proof audit and significance decision are complete. The [workspace task](../work_orders/CURRENT.md) is now one claim-driven manuscript plan; the GO decision does not complete this evidence map or establish achieved preparation.
