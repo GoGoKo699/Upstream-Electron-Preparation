@@ -6,7 +6,7 @@ A voltage pulse that is clean at its source need not arrive as the desired elect
 
 The channel and coherent-state description are inherited from electron quantum optics. The result under study is a constrained state-preparation frontier, not a new fractionalization mechanism, an intrinsic energy cost of every electron, or irreversible decoherence of every voltage-generated state.
 
-The [significance assessment](research/SIGNIFICANCE.md) supports proceeding to a focused manuscript plan around that frontier. Its physical point is the cost of access to only one source: along the optimum, the diverging energy goes into the unused output while the selected output approaches its prescribed electron. This is an author-side planning decision; priority and independent review remain open.
+The [manuscript plan](research/MANUSCRIPT_PLAN.md) organizes that frontier as an exact ideal feasibility benchmark: below its source-energy cost, no allowed pulse can meet the specified full-state fidelity; at the frontier an explicit pulse does. At equal splitting, the optimizer's diverging energy goes into the unused output while the selected output approaches its prescribed electron. The [significance assessment](research/SIGNIFICANCE.md) supports this focused argument; substantial impact, priority and independent review remain open.
 
 ## The fixed result
 
@@ -39,6 +39,7 @@ The full many-body fidelity also bounds unwanted hole content. Exact reachabilit
 | Document | Purpose |
 |---|---|
 | [Model and claim map](research/MODEL_AND_CLAIMS.md) | The observable, allowed controls, result hierarchy and proof dependencies. |
+| [Manuscript plan](research/MANUSCRIPT_PLAN.md) | Selected C1–C2 argument, physical consequences, proof/evidence map and remaining blockers. |
 | [Fidelity frontier](research/FIDELITY_FRONTIER.md) | Equal-charge overlap, all-waveform optimality, existence, asymptote and hole bound. |
 | [Exact reachability](research/EXACT_REACHABILITY.md) | Finite-target classification, asymmetric inverse and control counterexamples. |
 | [Optimizer limitations](research/OPTIMIZER_LIMITATIONS.md) | Duration and sensitivity of the same nominal optimum, with finite values. |
@@ -67,7 +68,7 @@ The output directory must not already exist. The runner executes the unchanged t
 
 ## Status and provenance
 
-This is a theory research workspace. The fixed result has a GO decision for manuscript planning; no manuscript or release has been initiated. The bounded author-side audit of the overlap, admissibility and global optimum is complete, with one infrared-domain clarification and no change to the frontier. Independent validation, exhaustive priority and a complete model-matched physical-premise audit are still absent. The specific Cabart full-text access gap has been closed at the recorded depth, not expanded into a claim of exhaustive review.
+This is a theory research workspace. The bounded C1–C2 manuscript plan is complete; no manuscript or release has been initiated. It omits the separately unaudited C3 hole inequality from the central argument and retains the other results as supporting material. The bounded author-side audit of the overlap, admissibility and global optimum is complete, with one infrared-domain clarification and no change to the frontier. Independent validation, exhaustive priority and a complete model-matched physical-premise audit are still absent. The specific Cabart full-text access gap has been closed at the recorded depth, not expanded into a claim of exhaustive review.
 
 [Archive](archive/README.md) preserves the supplied scouts 08–10, development attempts and pre-import readiness record without editing their historical decisions. [Import manifest](provenance/IMPORT_MANIFEST.json) pins every protected copy. No unrelated scientific project or publisher PDF is imported.
 

@@ -1,6 +1,6 @@
 # Research status
 
-**5 October 2026. Significance assessed: GO to bounded manuscript planning.**
+**5 October 2026. Bounded C1–C2 manuscript plan complete.**
 
 The dedicated destination is `GoGoKo699/Upstream-Electron-Preparation`. It was created by the owner as a public repository with an MIT license; this import retains both and does not modify another repository. Initial base: `7561c5d655087bde481bff26634be54ccc11c843`.
 
@@ -10,7 +10,9 @@ The [model and claim map](research/MODEL_AND_CLAIMS.md) identifies the author-si
 
 The named Cabart full-text-reading gap is closed at construction level using the supplied 2018 paper. The [comparison](literature/CABART_2018_COMPARISON.md) distinguishes its changed-geometry control from the fixed open-channel, upstream-only problem. It also separates HOM and elastic single-electron quantities from global target fidelity. The publisher PDF is not committed.
 
-The [significance assessment](research/SIGNIFICANCE.md) supports planning around C1–C2: restricted access to one source produces a sharp, attainable full-state preparation cost in a lossless device. Direct L11/R21 comparisons do not subsume this fixed optimization at the inspected depth. The solution method remains elementary regularized inversion; this is not a novelty or broad-impact certificate. The optimizer's output-energy allocation is now explicit in the frontier as a supporting consequence, with no change to its equations or coefficients.
+The [significance assessment](research/SIGNIFICANCE.md) supports planning around C1–C2: restricted access to one source produces a sharp, attainable full-state preparation cost in a lossless device. Direct L11/R21 comparisons do not subsume this fixed optimization at the inspected depth. The solution method remains elementary regularized inversion; this is not a novelty or broad-impact certificate. The optimizer's output-energy allocation is now explicit in the frontier as a supporting consequence, with no change to the original frontier equations or coefficients.
+
+The [manuscript plan](research/MANUSCRIPT_PLAN.md) is complete. It presents C1–C2 as an exact ideal feasibility test, maps their assumptions to proof passages and existing checks, and uses two-input control and optimal-output energy allocation for interpretation. C3 is omitted from the planned dependency chain; general target classification and nominal duration/calibration remain subordinate. The plan adds no scientific result or numerical test and leaves substantial impact unestablished.
 
 ## What is not established
 
@@ -26,4 +28,4 @@ Candidate, PR and merged-main outcomes must be read from their own actual report
 
 ## Next bounded action
 
-The bounded proof audit and significance decision are complete. [CURRENT](work_orders/CURRENT.md) now requests one claim-driven manuscript plan centered on C1–C2, with proof dependencies and physical assumptions explicit. The significance task stops at that handoff. Exact revision and candidate/PR/main outcomes are recorded in the pull-request handoff. Independent critical reading remains open and is not supplied by another assistant pass.
+The proof audit, significance decision and bounded manuscript plan are complete. This session stops at the plan. [CURRENT](work_orders/CURRENT.md) records the next premise-evidence audit for a later continuation; manuscript drafting remains on hold. Exact revision and candidate/PR/main outcomes are recorded in the pull-request handoff. Independent critical reading remains open and is not supplied by another assistant pass.
