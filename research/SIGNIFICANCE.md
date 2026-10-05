@@ -128,4 +128,5 @@ or changed reference value. The only added displayed consequence in the proof
 route is the optimizer's output-energy allocation, derived directly from the
 existing formulas. The source-energy frontier and infrared qualification are
 unchanged. The requested significance decision is complete; stop here and use
-the single [next work order](../work_orders/CURRENT.md) for manuscript planning.
+the [manuscript plan](MANUSCRIPT_PLAN.md), now completed, for the selected argument
+and the [work order](../work_orders/CURRENT.md) for the remaining bounded task.

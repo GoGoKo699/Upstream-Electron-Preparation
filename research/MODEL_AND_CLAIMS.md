@@ -1,6 +1,6 @@
 # Model, claims and proof dependencies
 
-**5 October 2026. Fixed-frontier audit completed; significance assessment supports planning around C1–C2.**
+**5 October 2026. Fixed-frontier audit and bounded C1–C2 manuscript plan completed.**
 
 ## Question and allowed resources
 
@@ -47,4 +47,4 @@ No optimal minimum duration, minimax-robust solution, causal-start theorem, ther
 
 The ensemble preparation, clean Lorentzian criterion, bosonization, channel and correction frameworks are inherited. The optimization is elementary completion of a quadratic form. The candidate contribution is the particular complete restricted-source preparation law and its quantum-state/hole interpretation. [PRIOR_ART](../literature/PRIOR_ART.md) states the actual comparison depths. No first-ever or exhaustive novelty certificate is claimed.
 
-The [significance assessment](SIGNIFICANCE.md) gives a bounded GO to manuscript planning around C1–C2. The optimizer's output-energy allocation and two-input comparison explain the restricted-access cost; neither is a new general optimization principle. C3 is optional supporting interpretation, with its separate proof check still open. The [workspace work order](../work_orders/CURRENT.md) now requests one claim-driven plan. Independent critical reading, priority and physical-premise evidence remain open; no manuscript, release or expanded model is initiated.
+The [manuscript plan](MANUSCRIPT_PLAN.md) implements the bounded GO from [SIGNIFICANCE](SIGNIFICANCE.md). It uses C1–C2 as an exact ideal feasibility statement at fixed target, transfer and fidelity, with the optimizer's output-energy allocation and two-input comparison explaining the restricted-access cost. Neither consequence is a new general optimization principle. C3 is omitted from the planned argument, with its separate proof check still open. The [workspace work order](../work_orders/CURRENT.md) records the next premise-evidence audit. Independent critical reading, priority, substantial impact and physical-premise evidence remain open; no manuscript, release or expanded model is initiated.
