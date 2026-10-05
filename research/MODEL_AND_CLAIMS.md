@@ -1,18 +1,18 @@
 # Model, claims and proof dependencies
 
-**5 October 2026. Claim-driven initialization; no scientific extension.**
+**5 October 2026. Fixed-frontier audit completed, with an explicit infrared qualification.**
 
 ## Question and allowed resources
 
 How much total excess energy must one upstream voltage source inject to prepare one prescribed downstream electron wavepacket after a fixed two-channel interaction? Both channels remain open. The state reference is the zero-temperature Fermi sea. The second input receives no voltage. The unused output is not constrained to remain a sea.
 
-The input is real $v=eV/\hbar\in L^1(\mathbb R)\cap L^2(\mathbb R)$ with integral $2\pi$. Either sign, incoming holes, and arbitrarily long predetermined tails are permitted. It is a deterministic waveform, not a randomized strategy constrained only on average. The target is the voltage-generated charge-one Lorentzian with fixed width $w>0$ and fixed center after removing a common delay. Its energy is $\mathcal E_\ell=\hbar/(2w)$.
+The input is real $v=eV/\hbar\in L^1(\mathbb R)\cap L^2(\mathbb R)$ with integral $2\pi$, with polarity chosen so that positive charge-one pulses inject electrons. Either sign, incoming holes, and arbitrarily long predetermined tails are permitted. It is a deterministic waveform, not a randomized strategy constrained only on average. The target is the voltage-generated charge-one Lorentzian with fixed width $w>0$ and fixed center after removing a common delay. Its energy is $\mathcal E_\ell=\hbar/(2w)$.
 
 The effective output voltage is $pv(t)+(1-p)v(t-\tau)$, $0\le p\le1$, $\tau>0$. The weight $p$ describes collective modes; it is not an individual electron's path probability. The two-port scattering matrix is unitary. The energy $\mathcal E_{\rm in}=\hbar\int v(t)^2dt/(4\pi)$ counts everything injected at the driven contact, including energy eventually carried by the unused channel. It is not heat production or a cost charged only to the selected output.
 
 ## Operational objective
 
-The selected voltage-generated output remains pure in the stipulated linear coherent-state model. The objective is $\mathcal F=|\langle\ell_w|\Psi_{\rm out}\rangle|^2$: the target electron *and* its sea. A current profile, first-order coherence overlap, HOM visibility and this many-body overlap are not interchangeable. General non-voltage single-electron sources need not remain pure after tracing the other channel.
+The selected voltage-generated output remains pure in the stipulated linear coherent-state model. For finite relative displacement norm, the objective is $\mathcal F=|\langle\ell_w|\Psi_{\rm out}\rangle|^2$: the target electron *and* its sea. On the full waveform class it is the common-infrared-regulator limit $\mathcal F=e^{-D}$; for $D=\infty$ this is zero, without asserting a ket in the target representation. Correct charge and finite source energy alone do not ensure finite $D$. A current profile, first-order coherence overlap, HOM visibility and this many-body overlap are not interchangeable. General non-voltage single-electron sources need not remain pure after tracing the other channel.
 
 With the Fourier sign $e^{+i\omega t}$, set $x=\omega\tau$, $a=2w/\tau$, $A=\widehat v/(2\pi)$ and $f_a=e^{-ax/2}$. Equal charges must be retained when deriving
 
@@ -33,7 +33,7 @@ A neutral *relative* displacement justifies this expression. A charged state's o
 | C4 (support) | Finite clean-target reachability at equality is an alternating multiplicity condition; asymmetry restores the exact inverse. | [Reachability](EXACT_REACHABILITY.md), Sections 4–5. | `checks/check_pulse_reachability.py`, 6 groups. |
 | C5 (qualification) | Exact splitting-miscalibration penalty and energy-weighted duration of the nominal energy optimizer. | [Optimizer limitations](OPTIMIZER_LIMITATIONS.md), Sections 3–5. | `checks/check_control_audit.py`, 5 groups. |
 
-C1 needs the inherited pure coherent-state transfer, equal-charge overlap normalization, and the optimization identity. Its existence argument also needs the inverse waveform to belong to the stated $L^1\cap L^2$ class. C2 adds isolated-zero asymptotics over the complete frequency axis. C3 separately needs the Slater-state/occupied-space argument. C5 is not a replacement novelty claim. Passing tests is not an independent proof of these implications.
+C1 needs the inherited pure coherent-state transfer, equal-charge overlap normalization, and the optimization identity. Its existence argument also needs the inverse waveform to belong to the stated $L^1\cap L^2$ class. C2 adds isolated-zero asymptotics over the complete frequency axis. C3 separately needs the Slater-state/occupied-space argument. C5 is not a replacement novelty claim. The [bounded author-side audit](FRONTIER_AUDIT.md) has now checked C1–C2's three dependencies and supplied explicit bounds. It found the infrared qualification above, with no change to the frontier or its coefficient; see the [change record](../provenance/FRONTIER_AUDIT_CHANGE.md). C3's separate occupied-space proof was not certified by this task. Passing tests is not an independent proof of these implications.
 
 ## Controls and orders of limits
 
@@ -47,4 +47,4 @@ No optimal minimum duration, minimax-robust solution, causal-start theorem, ther
 
 The ensemble preparation, clean Lorentzian criterion, bosonization, channel and correction frameworks are inherited. The optimization is elementary completion of a quadratic form. The candidate contribution is the particular complete restricted-source preparation law and its quantum-state/hole interpretation. [PRIOR_ART](../literature/PRIOR_ART.md) states the actual comparison depths. No first-ever or exhaustive novelty certificate is claimed.
 
-The [workspace work order](../work_orders/CURRENT.md) now calls for a bounded critical check of this fixed dependency chain, not another scout or a broadened model.
+The [workspace work order](../work_orders/CURRENT.md) records the completed bounded proof task and the next significance decision for the fixed result. Independent critical reading remains open; this audit does not authorize a manuscript, release or expanded model.

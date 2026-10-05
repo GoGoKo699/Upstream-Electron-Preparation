@@ -10,4 +10,4 @@ The source import consolidates only scouts 08–10 and their repository-readines
 
 The named C18 access gap is **not open**: see [CABART_2018_COMPARISON](literature/CABART_2018_COMPARISON.md). The remaining limitations concern independent review, exhaustive priority and the physical-premise mapping, not repeated requests for that supplied paper.
 
-The first workspace task is the bounded author-side audit in CURRENT. Manuscript drafting, release and outside contact remain on hold. Do not immediately construct a new model or a different optimization problem. This is a handoff of a fixed candidate, not a new exploration command.
+The first workspace task, the bounded author-side frontier audit, is complete; read [its result](research/FRONTIER_AUDIT.md) and the updated CURRENT work order. Manuscript drafting, release and outside contact remain on hold. Do not immediately construct a new model or a different optimization problem. This is a handoff of a fixed candidate, not a new exploration command.
