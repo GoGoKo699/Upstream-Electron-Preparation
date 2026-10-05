@@ -20,7 +20,7 @@ The input remains any real v=eV/hbar in L1(R) intersect L2(R), now with the fixe
 \mathcal E[v]=\frac{\hbar}{4\pi}\int v(t)^2dt.
 ```
 
-It is not electronic refrigeration heat, a Landauer cost, or an energy bound on the selected output alone. No previously checkpointed heat or memory model is imported.
+This is the excess energy launched into the driven incoming edge, including both eventual outputs, not the full electrical work of the bias circuit; see the [premise accounting check](../literature/PREMISE_AUDIT.md#4-energy-convention-and-accounting-check). It is not electronic refrigeration heat, a Landauer cost, or an energy bound on the selected output alone. No previously checkpointed heat or memory model is imported.
 
 Fix the target to be the charge-one Lorentzian pulse f(t)=2w/(t^2+w^2), with a fixed w>0 and time center zero. Its many-body state is a filled zero-temperature sea plus one electron in its specified normalized orbital [K06]. Denote this state by |ell_w>. Its energy is E_ell=hbar/(2w). A different width or a different electron wavefunction is a different target. Translations of the entire synthesis do not change the frontier.
 

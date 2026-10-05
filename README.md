@@ -43,6 +43,7 @@ The full many-body fidelity also bounds unwanted hole content. Exact reachabilit
 | [Fidelity frontier](research/FIDELITY_FRONTIER.md) | Equal-charge overlap, all-waveform optimality, existence, asymptote and hole bound. |
 | [Exact reachability](research/EXACT_REACHABILITY.md) | Finite-target classification, asymmetric inverse and control counterexamples. |
 | [Optimizer limitations](research/OPTIMIZER_LIMITATIONS.md) | Duration and sensitivity of the same nominal optimum, with finite values. |
+| [Premise audit](literature/PREMISE_AUDIT.md) | Direct formal support, experimental ingredients, energy accounting and unresolved joint regime. |
 | [Prior-art ledger](literature/PRIOR_ART.md) | Inherited ingredients, control-location comparisons and reading depth. |
 | [Cabart comparison](literature/CABART_2018_COMPARISON.md) | Why closing the inner channel changes this optimization problem. |
 | [Status](STATUS.md) and [workspace entry](WORKSPACE.md) | Established author-side route, open obligations and the next bounded task. |
@@ -51,7 +52,7 @@ The full many-body fidelity also bounds unwanted hole content. Exact reachabilit
 
 Both the propagation geometry and the accessible control port are fixed. The unused input is an equilibrium sea; the unused output is unrestricted. A second driven input, a downstream correcting contact, or a closed inner-channel geometry changes the problem. The model assumes zero temperature, linear dispersion, elastic lossless bosonic scattering and a prescribed coherent voltage. Arbitrarily long tails of either sign are allowed. No finite-start, bandwidth, peak-voltage or repetition-rate constraint is silently imposed.
 
-The objective is the complete selected-output state, not an HOM contrast or a current-profile match. Large costs for a narrow target do not imply the same cost for a broad target. The waveform table is not an achieved apparatus specification. See [Assumptions](literature/ASSUMPTIONS.md).
+The source budget counts excess energy launched into the driven incoming edge, including both eventual outputs; it is not the full electrical work of the bias circuit. The objective is the complete selected-output state, not an HOM contrast or a current-profile match. Large costs for a narrow target do not imply the same cost for a broad target. The waveform table is not an achieved apparatus specification. See [Assumptions](literature/ASSUMPTIONS.md).
 
 ## Reproduce
 
@@ -68,7 +69,7 @@ The output directory must not already exist. The runner executes the unchanged t
 
 ## Status and provenance
 
-This is a theory research workspace. The bounded C1–C2 manuscript plan is complete; no manuscript or release has been initiated. It omits the separately unaudited C3 hole inequality from the central argument and retains the other results as supporting material. The bounded author-side audit of the overlap, admissibility and global optimum is complete, with one infrared-domain clarification and no change to the frontier. Independent validation, exhaustive priority and a complete model-matched physical-premise audit are still absent. The specific Cabart full-text access gap has been closed at the recorded depth, not expanded into a claim of exhaustive review.
+This is a theory research workspace. The bounded C1–C2 manuscript plan is complete; no manuscript or release has been initiated. It omits the separately unaudited C3 hole inequality from the central argument and retains the other results as supporting material. The bounded author-side audit of the overlap, admissibility and global optimum is complete, with one infrared-domain clarification and no change to the frontier. The bounded [premise audit](literature/PREMISE_AUDIT.md) retains the conditional theorem and clarifies injected-edge energy accounting. Independent validation, exhaustive priority, a demonstrated joint operating regime and the broader model-matched precedent benchmark are still absent. The specific Cabart full-text access gap has been closed at the recorded depth, not expanded into a claim of exhaustive review.
 
 [Archive](archive/README.md) preserves the supplied scouts 08–10, development attempts and pre-import readiness record without editing their historical decisions. [Import manifest](provenance/IMPORT_MANIFEST.json) pins every protected copy. No unrelated scientific project or publisher PDF is imported.
 

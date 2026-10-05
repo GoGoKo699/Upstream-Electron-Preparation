@@ -1,6 +1,6 @@
 # Claim-driven manuscript plan
 
-**5 October 2026. Planning complete; no manuscript drafted.**
+**5 October 2026. Planning complete; bounded premise audit integrated; no manuscript drafted.**
 
 Base: `8506b6a7bd571be98c585259782ea882e00fcbda`, tree
 `0912045f6322c642ab47f92b8bd328e9888647cc`. This plan implements the bounded
@@ -32,7 +32,8 @@ Use the [model map](MODEL_AND_CLAIMS.md) without changing its resources: two ope
 channels; zero-temperature seas; linear, lossless dispersionless collective-mode
 scattering; a real deterministic charge-one voltage in $L^1\cap L^2$ at one input;
 fixed Lorentzian width $w>0$ and center; an unrestricted unused output. Count
-total injected source energy, including energy sent to the other output.
+excess energy launched into the driven incoming edge, including energy sent to
+the other output; this is not full bias-circuit work.
 Use full selected-output fidelity, with the common infrared-limit convention
 when relative displacement norm diverges. Every optimal pulse has finite norm.
 
@@ -127,7 +128,7 @@ fixed target ratio and limits explicit.
 | Open item | Effect on this plan |
 |---|---|
 | No independent critical report | C1–C2 have an author-side proof/audit, not independent certification. The present review adds no such certification. |
-| Incomplete model-matched premise map | Keep the result conditional. The outstanding precedent benchmark in [ASSUMPTIONS](../literature/ASSUMPTIONS.md) is not completed by this plan; no joint apparatus feasibility claim is allowed. |
+| Bounded premise map complete; broader evidence incomplete | The [premise audit](../literature/PREMISE_AUDIT.md) supports conditional wording and clarifies energy accounting. It does not establish a joint operating regime or complete the precedent benchmark in [ASSUMPTIONS](../literature/ASSUMPTIONS.md); no apparatus feasibility claim is allowed. |
 | Incomplete priority and impact case | Preserve the narrow candidate contribution. A directly covering prior result would change originality; usefulness to a concrete source-design problem remains unestablished. |
 | C3's separate proof check | Omission removes it as a dependency of the planned argument. It must be checked before being promoted into a later manuscript. |
 
@@ -137,6 +138,7 @@ claim that future criticism cannot find one. The plan supports a compact
 conditional theory contribution; a persuasive case for substantial impact
 remains open.
 
-**Stop at this plan.** Do not convert it into manuscript prose, add a model or
-contact a reviewer automatically. The [work order](../work_orders/CURRENT.md)
-records the remaining bounded premise-evidence task for a later continuation.
+The bounded premise audit found no new blocker to this conditional argument.
+**Stop after its integration.** Do not convert the plan into manuscript prose,
+add a model or contact a reviewer automatically. The [work order](../work_orders/CURRENT.md)
+records a bounded readiness decision for a later continuation.

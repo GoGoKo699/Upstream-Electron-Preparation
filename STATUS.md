@@ -1,6 +1,6 @@
 # Research status
 
-**5 October 2026. Bounded C1–C2 manuscript plan complete.**
+**5 October 2026. Bounded physical-premise audit complete; conditional C1–C2 retained.**
 
 The dedicated destination is `GoGoKo699/Upstream-Electron-Preparation`. It was created by the owner as a public repository with an MIT license; this import retains both and does not modify another repository. Initial base: `7561c5d655087bde481bff26634be54ccc11c843`.
 
@@ -14,9 +14,11 @@ The [significance assessment](research/SIGNIFICANCE.md) supports planning around
 
 The [manuscript plan](research/MANUSCRIPT_PLAN.md) is complete. It presents C1–C2 as an exact ideal feasibility test, maps their assumptions to proof passages and existing checks, and uses two-input control and optimal-output energy allocation for interpretation. C3 is omitted from the planned dependency chain; general target classification and nominal duration/calibration remain subordinate. The plan adds no scientific result or numerical test and leaves substantial impact unestablished.
 
+The [premise audit](literature/PREMISE_AUDIT.md) now maps the three inherited premises to exact source passages, separates formal support from experimental ingredients, and records concrete dispersion, attenuation, temperature and observable mismatches. It clarifies that source energy is excess energy launched into the driven edge, not full bias-circuit work. No formula or numerical reference changes. The audit identifies no concrete blocker to conditional C1–C2; it does not establish a joint operating regime or complete the requested precedent benchmark.
+
 ## What is not established
 
-There is no independent critical report and no exhaustive priority certificate. The complete model-matched premise audit is incomplete. No finite-temperature, finite-start, finite-bandwidth, peak-voltage, repetition-rate or minimax-robust optimization is asserted. No joint apparatus, achieved fidelity, or direct detector certification is supplied. No manuscript or release is initiated.
+There is no independent critical report and no exhaustive priority certificate. The broader five-to-ten model-matched precedent benchmark remains incomplete despite completion of the bounded support/mismatch audit. No finite-temperature, finite-start, finite-bandwidth, peak-voltage, repetition-rate or minimax-robust optimization is asserted. No joint apparatus, achieved fidelity, or direct detector certification is supplied. No manuscript or release is initiated.
 
 ## Verification and integrity
 
@@ -28,4 +30,4 @@ Candidate, PR and merged-main outcomes must be read from their own actual report
 
 ## Next bounded action
 
-The proof audit, significance decision and bounded manuscript plan are complete. This session stops at the plan. [CURRENT](work_orders/CURRENT.md) records the next premise-evidence audit for a later continuation; manuscript drafting remains on hold. Exact revision and candidate/PR/main outcomes are recorded in the pull-request handoff. Independent critical reading remains open and is not supplied by another assistant pass.
+The proof audit, significance decision, manuscript plan and bounded premise audit are complete. Stop after integrating and verifying this audit. [CURRENT](work_orders/CURRENT.md) records a bounded readiness decision on continuation, using the existing evidence before commissioning more work; manuscript drafting remains on hold. Exact revision and candidate/PR/main outcomes are recorded in the pull-request handoff. Independent critical reading remains open and is not supplied by another assistant pass.
