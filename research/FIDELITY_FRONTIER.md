@@ -1,8 +1,8 @@
 # Finite-energy many-body fidelity frontier
 
-**Initialization, 5 October 2026. Author-side argument; independent review is pending.**
+**5 October 2026. Author-side argument, with the bounded frontier audit completed; independent review is pending.**
 
-This is an editorially consolidated passage from the preserved [SCOUT_09.md](../archive/scouts/scout10/prior/SCOUT_09.md). Equations, assumptions and proof steps are retained; display delimiters are adapted for GitHub. Historical scout decisions and reading labels are not active status. See [MODEL_AND_CLAIMS](MODEL_AND_CLAIMS.md) and [current prior-art ledger](../literature/PRIOR_ART.md).
+This is an editorially consolidated passage from the preserved [SCOUT_09.md](../archive/scouts/scout10/prior/SCOUT_09.md). The original equations are retained. The [critical audit](FRONTIER_AUDIT.md) adds an explicit infrared-domain qualification and detailed proof bounds; its [change record](../provenance/FRONTIER_AUDIT_CHANGE.md) preserves the old/new distinction. Display delimiters are adapted for GitHub. Historical scout decisions and reading labels are not active status. See [MODEL_AND_CLAIMS](MODEL_AND_CLAIMS.md) and [current prior-art ledger](../literature/PRIOR_ART.md).
 
 ## 1. Fixed model, input resources and fidelity
 
@@ -12,9 +12,9 @@ Retain the zero-temperature, two-channel, lossless dispersionless model of scout
 H_p(\omega)=p+(1-p)e^{i\omega\tau},\qquad\tau>0.
 ```
 
-The full two-input scattering matrix is unitary. For classical voltage preparation the incident bosonic density modes are coherent displacements; passive linear scattering maps them into a product of outgoing coherent displacements [G13, Eq. (20), Appendix C]. Thus the selected output is a **pure voltage-generated electronic state**, although it need not be a pure one-electron excitation. This statement is not true for arbitrary sources of injected electrons and is not extended to them here.
+The full two-input scattering matrix is unitary. For classical voltage preparation the incident bosonic density modes are coherent displacements; passive linear scattering maps them into a product of outgoing coherent displacements [G13, Eq. (20), Appendix C]. Thus the selected output is a **pure voltage-generated electronic state**, although it need not be a pure one-electron excitation. The literal ket description relative to the target below applies when the relative displacement has finite norm; the full waveform class uses the infrared-limit convention in Section 2. This statement is not true for arbitrary sources of injected electrons and is not extended to them here.
 
-The input remains any real v=eV/hbar in L1(R) intersect L2(R), now with the fixed integral 2pi. Negative voltage lobes and incoming holes are allowed, as are arbitrarily long pre-emission and post-emission tails. There is no duration, peak-voltage, strict start-time, finite-temperature or drive-bandwidth constraint. Each preparation uses a fixed deterministic drive; optimizing randomized ensembles under only an average energy budget is not asserted here. The unused output is unrestricted. The energy budget is the total excess energy injected at the one driven contact,
+The input remains any real v=eV/hbar in L1(R) intersect L2(R), now with the fixed integral 2pi and polarity chosen so this positive pulse injects an electron. Negative voltage lobes and incoming holes are allowed, as are arbitrarily long pre-emission and post-emission tails. There is no duration, peak-voltage, strict start-time, finite-temperature or drive-bandwidth constraint. Each preparation uses a fixed deterministic drive; optimizing randomized ensembles under only an average energy budget is not asserted here. The unused output is unrestricted. The energy budget is the total excess energy injected at the one driven contact,
 
 ```math
 \mathcal E[v]=\frac{\hbar}{4\pi}\int v(t)^2dt.
@@ -24,7 +24,7 @@ It is not electronic refrigeration heat, a Landauer cost, or an energy bound on 
 
 Fix the target to be the charge-one Lorentzian pulse f(t)=2w/(t^2+w^2), with a fixed w>0 and time center zero. Its many-body state is a filled zero-temperature sea plus one electron in its specified normalized orbital [K06]. Denote this state by |ell_w>. Its energy is E_ell=hbar/(2w). A different width or a different electron wavefunction is a different target. Translations of the entire synthesis do not change the frontier.
 
-The objective is the squared **many-body** overlap
+For finite relative displacement norm, the objective is the squared **many-body** overlap
 
 ```math
 \mathcal F[v]=|\langle\ell_w|\Psi_{\rm out}[v]\rangle|^2.
@@ -43,7 +43,7 @@ Use vhat(omega)=integral e^(i omega t) v(t)dt. Grenier et al.'s coherent displac
 \tag{1}
 ```
 
-The shared integer charge is essential. Individual charged pulses have an infrared singularity in a naive bosonic vacuum representation; one must not assign them a nonzero overlap with the uncharged vacuum by dropping the zero mode. A common infrared regulator cancels in the equal-charge relative expression. If the charges differ, the states occupy different charge sectors and have zero overlap. A divergent value of D likewise means F=0. The constructed pulses below have finite D.
+The shared integer charge is essential. Individual charged pulses have an infrared singularity in a naive bosonic vacuum representation; one must not assign them a nonzero overlap with the uncharged vacuum by dropping the zero mode. A common infrared regulator removes the shared charged contribution, but equal charge alone does not guarantee convergence of the remaining neutral integral. For finite D, removing the regulator gives the normalized-state overlap in (1). On the full declared waveform class, F is the limit of these regulated squared overlaps, so D=infinity gives F=0 without asserting a common-Fock-space ket. If the charges differ, the states occupy different charge sectors and have zero overlap. The [audit](FRONTIER_AUDIT.md) gives an explicit charge-one L1/L2 slow-tail example with infinite D. Every constructed optimizer below has finite D; this qualification does not change the frontier.
 
 The factor in (1) is independently fixed by two clean electron states. For widths w,W and relative displacement t0,
 
@@ -85,9 +85,9 @@ D[A]+\mu U[A]-D[A_\mu]-\mu U[A_\mu]
 \tag{4}
 ```
 
-Therefore if U[A]<=U[A_mu], then D[A]>=D[A_mu]. Equality is possible only for A=A_mu almost everywhere. This is an **all-input optimality proof**, not comparison within a selected pulse family or the result of a numerical optimization.
+Therefore if U[A]<=U[A_mu], then D[A]>=D[A_mu]. Equality is possible only for A=A_mu almost everywhere. This is an **all-input optimality proof**, not comparison within a selected pulse family or the result of a numerical optimization. The [audit](FRONTIER_AUDIT.md) integrates the nonnegative pointwise completion before subtracting finite constants, covering infinite-D competitors as well; those have zero fidelity and cannot improve the optimum.
 
-The optimum is physically in the previously declared waveform class. At x=0, A_mu(0)=1, giving the correct charge. Extend its spectrum by Hermitian symmetry to negative frequency to make v real. At fixed mu>0 the denominator has no real zero, the spectrum decays exponentially, and the spectrum and its first two derivatives on each frequency half-line are integrable. Integration by parts twice gives v(t)=O(t^-2), including the finite derivative jump at zero frequency. The inverse is bounded near t=0 and thus belongs to L1 intersect L2. This does not assert finite temporal support; the optimizer generally has tails on both sides of the target.
+The optimum is physically in the previously declared waveform class. At x=0, A_mu(0)=1, giving the correct charge. Extend its spectrum by Hermitian symmetry to negative frequency to make v real. At fixed mu>0 the denominator has no real zero, the spectrum decays exponentially, and the spectrum and its first two derivatives on each frequency half-line are integrable. Integration by parts twice gives v(t)=O(t^-2), including the finite derivative jump at zero frequency. The inverse is bounded near t=0 and thus belongs to L1 intersect L2. The [audit](FRONTIER_AUDIT.md) makes the half-line derivative bounds, jump at zero, charge justification and finite relative norm explicit. This does not assert finite temporal support; the optimizer generally has tails on both sides of the target.
 
 The frontier is parameterized exactly by
 
@@ -123,7 +123,7 @@ D_\mu=B(a)\sqrt\mu[1+o(1)],\quad\mu\downarrow0.
 \tag{6}
 ```
 
-For example, use s=2sqrt(mu x_k)y. The two universal integrals needed for energy and error are respectively integral y^2/(1+y^2)^2 dy and integral 1/(1+y^2)^2 dy, both equal to pi/2. The remaining factors evaluate at x_k. On each later period, sin^2(s/2) is bounded below by a constant times s^2 for |s|<=pi; these bounds dominate the rescaled integrals by a constant times e^(-2k pi a)/sqrt(k) away from the first interval. Their sum converges, so the local limits can be summed. The low-frequency endpoint is nonsingular and its rescaled contribution vanishes. This supplies an asymptotic argument on the complete frequency axis, not just a fit near the first notch.
+For example, use s=2sqrt(mu x_k)y. The two universal integrals needed for energy and error are respectively integral y^2/(1+y^2)^2 dy and integral 1/(1+y^2)^2 dy, both equal to pi/2. The remaining factors evaluate at x_k. On each later period, sin^2(s/2) is bounded below by a constant times s^2 for |s|<=pi; these bounds dominate the rescaled integrals by a constant times e^(-2k pi a)/sqrt(k) away from the first interval. Their sum converges, so the local limits can be summed. The low-frequency endpoint is nonsingular and its rescaled contribution vanishes. This supplies an asymptotic argument on the complete frequency axis, not just a fit near the first notch. Explicit bounds uniform in the notch index and multiplier, including the zero-frequency interval, are given in the [audit](FRONTIER_AUDIT.md).
 
 Eliminating mu proves the sharp frontier
 
@@ -159,7 +159,7 @@ They follow from h/(h+mu x)^2<=1/(4mu x) and the error integrand <=e^(-ax)/x. Qu
 
 ## 5. Fidelity also controls actual holes, but is not a hole-minimization theorem
 
-All states under discussion are pure Slater states. Let P0 be the occupied projector of the undriven Fermi sea and P*=P0+|ell><ell| that of the specified clean target. If Q is the actual occupied projector, define the physical mean hole number and target-orbital occupation by
+For finite D, the voltage-generated states under discussion are pure Slater states in the target representation. The divergent-D part of the waveform class is interpreted by Section 2's regulated limit; no common-Fock-space ket is asserted there. Let P0 be the occupied projector of the undriven Fermi sea and P*=P0+|ell><ell| that of the specified clean target. If Q is the actual occupied projector, define the physical mean hole number and target-orbital occupation by
 
 ```math
 N_h=\operatorname{Tr}[P_0(1-Q)],\qquad n_\ell=\langle\ell|Q|\ell\rangle.
@@ -199,4 +199,4 @@ The energy in (7) is optimized for a specified many-body target fidelity, not fo
 
 ## Attribution and boundary
 
-Bracketed source keys resolve in [PRIOR_ART](../literature/PRIOR_ART.md). No new result, coefficient, domain, or numerical reference was introduced in this import. The calibration/duration quantities describe the existing energy optimizer, not separate global optima.
+Bracketed source keys resolve in [PRIOR_ART](../literature/PRIOR_ART.md). The initialization introduced no new result, coefficient, domain, or numerical reference. The subsequent [audit qualification](../provenance/FRONTIER_AUDIT_CHANGE.md) makes the divergent-D interpretation explicit and leaves the waveform domain, optimizer, coefficient and numerical references unchanged. The calibration/duration quantities describe the existing energy optimizer, not separate global optima.

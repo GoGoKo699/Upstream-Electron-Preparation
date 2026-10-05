@@ -1,12 +1,12 @@
 # Research status
 
-**5 October 2026. Repository initialization and workspace handoff.**
+**5 October 2026. Bounded author-side frontier audit completed.**
 
 The dedicated destination is `GoGoKo699/Upstream-Electron-Preparation`. It was created by the owner as a public repository with an MIT license; this import retains both and does not modify another repository. Initial base: `7561c5d655087bde481bff26634be54ccc11c843`.
 
 ## What the record supports
 
-The [model and claim map](research/MODEL_AND_CLAIMS.md) identifies the author-side energy–many-body-fidelity frontier, constructive waveform and equal-splitting asymptote. Exact clean-target reachability and the hole relation support that core. Duration and splitting sensitivity describe the existing optimizer only. These arguments come from the preserved scouts, not from new research in the initialization pass.
+The [model and claim map](research/MODEL_AND_CLAIMS.md) identifies the author-side energy–many-body-fidelity frontier, constructive waveform and equal-splitting asymptote. Exact clean-target reachability and the hole relation support that core. Duration and splitting sensitivity describe the existing optimizer only. The original frontier comes from the preserved scouts. The [bounded audit](research/FRONTIER_AUDIT.md) now supplies explicit equal-charge normalization, optimizer admissibility, all-competitor completion and whole-axis asymptotic bounds. It identifies one necessary qualification: the entire charge-one L1/L2 class need not have finite relative displacement norm, so divergent cases use the already stated zero-fidelity infrared limit rather than an unqualified common-Fock-space ket. Every optimizer has finite norm; C1–C2 and their coefficients remain unchanged. The separate C3 occupied-space proof was not newly certified. The [change record](provenance/FRONTIER_AUDIT_CHANGE.md) retains the old/new distinction.
 
 The named Cabart full-text-reading gap is closed at construction level using the supplied 2018 paper. The [comparison](literature/CABART_2018_COMPARISON.md) distinguishes its changed-geometry control from the fixed open-channel, upstream-only problem. It also separates HOM and elastic single-electron quantities from global target fidelity. The publisher PDF is not committed.
 
@@ -24,4 +24,4 @@ Candidate, PR and merged-main outcomes must be read from their own actual report
 
 ## Next bounded action
 
-Enter through [WORKSPACE](WORKSPACE.md), follow [CURRENT](work_orders/CURRENT.md), and inspect the assembled overlap/admissibility/optimality argument for a concrete objection. The exact initialization/merge revision and workflow artifacts belong in the PR handoff. Do not resume unrelated rejected candidates, start another pulse campaign, or treat incomplete premise evidence as an invitation to invent a different platform.
+The three requested frontier implications have been assessed, and this bounded task stops here. [CURRENT](work_orders/CURRENT.md) identifies the next decision: assess the significance of the fixed result relative to inherited regularized inversion before manuscript planning. Exact audit revisions and candidate/PR/main outcomes belong in the pull-request handoff. Independent critical reading remains open and is not supplied by another assistant pass.

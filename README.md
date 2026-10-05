@@ -15,6 +15,8 @@ D[A]=-\ln\mathcal F[A]=\int_0^\infty\frac{|H_p(x)A(x)-e^{-ax/2}|^2}{x}\,dx,
 \qquad R[A]=\frac{\mathcal E_{\rm in}}{\mathcal E_\ell}=a\int_0^\infty|A(x)|^2dx.
 ```
 
+Here fidelity means the ordinary squared state overlap when the relative displacement norm is finite, and its common-infrared-regulator limit otherwise. Finite source energy and charge one alone need not give finite $D$; divergent cases have zero limiting fidelity. Every optimizer below has finite $D$. The [critical audit](research/FRONTIER_AUDIT.md) supplies this qualification and the complete proof bounds.
+
 The author-side optimizer is explicit:
 
 ```math
@@ -63,7 +65,7 @@ The output directory must not already exist. The runner executes the unchanged t
 
 ## Status and provenance
 
-This is a theory research workspace, not a manuscript or release. The derivation is author-side; independent validation, exhaustive priority and a complete model-matched physical-premise audit are still absent. The specific Cabart full-text access gap has been closed at the recorded depth, not expanded into a claim of exhaustive review.
+This is a theory research workspace, not a manuscript or release. The bounded author-side audit of the overlap, admissibility and global optimum is complete, with one infrared-domain clarification and no change to the frontier. Independent validation, exhaustive priority and a complete model-matched physical-premise audit are still absent. The specific Cabart full-text access gap has been closed at the recorded depth, not expanded into a claim of exhaustive review.
 
 [Archive](archive/README.md) preserves the supplied scouts 08–10, development attempts and pre-import readiness record without editing their historical decisions. [Import manifest](provenance/IMPORT_MANIFEST.json) pins every protected copy. No unrelated scientific project or publisher PDF is imported.
 

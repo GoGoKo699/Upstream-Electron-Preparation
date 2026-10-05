@@ -1,32 +1,51 @@
-# Current task: critically check the fixed frontier
+# Current task: assess the significance of the fixed result
 
-**5 October 2026, after claim-driven initialization.** Work only in
-`GoGoKo699/Upstream-Electron-Preparation`. The owner permits edits and merge after verification. No manuscript, release or outside invitation is authorized.
+**5 October 2026, after the bounded frontier proof audit.** Work only in
+`GoGoKo699/Upstream-Electron-Preparation`. The owner permits edits and merge after
+verification. Manuscript drafting, releases and outside invitations remain on hold.
 
-## Entry check
+## Completed task and entry route
 
-Pin the actual current main commit and tree. Read WORKSPACE.md, AGENTS.md, STATUS.md and research/MODEL_AND_CLAIMS.md. Inspect the initialization PR's merged-main report and source snapshot, not merely its badge. Run integrity, repository-infrastructure checks, and the three original scientific suites into a fresh output directory. Exact report bytes and numerical agreement must remain separate findings.
+The prior work order asked for an author-side challenge to exactly three
+implications: the equal-charge squared many-body overlap, admissibility of the
+optimizer, and global completion plus the whole-axis isolated-zero asymptote.
+The [audit](../research/FRONTIER_AUDIT.md) completes that task against base
+`2aef91fb235bcd5082d30805d5c4cd53f679b439`. The frontier and its coefficient
+survive; the [change record](../provenance/FRONTIER_AUDIT_CHANGE.md) documents the
+necessary qualification for divergent relative norms. Protected inputs and
+scientific reference outputs are unchanged. This is author-side work only.
 
-## One bounded scientific task
+At the next session, resolve current main and its actual verification artifact,
+then read STATUS, the claim map, the audit and the latest PR handoff. Do not rerun
+this completed audit absent a concrete new objection. Do not interpret this next
+work order as evidence that its task has already been performed.
 
-Challenge the implication from the declared voltage/control class to the global optimality statement. Read research/FIDELITY_FRONTIER.md, Sections 1–4, against its byte-preserved scout-09 source. Explicitly check:
+## One next decision
 
-1. The equal-charge relative coherent displacement gives the **squared** full-state fidelity with the stated Fourier factor and infrared treatment; arbitrary electron injection is not silently substituted for voltage preparation.
-2. The optimizer is in the real $L^1\cap L^2$, charge-one input class for every positive multiplier; finite energy and tails are distinguished from finite temporal support.
-3. The completion identity covers all admissible competitors, not just sampled pulses, and the isolated-zero limit controls the entire frequency axis at fixed target width.
+Assess whether the **fixed** preparation law has enough distinct physical content
+to justify manuscript planning. Start from the [prior-art ledger](../literature/PRIOR_ART.md):
+the load-bearing concern is that the result may amount to elementary regularized
+inversion once the inherited voltage-state overlap is inserted.
 
-Produce a short argument mapping those steps to their assumptions, or a precise objection with the affected claim and correction needed. Stop when that implication has been assessed. A new parameter plot or repeated normalization example is not a replacement for this check. Another assistant's pass remains author-side work.
+Identify which consequence, if any, adds physical understanding beyond the known
+filter and standard quadratic optimization. Any additional source reading must
+name the claim it could subsume, and compare control location, target observable,
+allowed waveform class and energy accounting. Cabart's recorded full-text access
+gap is closed and should not be reopened.
 
-The hole bound depends additionally on the Slater/occupied-space argument. If that is the objection, record it as a separate specifically scoped next check; do not silently certify it from the frontier audit. The nominal duration and calibration results are not minimum-time or minimax robustness results.
+Deliver one reasoned assessment: proceed to manuscript planning with a concrete
+central claim, or hold the project because its added significance is insufficient.
+Separate that assessment from priority certainty and from independent review.
+Stop after that decision; do not enlarge the device or objective to rescue it.
 
-## Prior art and physical boundaries
+## Boundaries still open
 
-literature/PRIOR_ART.md and CABART_2018_COMPARISON.md preserve the construction-level control-location/geometry distinctions. C18's full-text access gap is closed at its recorded depth, not a global priority certificate. Any later source should be examined because it may cover a named claim. Broad generic citation accumulation is not the next task.
+The independent critical reading and model-matched physical-premise evidence are
+still absent. No outside reader has been contacted. The separate occupied-space
+argument for C3 is not certified by the C1–C2 audit. No new series of audits,
+parameter plots, additional control ports, altered geometry, thermal states,
+causal-start optimization, minimax control or detector theorem is scheduled.
 
-literature/ASSUMPTIONS.md identifies the unfinished physical-premise evidence audit. Do not count theoretical model passages as an achieved device or source experiment; do not equate an HOM contrast with the global target fidelity. No automatic finite-temperature, finite-start, bandwidth, detector, additional-contact or changed-geometry project is authorized. An experiment is not required for the conditional theorem, but achieved preparation is unclaimed.
-
-## Preservation and stopping
-
-All 83 imported/preserved file copies in provenance/IMPORT_MANIFEST.json remain unchanged unless a documented scientific correction is deliberately approved and recorded. Keep original references and warnings. Never weaken a tolerance to get a pass. Run fresh candidate and actual hosted checks and retain their artifacts before merging. Any correction affecting an equation, domain or control assumption needs its own explicit provenance and old/new claim comparison.
-
-When this bounded review is complete, update the claim map and a single next work order. Do not invent a sequence of audits merely because the previous one ended. The remaining submission decision requires a separate significance assessment and genuinely separate critical reading; no reader has been contacted here.
+Preserve all 83 protected inputs, warnings and numerical references. Follow AGENTS
+and VERIFICATION for any future change: a feature branch, reviewed PR, fresh local
+checks, and inspection of actual PR and merged-main source/report artifacts.
