@@ -1,6 +1,6 @@
 # Research status
 
-**5 October 2026. Pre-manuscript research complete for the conditional C1–C2 argument.**
+**6 October 2026. Single-source tutorial route added to the completed conditional C1–C2 research record.**
 
 The dedicated destination is `GoGoKo699/Upstream-Electron-Preparation`. It was created by the owner as a public repository with an MIT license; this import retains both and does not modify another repository. Initial base: `7561c5d655087bde481bff26634be54ccc11c843`.
 
@@ -20,6 +20,8 @@ The subsequent [readiness decision](research/READINESS.md) completes the bounded
 
 A new explicit [supporting corollary](research/CONTROL_COMPARISON.md) compares one and two input contacts at the same target fidelity. It proves the two-input frontier by reduction to C1 and a strict one-input energy penalty for interior mixing. A separate [change record](provenance/READINESS_CHANGE.md) corrects an overbroad scope sentence: restrictions on waveforms inherit the ideal bound only with the same dynamics and objective. Neither change alters the central equations, scientific code or numerical references.
 
+The author selected Fève–Berroir–Plaçais (2016) as the single external tutorial anchor. The [learning guide](tutorial/README.md) maps its relevant sections; the original [bridge](tutorial/BRIDGE.md) explains the clean target, state overlap, energy normalization, all-waveform optimum and endpoint. This is a teaching presentation of existing material, with no new scientific claim or changed verification standard.
+
 ## What is not established
 
 There is no independent critical report and no exhaustive priority certificate. The formal precedent benchmark is complete at the recorded depths, but five unrelated derivations or five joint-regime experiments are not supplied. No complete joint operating regime is demonstrated in the inspected sources. No finite-temperature, finite-start, finite-bandwidth, peak-voltage, repetition-rate or minimax-robust optimization is asserted. No joint apparatus, achieved fidelity, or direct detector certification is supplied. No manuscript or release is initiated.
@@ -34,4 +36,10 @@ Candidate, PR and merged-main outcomes must be read from their own actual report
 
 ## Next bounded action
 
-The proof, premise and closest-control research, significance decision, plan and bounded readiness decision are complete. Stop after integration, review, verification and actual merged-main artifact inspection. [CURRENT](work_orders/CURRENT.md) identifies drafting from the scoped plan as the next action if requested; no manuscript is drafted in this research pass. Exact revision and candidate/PR/main outcomes are recorded in the pull-request handoff. Independent critical reading remains open and is not supplied by another assistant pass.
+The selected tutorial and bridge complete this furnishing pass after review,
+local checks, merged PR and actual main artifact inspection. Use the learning
+route to study the fixed argument; repair a named exposition gap if one appears.
+Scientific research and the scoped plan remain complete at their recorded
+conditional scope. Drafting is a separate action when requested. Exact revision
+and candidate/PR/main outcomes belong to the PR handoff. Independent critical
+reading remains open and is not supplied by another assistant pass.

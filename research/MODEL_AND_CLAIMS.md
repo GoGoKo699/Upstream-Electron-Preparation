@@ -2,6 +2,8 @@
 
 **5 October 2026. Conditional scientific readiness assessed; C1–C2 retained.**
 
+For a learning route into these definitions, start with the [selected tutorial](../tutorial/README.md) and [bridge](../tutorial/BRIDGE.md). This claim map remains the specification; the bridge adds no control or theorem.
+
 ## Question and allowed resources
 
 How much total excess energy must one upstream voltage source inject to prepare one prescribed downstream electron wavepacket after a fixed two-channel interaction? Both channels remain open. The state reference is the zero-temperature Fermi sea. The second input receives no voltage. The unused output is not constrained to remain a sea.

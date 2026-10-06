@@ -9,6 +9,8 @@ theory manuscript, not a certificate of exhaustive priority, substantial impact,
 independent validation or achieved device performance. The manuscript has not
 been written or submitted.
 
+The subsequent [tutorial route](../tutorial/README.md), selected on 6 October 2026, explains this fixed result through one external anchor and an original repository bridge. It does not change the readiness decision or its evidence limits.
+
 ## 1. Closed obligations and their evidence
 
 | Obligation | Resolution and retained limit |
