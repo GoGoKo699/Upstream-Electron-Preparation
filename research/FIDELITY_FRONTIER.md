@@ -4,6 +4,8 @@
 
 This is an editorially consolidated passage from the preserved [SCOUT_09.md](../archive/scouts/scout10/prior/SCOUT_09.md). The original equations are retained. The [critical audit](FRONTIER_AUDIT.md) adds an explicit infrared-domain qualification and detailed proof bounds; its [change record](../provenance/FRONTIER_AUDIT_CHANGE.md) preserves the old/new distinction. Display delimiters are adapted for GitHub. Historical scout decisions and reading labels are not active status. See [MODEL_AND_CLAIMS](MODEL_AND_CLAIMS.md) and [current prior-art ledger](../literature/PRIOR_ART.md).
 
+The [tutorial bridge](../tutorial/BRIDGE.md) supplies a teaching derivation of the target, metric and optimization in the same conventions. The formulas and detailed audit below remain the scientific authority.
+
 ## 1. Fixed model, input resources and fidelity
 
 Retain the zero-temperature, two-channel, lossless dispersionless model of scout 08. One voltage input is controlled and the other begins in the equilibrium sea. The selected output has transfer function

@@ -8,6 +8,10 @@ The channel and coherent-state description are inherited from electron quantum o
 
 The [manuscript plan](research/MANUSCRIPT_PLAN.md) organizes that frontier as an exact ideal feasibility benchmark: below its source-energy cost, no allowed pulse can meet the specified full-state fidelity; at the frontier an explicit pulse does. At equal splitting, the optimizer's diverging energy goes into the unused output while the selected output approaches its prescribed electron. The [significance assessment](research/SIGNIFICANCE.md) supports this focused argument; substantial impact, priority and independent review remain open.
 
+## Start learning here
+
+The selected single-source tutorial is **Fève, Berroir and Plaçais, *Time dependent electronic transport in chiral edge channels* (2016)**. Use the [reading guide](tutorial/README.md), then the original [bridge to this result](tutorial/BRIDGE.md). The bridge supplies the Lorentzian target, charge-aware full-state overlap, launched-energy normalization and optimization argument. Other references remain attribution and evidence; no second external text is compulsory.
+
 ## The fixed result
 
 Write $x=\omega\tau$, $a=2w/\tau>0$, $H_p(x)=p+(1-p)e^{ix}$, and $A(x)=\widehat v(x/\tau)/(2\pi)$, where $v=eV/\hbar$. With one real, deterministic, integrable finite-energy drive of charge one,
@@ -38,6 +42,7 @@ The retained hole relation is outside the planned manuscript dependency chain an
 
 | Document | Purpose |
 |---|---|
+| [Tutorial reading guide](tutorial/README.md) and [bridge](tutorial/BRIDGE.md) | One external anchor, a notation dictionary and the path from voltage preparation to C1–C2. |
 | [Scientific readiness](research/READINESS.md) | Completed pre-manuscript research, conditional drafting decision and evidence limits. |
 | [Model and claim map](research/MODEL_AND_CLAIMS.md) | The observable, allowed controls, result hierarchy and proof dependencies. |
 | [Manuscript plan](research/MANUSCRIPT_PLAN.md) | Selected C1–C2 argument, physical consequences, proof/evidence map and remaining blockers. |
@@ -72,7 +77,7 @@ The output directory must not already exist. The runner executes the unchanged t
 
 ## Status and provenance
 
-This is a theory research workspace. The bounded C1–C2 manuscript plan is complete; no manuscript or release has been initiated. It omits the separately unaudited C3 hole inequality from the central argument and retains the other results as supporting material. The bounded author-side audit of the overlap, admissibility and global optimum is complete, with one infrared-domain clarification and no change to the frontier. The bounded [premise audit](literature/PREMISE_AUDIT.md) retains the conditional theorem and clarifies injected-edge energy accounting. The subsequent [readiness research](research/READINESS.md) completes the formal precedent benchmark, attributes the closest control constructions and proves a same-fidelity control comparison. It also corrects one overbroad scope sentence without changing C1–C2. The conditional argument is ready for drafting when requested. Independent validation, exhaustive priority and a demonstrated joint operating regime remain absent. The specific Cabart full-text access gap has been closed at the recorded depth, not expanded into a claim of exhaustive review.
+This is a theory research workspace. The bounded C1–C2 manuscript plan is complete; no manuscript or release has been initiated. It omits the separately unaudited C3 hole inequality from the central argument and retains the other results as supporting material. The bounded author-side audit of the overlap, admissibility and global optimum is complete, with one infrared-domain clarification and no change to the frontier. The bounded [premise audit](literature/PREMISE_AUDIT.md) retains the conditional theorem and clarifies injected-edge energy accounting. The subsequent [readiness research](research/READINESS.md) completes the formal precedent benchmark, attributes the closest control constructions and proves a same-fidelity control comparison. It also corrects one overbroad scope sentence without changing C1–C2. The conditional argument is ready for drafting when requested. The selected tutorial and original bridge now provide a separate learning route into that fixed argument. Independent validation, exhaustive priority and a demonstrated joint operating regime remain absent. The specific Cabart full-text access gap has been closed at the recorded depth, not expanded into a claim of exhaustive review.
 
 [Archive](archive/README.md) preserves the supplied scouts 08–10, development attempts and pre-import readiness record without editing their historical decisions. [Import manifest](provenance/IMPORT_MANIFEST.json) pins every protected copy. No unrelated scientific project or publisher PDF is imported.
 
