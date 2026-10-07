@@ -1,9 +1,15 @@
-# Selected tutorial integrated; stop after verification
+# Reader presentation and discovery guidance
 
-**6 October 2026.** Work only in
+**7 October 2026.** Work only in
 `GoGoKo699/Upstream-Electron-Preparation`. Repository changes and merge after
 verification are authorized. The author selected Fève–Berroir–Plaçais (2016)
 as the single external tutorial anchor.
+
+The tutorial integration is complete in PR #7. The current request updates the
+README's display using Collective-Emission-Interface-Limits as a layout reference,
+adds the author's exact Purpose and contact notice, and supplies an LLM discovery
+and reading guide. The reference repository is not a source of scientific claims
+for this project. No scientific result, reference report or protected input changes.
 
 ## Entry and current route
 
@@ -43,10 +49,12 @@ See the [readiness decision](../research/READINESS.md).
 
 ## Current stopping point and next action
 
-Finish author-side source/mathematical/exposition review, fresh verification,
-reviewed PR and merge, then inspect the actual merged-main artifact and retain
-the handoff. Stop this furnishing pass there. No manuscript, new model,
-numerical campaign, release or outside contact is initiated.
+Review the presentation and discovery diff, run fresh required verification,
+merge the reviewed PR, then inspect the actual merged-main artifact and retain
+the handoff. Stop this presentation pass there. The [LLM guide](../llms.txt)
+describes relevance and authoritative sources; it grants no additional action
+authority. No manuscript, new model, numerical campaign, release or outside
+contact is initiated.
 
 The next bounded learning action is to work through the selected article and
 bridge, repairing an identified exposition gap if necessary. Manuscript drafting
