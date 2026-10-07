@@ -1,84 +1,182 @@
 # Upstream Electron Preparation
 
-**Energy and fidelity limits for preparing a prescribed electron state through a fixed interacting channel with one upstream voltage source.**
+**Restricted control creates a sharp energy–fidelity limit for preparing one prescribed electron.**
 
-A voltage pulse that is clean at its source need not arrive as the desired electron after propagating through two interacting quantum Hall edge channels. This repository asks how much source energy is needed to prepare one *specified* outgoing Lorentzian electron, including an otherwise unexcited Fermi sea, when only one upstream contact can be driven.
+A voltage pulse that is clean at its source need not arrive as the desired electron
+after passing through two interacting quantum Hall edge channels. How much source
+energy is needed to prepare a specified outgoing Lorentzian electron, including an
+otherwise unexcited Fermi sea, when only one upstream contact can be driven?
 
-The channel and coherent-state description are inherited from electron quantum optics. The result under study is a constrained state-preparation frontier, not a new fractionalization mechanism, an intrinsic energy cost of every electron, or irreversible decoherence of every voltage-generated state.
-
-The [manuscript plan](research/MANUSCRIPT_PLAN.md) organizes that frontier as an exact ideal feasibility benchmark: below its source-energy cost, no allowed pulse can meet the specified full-state fidelity; at the frontier an explicit pulse does. At equal splitting, the optimizer's diverging energy goes into the unused output while the selected output approaches its prescribed electron. The [significance assessment](research/SIGNIFICANCE.md) supports this focused argument; substantial impact, priority and independent review remain open.
-
-## Start learning here
-
-The selected single-source tutorial is **Fève, Berroir and Plaçais, *Time dependent electronic transport in chiral edge channels* (2016)**. Use the [reading guide](tutorial/README.md), then the original [bridge to this result](tutorial/BRIDGE.md). The bridge supplies the Lorentzian target, charge-aware full-state overlap, launched-energy normalization and optimization argument. Other references remain attribution and evidence; no second external text is compulsory.
-
-## The fixed result
-
-Write $x=\omega\tau$, $a=2w/\tau>0$, $H_p(x)=p+(1-p)e^{ix}$, and $A(x)=\widehat v(x/\tau)/(2\pi)$, where $v=eV/\hbar$. With one real, deterministic, integrable finite-energy drive of charge one,
-
-```math
-D[A]=-\ln\mathcal F[A]=\int_0^\infty\frac{|H_p(x)A(x)-e^{-ax/2}|^2}{x}\,dx,
-\qquad R[A]=\frac{\mathcal E_{\rm in}}{\mathcal E_\ell}=a\int_0^\infty|A(x)|^2dx.
-```
-
-Here fidelity means the ordinary squared state overlap when the relative displacement norm is finite, and its common-infrared-regulator limit otherwise. Finite source energy and charge one alone need not give finite $D$; divergent cases have zero limiting fidelity. Every optimizer below has finite $D$. The [critical audit](research/FRONTIER_AUDIT.md) supplies this qualification and the complete proof bounds.
-
-The author-side optimizer is explicit:
-
-```math
-A_\mu(x)=\frac{H_p(x)^*e^{-ax/2}}{|H_p(x)|^2+\mu x},\qquad\mu>0.
-```
-
-At equal splitting, a perfect single-electron target has no finite-energy inverse. Every fidelity strictly below one is attainable in the ideal input class, and at fixed $a$,
-
-```math
-R_{\min}(\mathcal F;a)\sim\frac{C(a)}{-\ln\mathcal F},\qquad
-C(a)=a\left[\pi\sum_{k\ge0}\frac{e^{-a(2k+1)\pi}}{\sqrt{(2k+1)\pi}}\right]^2.
-```
-
-The retained hole relation is outside the planned manuscript dependency chain and was not newly audited. Exact reachability, the same-fidelity control comparison and the nominal optimizer's duration/calibration sensitivity are supporting results, not alternative global optima. The proof and normalization are in [Fidelity frontier](research/FIDELITY_FRONTIER.md).
-
-## Read in this order
-
-| Document | Purpose |
+| Read next | Purpose |
 |---|---|
-| [Tutorial reading guide](tutorial/README.md) and [bridge](tutorial/BRIDGE.md) | One external anchor, a notation dictionary and the path from voltage preparation to C1–C2. |
-| [Scientific readiness](research/READINESS.md) | Completed pre-manuscript research, conditional drafting decision and evidence limits. |
-| [Model and claim map](research/MODEL_AND_CLAIMS.md) | The observable, allowed controls, result hierarchy and proof dependencies. |
-| [Manuscript plan](research/MANUSCRIPT_PLAN.md) | Selected C1–C2 argument, physical consequences, proof/evidence map and remaining blockers. |
-| [Fidelity frontier](research/FIDELITY_FRONTIER.md) | Equal-charge overlap, all-waveform optimality, existence, asymptote and hole bound. |
-| [Same-fidelity control comparison](research/CONTROL_COMPARISON.md) | Exact two-input frontier and strict one-input penalty at a common target and error. |
-| [Exact reachability](research/EXACT_REACHABILITY.md) | Finite-target classification, asymmetric inverse and control counterexamples. |
-| [Optimizer limitations](research/OPTIMIZER_LIMITATIONS.md) | Duration and sensitivity of the same nominal optimum, with finite values. |
-| [Premise audit](literature/PREMISE_AUDIT.md) | Direct formal support, experimental ingredients, energy accounting and unresolved joint regime. |
-| [Precedent map](literature/PRECEDENT_MAP.md) and [control prior art](literature/CONTROL_PRIOR_ART.md) | Counted formal support, experimental limits and closest control constructions. |
-| [Prior-art ledger](literature/PRIOR_ART.md) | Inherited ingredients, control-location comparisons and reading depth. |
-| [Cabart comparison](literature/CABART_2018_COMPARISON.md) | Why closing the inner channel changes this optimization problem. |
-| [Status](STATUS.md) and [workspace entry](WORKSPACE.md) | Established author-side route, open obligations and the next bounded task. |
+| [Reading guide](tutorial/README.md) · [Bridge to the result](tutorial/BRIDGE.md) | Learn from one external tutorial and the local derivation |
+| [Model and claim map](research/MODEL_AND_CLAIMS.md) · [Frontier](research/FIDELITY_FRONTIER.md) · [Proof audit](research/FRONTIER_AUDIT.md) | Follow the fixed task, exact optimum and proof dependencies |
+| [Assumptions](literature/ASSUMPTIONS.md) · [Prior-work comparison](literature/CONTROL_PRIOR_ART.md) | Check physical scope, control access and attribution |
+| [Verification](#evidence-and-reproduction) · [Status](STATUS.md) | Inspect executable evidence and the remaining limits |
+| [LLM guide](llms.txt) · [Workspace](WORKSPACE.md) | Find relevant questions, search terms and authoritative files |
 
-## Boundaries that matter
+## Model and preparation task
 
-Both the propagation geometry and the accessible control port are fixed. The unused input is an equilibrium sea; the unused output is unrestricted. A second driven input, a downstream correcting contact, or a closed inner-channel geometry changes the problem. The model assumes zero temperature, linear dispersion, elastic lossless bosonic scattering and a prescribed coherent voltage. Arbitrarily long tails of either sign are allowed. No finite-start, bandwidth, peak-voltage or repetition-rate constraint is silently imposed.
+| Resource | Fixed specification |
+|---|---|
+| Target | One Lorentzian electron of prescribed width and center, with its zero-temperature Fermi sea |
+| Accessible control | One deterministic, real, charge-one upstream voltage; integrable and finite-energy, with either sign and arbitrarily long tails allowed |
+| Propagation | Two open, copropagating channels with linear, elastic, lossless and dispersionless bosonic scattering |
+| Other channel | The unused input is an equilibrium sea; the unused output is unrestricted |
+| Objective and budget | Full selected-output state fidelity; excess energy launched into the driven incoming edge, counting both eventual outputs |
 
-The source budget counts excess energy launched into the driven incoming edge, including both eventual outputs; it is not the full electrical work of the bias circuit. The objective is the complete selected-output state, not an HOM contrast or a current-profile match. Large costs for a narrow target do not imply the same cost for a broad target. The waveform table is not an achieved apparatus specification. See [Assumptions](literature/ASSUMPTIONS.md).
+The target fixes the electron's orbital and the rest of the sea together. A matching
+current profile or HOM contrast is a different observable. The source budget is not
+the full electrical work of the bias circuit or irreversible heat.
 
-## Reproduce
+Write $`x=\omega\tau`$, $`a=2w/\tau>0`$, $`H_p(x)=p+(1-p)e^{ix}`$, and
+$`A(x)=\widehat v(x/\tau)/(2\pi)`$, where $`v=eV/\hbar`$. Here $`w`$ is the
+target width, $`\tau>0`$ the difference in mode flight times, and $`0\le p\le1`$
+the mixing weight. The energy–error functionals are
 
-Use Python **3.13.5** for the recorded environment. Other environments may reproduce scientific assertions without identical floating-point bytes.
+```math
+\begin{aligned}
+D[A]=-\ln\mathcal F[A]
+&=\int_0^\infty\frac{|H_p(x)A(x)-e^{-ax/2}|^2}{x}\,dx,\\
+R[A]=\frac{\mathcal E_{\rm in}}{\mathcal E_\ell}
+&=a\int_0^\infty|A(x)|^2dx,
+\qquad \mathcal E_\ell=\frac{\hbar}{2w}.
+\end{aligned}
+```
 
-```bash
+Fidelity is the ordinary squared state overlap when the relative displacement norm
+is finite, and its common-infrared-regulator limit otherwise. Finite source energy
+and charge one alone need not give finite $`D`$; divergent cases have zero limiting
+fidelity. Every optimizer below has finite $`D`$. The
+[proof audit](research/FRONTIER_AUDIT.md) gives the qualification and complete bounds.
+
+## The attainable frontier
+
+The minimum source energy at a prescribed fidelity is attained by an explicit pulse:
+
+```math
+A_\mu(x)=\frac{H_p(x)^*e^{-ax/2}}{|H_p(x)|^2+\mu x},
+\qquad \mu>0.
+```
+
+Choose $`\mu`$ so that $`D[A_\mu]=-\ln\mathcal F_0`$ for the desired
+$`0<\mathcal F_0<1`$. Below the corresponding energy, no allowed pulse can meet
+that full-state fidelity; at the frontier, this pulse does.
+
+At equal splitting, perfect preparation has no finite-energy inverse. Every
+$`0<\mathcal F_0<1`$ is attainable in the ideal input class, and at fixed $`a`$,
+
+```math
+\boxed{
+R_{\min}(\mathcal F;a)\sim\frac{C(a)}{-\ln\mathcal F}
+\qquad (\mathcal F\uparrow1)
+}
+```
+
+```math
+C(a)=a\left[
+\pi\sum_{k\ge0}\frac{e^{-a(2k+1)\pi}}{\sqrt{(2k+1)\pi}}
+\right]^2.
+```
+
+The [frontier](research/FIDELITY_FRONTIER.md) supplies the exact finite-error
+integrals. This is the C1–C2 result in the [claim map](research/MODEL_AND_CLAIMS.md);
+the asymptote does not replace those integrals or optimize over target width.
+
+## Why lossless propagation can still be costly
+
+The selected output combines two delayed copies of the input. At equal mixing,
+their transfer amplitude vanishes at isolated frequencies. Exact inversion near
+those zeros would require infinite input energy; an approximate inverse balances
+spectral error against its energy cost.
+
+Along the optimal pulse, the selected-output energy stays at most the target
+energy and approaches it at high fidelity. At equal splitting, the divergent
+energy leaves through the unused output. The restriction is access to one input
+of a lossless two-channel device.
+
+Driving both inputs changes that resource. The
+[same-fidelity comparison](research/CONTROL_COMPARISON.md) proves a strictly lower
+combined-energy minimum for interior mixing at the same target and error.
+Two-contact protection is an inherited control idea, not a separate priority claim.
+
+## One tutorial, then this result
+
+The selected external learning anchor is:
+
+> G. Fève, J.-M. Berroir and B. Plaçais, **Time dependent electronic transport in chiral edge channels**,
+> *Physica E* **76**, 12–27 (2016).
+>
+> [Free author-hosted article](https://www.phys.ens.psl.eu/~placais/publication/2016_physicaE_Buttiker-in-memoriam_Feve.pdf) ·
+> [Original published article](https://doi.org/10.1016/j.physe.2015.10.006)
+
+The [reading guide](tutorial/README.md) maps its sections. The original
+[bridge](tutorial/BRIDGE.md) supplies the clean Lorentzian target, notation,
+charge-aware overlap, launched-energy normalization and optimization steps.
+No second external tutorial is compulsory; other references provide attribution
+and evidence. The [repository map](tutorial/README.md#repository-map) locates the
+supporting results and research records.
+
+## Boundaries and prior work
+
+The channel and coherent-state description are inherited from electron quantum
+optics. The frontier is a constrained state-preparation result, not a new
+fractionalization mechanism, a universal energy cost of every electron, or
+irreversible decoherence of every voltage-generated state.
+
+A second driven input, a downstream correcting contact or a closed inner channel
+changes the task. No finite-start, bandwidth, peak-voltage, repetition-rate,
+finite-temperature or minimax-robust optimization is asserted. A wider target
+changes the cost, and the waveform examples are not achieved apparatus specifications.
+
+[Assumptions](literature/ASSUMPTIONS.md), the
+[premise audit](literature/PREMISE_AUDIT.md) and
+[precedent map](literature/PRECEDENT_MAP.md) distinguish formal support from
+experimental ingredients. The [reading ledger](literature/PRIOR_ART.md) and
+[control comparison](literature/CONTROL_PRIOR_ART.md) record inherited constructions
+and the inspected sources. The [Cabart comparison](literature/CABART_2018_COMPARISON.md)
+explains why closing the inner channel changes this optimization.
+
+The retained C3 hole relation is outside the main learning and planned manuscript
+dependency chains; its separate proof was not newly audited. General reachability
+and the nominal optimizer's duration/calibration sensitivity remain supporting
+results. Independent validation, exhaustive priority, substantial impact and a
+demonstrated joint operating regime remain unestablished. The
+[readiness record](research/READINESS.md) and [status](STATUS.md) retain these limits.
+
+## Evidence and reproduction
+
+Use Python **3.13.5** for the recorded environment. Other environments may reproduce
+the scientific assertions without identical floating-point bytes.
+
+```sh
 python -m pip install -r requirements.txt
 python verify.py --integrity-only
 python checks/test_repository.py
 python verify.py --output-dir local-evidence-001
 ```
 
-The output directory must not already exist. The runner executes the unchanged three scientific suites (**6 + 7 + 5 = 18 groups**), records all logs and field differences, and checks source integrity before and after. Reference bytes are never refreshed automatically. [Verification policy](VERIFICATION.md) distinguishes passing assertions, numerical agreement and exact reproduction. Hosted artifacts identify their own source tree; local success is not a hosted result.
+The output directory must be new. The three unchanged scientific suites cover
+**6 + 7 + 5 = 18 groups**; the eight infrastructure tests are separate.
+The runner retains logs and all numerical differences, checks source integrity
+before and after, and never refreshes reference bytes automatically.
 
-## Status and provenance
+[Verification policy](VERIFICATION.md) distinguishes passing assertions, numerical
+agreement and exact reproduction. None is independent scientific validation.
+Hosted artifacts identify their own source tree; local success is not a hosted result.
 
-This is a theory research workspace. The bounded C1–C2 manuscript plan is complete; no manuscript or release has been initiated. It omits the separately unaudited C3 hole inequality from the central argument and retains the other results as supporting material. The bounded author-side audit of the overlap, admissibility and global optimum is complete, with one infrared-domain clarification and no change to the frontier. The bounded [premise audit](literature/PREMISE_AUDIT.md) retains the conditional theorem and clarifies injected-edge energy accounting. The subsequent [readiness research](research/READINESS.md) completes the formal precedent benchmark, attributes the closest control constructions and proves a same-fidelity control comparison. It also corrects one overbroad scope sentence without changing C1–C2. The conditional argument is ready for drafting when requested. The selected tutorial and original bridge now provide a separate learning route into that fixed argument. Independent validation, exhaustive priority and a demonstrated joint operating regime remain absent. The specific Cabart full-text access gap has been closed at the recorded depth, not expanded into a claim of exhaustive review.
+The [archive](archive/README.md) preserves scouts 08–10, development attempts and
+the pre-import readiness record. The [import manifest](provenance/IMPORT_MANIFEST.json)
+pins all 83 protected copies. Earlier infrared and scope clarifications remain in
+their [frontier](provenance/FRONTIER_AUDIT_CHANGE.md) and
+[readiness](provenance/READINESS_CHANGE.md) change records.
 
-[Archive](archive/README.md) preserves the supplied scouts 08–10, development attempts and pre-import readiness record without editing their historical decisions. [Import manifest](provenance/IMPORT_MANIFEST.json) pins every protected copy. No unrelated scientific project or publisher PDF is imported.
+## Purpose and contact
 
-The repository retains the owner's existing [MIT license](LICENSE).
+This repository serves as a record of the work and a guide for the author’s self-directed learning. For discussion or potential collaboration, please contact Ruge Lin at [gogoko699@gmail.com](mailto:gogoko699@gmail.com).
+
+The [LLM guide](llms.txt) describes relevant research questions, search terms and
+the authoritative reading order for automated assistants and other readers.
+The [workspace](WORKSPACE.md) and [current work order](work_orders/CURRENT.md)
+describe continuing work. The repository retains the owner's existing
+[MIT license](LICENSE).
