@@ -1,8 +1,6 @@
 # Model, claims and proof dependencies
 
-**5 October 2026. Conditional scientific readiness assessed; C1–C2 retained.**
-
-For a learning route into these definitions, start with the [selected tutorial](../tutorial/README.md) and [bridge](../tutorial/BRIDGE.md). This claim map remains the specification; the bridge adds no control or theorem.
+The central result is the exact energy–fidelity frontier for a fixed target and a single accessible source. For a learning route into the definitions, start with the [selected tutorial](../tutorial/README.md) and [bridge](../tutorial/BRIDGE.md).
 
 ## Question and allowed resources
 
@@ -35,7 +33,9 @@ A neutral *relative* displacement justifies this expression. A charged state's o
 | C4 (support) | Finite clean-target reachability at equality is an alternating multiplicity condition; asymmetry restores the exact inverse. | [Reachability](EXACT_REACHABILITY.md), Sections 4–5. | `checks/check_pulse_reachability.py`, 6 groups. |
 | C5 (qualification) | Exact splitting-miscalibration penalty and energy-weighted duration of the nominal energy optimizer. | [Optimizer limitations](OPTIMIZER_LIMITATIONS.md), Sections 3–5. | `checks/check_control_audit.py`, 5 groups. |
 
-C1 needs the inherited pure coherent-state transfer, equal-charge overlap normalization, and the optimization identity. Its existence argument also needs the inverse waveform to belong to the stated $L^1\cap L^2$ class. C2 adds isolated-zero asymptotics over the complete frequency axis. C3 separately needs the Slater-state/occupied-space argument. C5 is not a replacement novelty claim. The [bounded author-side audit](FRONTIER_AUDIT.md) has now checked C1–C2's three dependencies and supplied explicit bounds. It found the infrared qualification above, with no change to the frontier or its coefficient; see the [change record](../provenance/FRONTIER_AUDIT_CHANGE.md). C3's separate occupied-space proof was not certified by this task. Passing tests is not an independent proof of these implications.
+C1 needs the inherited pure coherent-state transfer, equal-charge overlap normalization, and the optimization identity. Its existence argument also needs the inverse waveform to belong to the stated $L^1\cap L^2$ class. C2 adds isolated-zero asymptotics over the complete frequency axis. The [proof audit](FRONTIER_AUDIT.md) supplies these dependencies and explicit bounds, including the infrared qualification above.
+
+C3 is an auxiliary retained statement with a separate Slater-state/occupied-space proof. That proof is outside the C1–C2 audit and the central learning and claim dependencies. C4–C5 provide reachability and nominal-optimizer qualifications. The proofs are author-side arguments; the suites check specified analytic and numerical consequences.
 
 ## Controls and orders of limits
 
@@ -53,9 +53,9 @@ This is an explicit comparison of changed control access, not an extension of
 the one-input central theorem or a claim that all finite-error one-input costs
 exceed the exact target energy.
 
-No optimal minimum duration, minimax-robust solution, causal-start theorem, thermal-state result, arbitrary-source result, detector theorem or achieved performance is included. Adding waveform restrictions under the same dynamics, energy and objective keeps the ideal optimum as a lower bound but may remove attainability. Changed dynamics or a thermal target do not automatically inherit that bound.
+The optimization covers deterministic, whole-line voltages in the stated zero-temperature model. C5 evaluates the duration and calibration sensitivity of its nominal energy optimizer. Adding waveform restrictions under the same dynamics, energy and objective keeps the ideal optimum as a lower bound but may remove attainability. Changed dynamics or a thermal target require a separate analysis.
 
-## Originality and current limit
+## Contribution and relation to prior work
 
 The clean Lorentzian criterion, bosonization, channel and correction frameworks
 are inherited. The optimization is elementary completion of a quadratic form.
@@ -65,19 +65,12 @@ attributes prescribed-current synthesis to M18, calibrated upstream interaction
 precompensation to B19, and two-input eigenmode protection to R20, alongside the
 existing L11/R21/C18 comparisons. The supporting energy comparison does not
 claim a new control principle. [PRIOR_ART](../literature/PRIOR_ART.md) states the
-actual reading depths. No first-ever or exhaustive novelty certificate is
-claimed.
+actual reading depths.
 
-The [manuscript plan](MANUSCRIPT_PLAN.md) centers on C1–C2 as an exact ideal
-feasibility statement at fixed target, transfer and fidelity. The optimizer's
-output-energy allocation and same-fidelity two-input comparison explain the
-restricted-access cost. C3 remains omitted, with its separate proof obligation
-outside the planned argument; C4–C5 remain subordinate. The
-[precedent map](../literature/PRECEDENT_MAP.md) meets the five-source formal
-benchmark at stated reading depths and explicit translations. It does not
-establish independent derivations or complete device demonstrations. The
-[premise audit](../literature/PREMISE_AUDIT.md) retains concrete experimental
-mismatches. [READINESS](READINESS.md) records completion of the named scientific
-preparation tasks for this conditional scope. Independent critical reading,
-exhaustive priority, substantial impact and a joint operating regime remain
-unestablished; no manuscript, release or expanded model is initiated.
+C1–C2 give an exact ideal feasibility statement at fixed target, transfer and
+fidelity. The optimizer's output-energy allocation and same-fidelity two-input
+comparison explain the restricted-access cost. The
+[precedent map](../literature/PRECEDENT_MAP.md) records the formal sources and
+translations supporting the premises. The
+[premise audit](../literature/PREMISE_AUDIT.md) connects those premises to
+experimental ingredients and identifies the relevant regime differences.

@@ -1,14 +1,12 @@
 # Finite-energy many-body fidelity frontier
 
-**5 October 2026. Author-side argument, with the bounded frontier audit completed; independent review is pending.**
+This page derives the exact all-waveform optimum and its high-fidelity limit at equal mixing. The [claim map](MODEL_AND_CLAIMS.md) specifies the task and proof hierarchy; the [proof audit](FRONTIER_AUDIT.md) supplies the infrared-domain qualification and detailed bounds.
 
-This is an editorially consolidated passage from the preserved [SCOUT_09.md](../archive/scouts/scout10/prior/SCOUT_09.md). The original equations are retained. The [critical audit](FRONTIER_AUDIT.md) adds an explicit infrared-domain qualification and detailed proof bounds; its [change record](../provenance/FRONTIER_AUDIT_CHANGE.md) preserves the old/new distinction. Display delimiters are adapted for GitHub. Historical scout decisions and reading labels are not active status. See [MODEL_AND_CLAIMS](MODEL_AND_CLAIMS.md) and [current prior-art ledger](../literature/PRIOR_ART.md).
-
-The [tutorial bridge](../tutorial/BRIDGE.md) supplies a teaching derivation of the target, metric and optimization in the same conventions. The formulas and detailed audit below remain the scientific authority.
+The [tutorial bridge](../tutorial/BRIDGE.md) supplies a teaching derivation of the target, metric and optimization in the same conventions.
 
 ## 1. Fixed model, input resources and fidelity
 
-Retain the zero-temperature, two-channel, lossless dispersionless model of scout 08. One voltage input is controlled and the other begins in the equilibrium sea. The selected output has transfer function
+Use the zero-temperature, two-channel, lossless dispersionless model in [Exact reachability](EXACT_REACHABILITY.md). One voltage input is controlled and the other begins in the equilibrium sea. The selected output has transfer function
 
 ```math
 H_p(\omega)=p+(1-p)e^{i\omega\tau},\qquad\tau>0.
@@ -16,13 +14,13 @@ H_p(\omega)=p+(1-p)e^{i\omega\tau},\qquad\tau>0.
 
 The full two-input scattering matrix is unitary. For classical voltage preparation the incident bosonic density modes are coherent displacements; passive linear scattering maps them into a product of outgoing coherent displacements [G13, Eq. (20), Appendix C]. Thus the selected output is a **pure voltage-generated electronic state**, although it need not be a pure one-electron excitation. The literal ket description relative to the target below applies when the relative displacement has finite norm; the full waveform class uses the infrared-limit convention in Section 2. This statement is not true for arbitrary sources of injected electrons and is not extended to them here.
 
-The input remains any real v=eV/hbar in L1(R) intersect L2(R), now with the fixed integral 2pi and polarity chosen so this positive pulse injects an electron. Negative voltage lobes and incoming holes are allowed, as are arbitrarily long pre-emission and post-emission tails. There is no duration, peak-voltage, strict start-time, finite-temperature or drive-bandwidth constraint. Each preparation uses a fixed deterministic drive; optimizing randomized ensembles under only an average energy budget is not asserted here. The unused output is unrestricted. The energy budget is the total excess energy injected at the one driven contact,
+The input is any real v=eV/hbar in L1(R) intersect L2(R), with the fixed integral 2pi and polarity chosen so this positive pulse injects an electron. Negative voltage lobes and incoming holes are allowed, as are arbitrarily long pre-emission and post-emission tails. Each preparation uses one fixed deterministic drive on the whole time axis. The unused output is unrestricted. The energy budget is the total excess energy injected at the one driven contact,
 
 ```math
 \mathcal E[v]=\frac{\hbar}{4\pi}\int v(t)^2dt.
 ```
 
-This is the excess energy launched into the driven incoming edge, including both eventual outputs, not the full electrical work of the bias circuit; see the [premise accounting check](../literature/PREMISE_AUDIT.md#4-energy-convention-and-accounting-check). It is not electronic refrigeration heat, a Landauer cost, or an energy bound on the selected output alone. No previously checkpointed heat or memory model is imported.
+This is the excess energy launched into the driven incoming edge, including both eventual outputs. Full electrical work of the bias circuit and irreversible heat are different quantities; see the [premise accounting check](../literature/PREMISE_AUDIT.md#4-energy-convention-and-accounting-check).
 
 Fix the target to be the charge-one Lorentzian pulse f(t)=2w/(t^2+w^2), with a fixed w>0 and time center zero. Its many-body state is a filled zero-temperature sea plus one electron in its specified normalized orbital [K06]. Denote this state by |ell_w>. Its energy is E_ell=hbar/(2w). A different width or a different electron wavefunction is a different target. Translations of the entire synthesis do not change the frontier.
 
@@ -58,7 +56,7 @@ The factor in (1) is independently fixed by two clean electron states. For width
 
 The right side follows directly from their normalized positive-energy one-electron orbitals, with no bosonic approximation. The checker also compares a finite-circle neutral-displacement fidelity with the determinant of its fermionic occupied-space overlap. A finite bottom edge of a filled Fermi sea is avoided: the hole operator is built from cross-Fermi-level amplitudes instead. That independent check includes the actual optimized relative waveform, not only a harmonic test phase. It is a regulator check, not a finite many-electron simulation of an infinite lead.
 
-Equation (1) is an application of inherited voltage/coherent-state theory. Neither that theory nor a new definition of quantum fidelity is being claimed as novel.
+Equation (1) applies the inherited voltage/coherent-state theory to the prescribed target.
 
 ## 3. Exact optimum over arbitrary allowed inputs
 
@@ -148,7 +146,7 @@ C(a)~pi a exp(-2pi a). There is no width-independent preparation-cost claim. The
 | 1/2 | 1.5567 | 6.9435 |
 | 1 | 0.9086 | 1.1166 |
 
-A ratio below one at finite error is not a violation of the clean target's energy: an approximate state may have slightly lower energy than the exact target. In the exact two-input-control problem the specified target requires precisely its target energy, as already checked in scout 08.
+A ratio below one at finite error is consistent with an approximate state having slightly lower energy than the exact target. In the [two-input-control problem](CONTROL_COMPARISON.md), exact preparation requires precisely the target energy.
 
 The frequencies are integrated by geometric subdivision near each notch and ordinary adaptive quadrature inside those resolved intervals. A second integration in the original frequency coordinate agrees at representative points. Beyond cutoff X the omitted bounds are
 
@@ -195,8 +193,7 @@ The energy in (7) is optimized for a specified many-body target fidelity, not fo
 
 **The rest of the device.** The other output may carry many excitations and substantial energy. Unitarity equates the total input energy to both output energies together. Fidelity is demanded only in the selected output; no claim is made that the full two-channel state equals one electron plus two untouched seas.
 
-The 5 October significance assessment makes one direct consequence explicit.
-For the existing optimizer, let $R_{\rm sel}$ and $R_{\rm unused}$ be the
+For the optimizer, let $R_{\rm sel}$ and $R_{\rm unused}$ be the
 output energies in units of $\mathcal E_\ell$. Since its selected spectral
 amplitude is $h_p f_a/(h_p+\mu x)$,
 
@@ -213,12 +210,12 @@ $a>0$, Eq. (6) then yields $R_{\rm unused}\sim R_\mu\sim C(a)/D_\mu$.
 The divergent cost flows into the unused output while the selected output
 approaches its finite-energy target. This is an energy-allocation statement
 along the optimum, not a bound on every approximate waveform or irreversible
-heat production. It adds no new control or optimization claim.
+heat production.
 
-**Duration and dispersion.** The optimized waveform has tails, with increasingly narrow compensating frequency features at high fidelity. Their implementation can require a long coherent control interval. No finite-start, finite-duration, peak-amplitude, thermal, nonlinear-band or dispersive-mode optimization has been solved. C5 analyzes splitting miscalibration of the fixed nominal optimizer; it does not solve a joint constrained or minimax-robust control problem. Restricting waveforms under the same dynamics, energy and fidelity cannot lower the ideal minimum, but may remove attainment. Changed dynamics, thermal states or a changed objective do not automatically inherit that bound; the [readiness change record](../provenance/READINESS_CHANGE.md) corrects the earlier overbroad wording. A table in dimensionless units is not a device-performance forecast.
+**Duration and calibration.** The optimized waveform has tails, with increasingly narrow compensating frequency features at high fidelity. Their implementation can require a long coherent control interval. [C5](OPTIMIZER_LIMITATIONS.md) evaluates the duration and splitting-miscalibration sensitivity of this fixed nominal energy optimizer. A minimum-duration or minimax-robust objective defines a different optimization. Restricting waveforms under the same dynamics, energy and fidelity cannot lower the ideal minimum, but may remove attainment. Changed dynamics, thermal states or a changed objective require a separate analysis.
 
-**No independent phase-noise assumption.** Voltage shaping uses a prescribed coherent drive. Random classical pulse jitter, thermal density modes or uncontrolled environment excitations would change the state and hence its fidelity formula. They have not been asserted harmless. No experiment is logically required for the conditional theorem. The [formal precedent benchmark](../literature/PRECEDENT_MAP.md) is now met at declared reading depths; a joint operating window remains unestablished. The [readiness decision](READINESS.md) keeps these conclusions separate.
+**Coherent-drive scope.** The prescribed coherent drive, equilibrium unused input and lossless dispersionless scattering determine the state and fidelity formula. The [premise audit](../literature/PREMISE_AUDIT.md) explains how these assumptions relate to experimental ingredients; the [precedent map](../literature/PRECEDENT_MAP.md) records their formal sources. The dimensionless table evaluates this specified model.
 
-## Attribution and boundary
+## Sources and provenance
 
-Bracketed source keys resolve in [PRIOR_ART](../literature/PRIOR_ART.md). The initialization introduced no new result, coefficient, domain, or numerical reference. The subsequent [audit qualification](../provenance/FRONTIER_AUDIT_CHANGE.md) makes the divergent-D interpretation explicit and leaves the waveform domain, optimizer, coefficient and numerical references unchanged. The later [significance assessment](SIGNIFICANCE.md) makes the output-energy allocation in Section 6 explicit as a direct corollary. The calibration/duration quantities describe the existing energy optimizer, not separate global optima.
+Bracketed source keys resolve in [PRIOR_ART](../literature/PRIOR_ART.md). The preserved [scout 09](../archive/scouts/scout10/prior/SCOUT_09.md) and [audit change record](../provenance/FRONTIER_AUDIT_CHANGE.md) document the derivation history and infrared clarification.

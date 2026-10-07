@@ -30,8 +30,8 @@ is nevertheless attainable, and at fixed target width the optimal source cost is
 The value is the complete preparation statement: the cost is a lower bound
 over the entire declared waveform class, and an admissible pulse attains the
 finite-error frontier. A singular exact inverse alone would not quantify the
-best approximate preparation. The [frontier](FIDELITY_FRONTIER.md) and
-[audit](FRONTIER_AUDIT.md) supply both directions.
+best approximate preparation. The [frontier](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/7bb9e91bf368324b1c5b001043022bd036245a64/research/FIDELITY_FRONTIER.md) and
+[audit](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/7bb9e91bf368324b1c5b001043022bd036245a64/research/FRONTIER_AUDIT.md) supply both directions.
 
 The source may already generate holes, use negative voltage and have
 arbitrarily long predetermined tails. The conclusion therefore does not depend
@@ -57,11 +57,11 @@ It does not establish broad impact simply because the state is many-body.
 There is a useful physical contrast already in the fixed model. Driving both
 inputs prepares the exact target at combined energy $\mathcal E_\ell$; with
 one input at equal splitting, the energy diverges as fidelity tends to one.
-The [two-control construction](EXACT_REACHABILITY.md) makes the changed resource
+The [two-control construction](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/7bb9e91bf368324b1c5b001043022bd036245a64/research/EXACT_REACHABILITY.md) makes the changed resource
 explicit. The selected voltage-generated state remains pure, and the full
 scattering is unitary. The limitation concerns accessible control.
 
-The [energy allocation calculation](FIDELITY_FRONTIER.md#6-controls-implementation-and-limits)
+The [energy allocation calculation](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/7bb9e91bf368324b1c5b001043022bd036245a64/research/FIDELITY_FRONTIER.md#6-controls-implementation-and-limits)
 makes this interpretation concrete: along the optimum, the selected-output
 energy is bounded by $\mathcal E_\ell$ and tends to it, while the unused-output
 energy diverges with the source cost. That is a direct corollary of the existing
@@ -70,13 +70,13 @@ optimizer and unitarity, not a separate novelty claim or a heat-production law.
 ## Closest comparisons and what they rule out
 
 Source-derived statements in the middle column are distinguished from our
-comparison in the right column. Keys resolve in the [prior-art ledger](../literature/PRIOR_ART.md).
+comparison in the right column. Keys resolve in the [prior-art ledger](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/7bb9e91bf368324b1c5b001043022bd036245a64/literature/PRIOR_ART.md).
 
 | Source and primary passage | What was already done | Consequence for this candidate |
 |---|---|---|
 | [L11](https://arxiv.org/pdf/1103.4046), Eqs. (4), (6), (7); p. 3 after Eq. (11). | Maximizes a full many-body restoration overlap using a downstream voltage and reaches unit modulus. Its single-channel response in Eq. (7) has unit modulus. MZI visibility instead uses half the restoration phase. | We cannot claim first fidelity-based voltage correction. Moving a control upstream alone is not the distinction: its all-pass response has no transmission null. The selected port of our open two-channel device and the imposed source-energy budget matter together. Its partial MZI restoration is not our fidelity ceiling. |
 | [R21](https://journals.aps.org/prxquantum/pdf/10.1103/PRXQuantum.2.020314), Secs. IV.B and V.A.1–2, Eqs. (43)–(45), Fig. 5; Appendix G opening. | Optimizes mesoscopic-capacitor amplitude and QPC transparency through electron–hole entropy for sine driving, with a square-drive comparison. This inspected optimization fixes frequency/geometry, without a prescribed target overlap or injected-energy budget. | Source optimization and many-body source-quality objectives are already established. Those parameter/objective choices do not supply the arbitrary-waveform, fixed-energy preparation frontier studied here. |
-| G13 and C18, as already recorded in the [construction comparison](../literature/CABART_2018_COMPARISON.md). | Supply the open-channel transfer and voltage-driven coherent-state picture; C18 also studies a closed inner channel. | The propagation model and purity are inherited. Closing the channel changes the transfer and allowed device; that construction does not establish our fixed open-channel cost. |
+| G13 and C18, as already recorded in the [construction comparison](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/7bb9e91bf368324b1c5b001043022bd036245a64/literature/CABART_2018_COMPARISON.md). | Supply the open-channel transfer and voltage-driven coherent-state picture; C18 also studies a closed inner channel. | The propagation model and purity are inherited. Closing the channel changes the transfer and allowed device; that construction does not establish our fixed open-channel cost. |
 
 **Reading depth in this pass:** L11's four-page primary paper was read, with
 equation and geometry checks. R21's relevant entropy/source-analysis sections
@@ -135,19 +135,19 @@ route is the optimizer's output-energy allocation, derived directly from the
 existing formulas. The source-energy frontier and infrared qualification are
 unchanged. The requested significance decision is complete; stop here and use
 the [manuscript plan](MANUSCRIPT_PLAN.md), now completed, for the selected argument
-and the [work order](../work_orders/CURRENT.md) for the remaining bounded task.
+and the [work order](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/7bb9e91bf368324b1c5b001043022bd036245a64/work_orders/CURRENT.md) for the remaining bounded task.
 
 ## Readiness update after the planning decision
 
 The current [readiness decision](READINESS.md), assessed from base
 `125eb6e576f86aa985b19df955f6f7801adb83b3`, closes the named scientific
 preparation tasks for the conditional C1–C2 scope. The
-[precedent map](../literature/PRECEDENT_MAP.md) now meets the five-source formal
+[precedent map](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/7bb9e91bf368324b1c5b001043022bd036245a64/literature/PRECEDENT_MAP.md) now meets the five-source formal
 benchmark at explicit reading depths and translations. The earlier incomplete
 count above is historical. Joint apparatus validation and independent critical
 review remain absent; source counts do not supply either.
 
-The [expanded control comparison](../literature/CONTROL_PRIOR_ART.md) narrows
+The [expanded control comparison](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/7bb9e91bf368324b1c5b001043022bd036245a64/literature/CONTROL_PRIOR_ART.md) narrows
 attribution: M18 supplies prescribed-current synthesis through a screened gate;
 B19 experimentally calibrates upstream harmonics to compensate interaction
 distortion; R20 uses two driven inputs to select a mode without fractionalization.
@@ -156,7 +156,7 @@ one-source energy–full-state-fidelity law, including admissible attainment and
 the fixed-width endpoint. No inspected passage subsumes that whole law, and no
 exhaustive priority claim follows.
 
-The [same-fidelity supporting corollary](CONTROL_COMPARISON.md) strengthens the
+The [same-fidelity supporting corollary](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/7bb9e91bf368324b1c5b001043022bd036245a64/research/CONTROL_COMPARISON.md) strengthens the
 restricted-access interpretation without changing C1–C2. At the same selected
 target and error $D_0=-\ln\mathcal F_0>0$, two real voltage inputs of net charges
 $(1,0)$ have minimum combined energy $R_2(D_0)<R_1(D_0;p,a)$ for $0<p<1$.

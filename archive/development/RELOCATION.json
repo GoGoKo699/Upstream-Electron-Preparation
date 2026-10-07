@@ -1,0 +1,47 @@
+{
+  "base_commit": "7bb9e91bf368324b1c5b001043022bd036245a64",
+  "files": [
+    {
+      "original_path": "research/READINESS.md",
+      "archive_path": "archive/development/READINESS.md",
+      "original_sha256": "ec716f796fafb8d82e29f2a9d7aa45e81e4ba62a4b62042fd8edf1bc99c03076",
+      "archive_sha256": "db43908a880ae15c649827884bfc27749ac677efb8b3fbfc6e92d6b87a87e14d",
+      "change": "Relative link destinations rebased; all other content preserved"
+    },
+    {
+      "original_path": "research/SIGNIFICANCE.md",
+      "archive_path": "archive/development/SIGNIFICANCE.md",
+      "original_sha256": "99d348f8bcc7ad86a881b0b5c19b16f686baa2b447266be78a824a4b7bc95ed4",
+      "archive_sha256": "47e08cafdc6e840f371e50863b4c747eaa92920074c7646f3f76a67281a52f80",
+      "change": "Relative link destinations rebased; all other content preserved"
+    },
+    {
+      "original_path": "research/MANUSCRIPT_PLAN.md",
+      "archive_path": "archive/development/MANUSCRIPT_PLAN.md",
+      "original_sha256": "64ac4db97b796c65a0c9fa5c6d10b01ba3544529a2d3675900268e41863aaba0",
+      "archive_sha256": "d15161fae91e59113f81e53cf1453621600c9faa56a3b6dd137dd15f61716bcf",
+      "change": "Relative link destinations rebased; all other content preserved"
+    },
+    {
+      "original_path": "literature/PREMISE_AUDIT.md",
+      "archive_path": "archive/development/PREMISE_AUDIT_2026-10-07.md",
+      "original_sha256": "086a35516b0b3b9d72fb60822d7c35eb63abe9fb26e93a67fb3fba7231545538",
+      "archive_sha256": "78fcec13caf11a66c84389353639ffda913c0d885887406a6bd663885eb45993",
+      "change": "Relative link destinations rebased; all other content preserved"
+    },
+    {
+      "original_path": "literature/PRIOR_ART.md",
+      "archive_path": "archive/development/PRIOR_ART_2026-10-07.md",
+      "original_sha256": "b5fb9f3c5fd094eff7ab1507f63250e92fb99eb6926f37ac7bebd1fd9ed71e02",
+      "archive_sha256": "ec4b600c2236376198b960f4508e2c3d4940d433dce269626559a4f1468b9ea0",
+      "change": "Relative link destinations rebased; all other content preserved"
+    },
+    {
+      "original_path": "STATUS.md",
+      "archive_path": "archive/development/STATUS_2026-10-07.md",
+      "original_sha256": "dd2b5d6b8ac67fefafcffb54ff65496cbf3bce2fb8cf467b9b037568aab313d3",
+      "archive_sha256": "f9fe873c3da935085c79928d5091eb603ae669580e2e17c5aa680687f8f1f51b",
+      "change": "Relative link destinations rebased; all other content preserved"
+    }
+  ]
+}

@@ -1,13 +1,10 @@
 # One and two inputs at the same fidelity
 
-**5 October 2026. Supporting corollary of C1 and unitarity; author-side proof.**
-
-This comparison closes an interpretation gap in the [manuscript plan](MANUSCRIPT_PLAN.md):
-exact two-input preparation costs the target energy, but that alone is not an
-equal-error comparison with approximate one-input preparation. Keep the same
-target width, center, selected-output fidelity and launched-edge energy account.
-The only changed resource is access to the second voltage contact. This is not
-a new central claim or a new principle of multichannel control.
+This supporting corollary of [C1](FIDELITY_FRONTIER.md) and unitarity compares
+one and two input contacts at the same target width, center, selected-output
+fidelity and launched-edge energy account. The only changed resource is access
+to the second voltage contact. Exact two-input preparation costs the target
+energy; the derivation below also matches the errors for approximate preparation.
 
 ## 1. Control class and reduction
 
@@ -33,7 +30,7 @@ R_{\rm total}=a\int_0^\infty (|A_1|^2+|A_2|^2)\,dx
 \qquad D[B]=\int_0^\infty\frac{|B-f_a|^2}{x}\,dx.
 ```
 
-For every selected waveform $B$, setting $C=0$ minimizes combined energy and is
+For every admissible charge-one selected waveform $B$, setting $C=0$ minimizes combined energy and is
 attainable by $(A_1,A_2)^T=S_p^\dagger(B,0)^T$. In time, if $b$ is the selected
 voltage waveform, this construction is
 
@@ -119,7 +116,6 @@ comparison combines the existing C1 solution with unitarity and does not claim
 priority for using a second contact. Source keys resolve in
 [PRIOR_ART](../literature/PRIOR_ART.md).
 
-Both budgets count combined launched-edge excess energy, not contact hardware,
-full circuit work or irreversible heat. The theorem remains conditional on the
-same ideal scattering and coherent state model. No experiment, new numerical
-campaign, thermal extension or finite-start optimization is claimed.
+Both budgets count combined launched-edge excess energy in the same ideal
+scattering and coherent-state model. Full circuit work and irreversible heat
+are different quantities, as specified in the [model](MODEL_AND_CLAIMS.md).

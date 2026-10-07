@@ -1,9 +1,8 @@
 # From interacting edge channels to the preparation frontier
 
-This is an original teaching bridge from the [selected tutorial](README.md)
-to the existing C1–C2 argument. It is not a manuscript or a new scientific
-result. The [frontier](../research/FIDELITY_FRONTIER.md) and
-[audit](../research/FRONTIER_AUDIT.md) remain the authoritative proof route.
+This bridge connects the [selected tutorial](README.md) to the C1–C2 preparation
+frontier. The [frontier](../research/FIDELITY_FRONTIER.md) gives the exact formulas;
+the [proof audit](../research/FRONTIER_AUDIT.md) supplies the full bounds.
 
 ## 1. The physical question
 
@@ -297,8 +296,8 @@ identity-transfer case of Section 6.
 The [same-fidelity comparison](../research/CONTROL_COMPARISON.md) proves
 $R_2(D_0)<R_1(D_0;p,a)$ for every finite $D_0>0$ and $0<p<1$. As
 $D_0\downarrow0$, $R_2\to1$; at equal mixing, $R_1\sim C(a)/D_0$.
-Two-contact protection is an established idea; the comparison clarifies the
-resource in this optimization and makes no separate priority claim.
+Two-contact protection is an established idea; the comparison quantifies its
+energy advantage for this fixed preparation task.
 
 Along the one-input optimizer, the selected output energy stays at most
 $\mathcal E_\ell$ and tends to it at high fidelity. At equal mixing the divergent
@@ -309,13 +308,11 @@ large restricted-control cost are therefore compatible.
 
 You now have the specification, target, state metric, energy norm, constructive
 optimum and the reason for the singular endpoint. Read the linked audit for
-the complete existence and limit bounds. The more general reachability and
-nominal calibration/duration results are optional supporting material;
-C3's separate hole inequality is outside this route.
+the complete existence and limit bounds. General reachability and nominal
+calibration/duration results are optional supporting material.
 
 These are conditional statements in the fixed ideal model. Additional waveform
 restrictions retain its lower bound only if dynamics, energy and fidelity stay
 the same. Thermal states, changed dynamics or a different observable require
-their own analysis. The [readiness record](../research/READINESS.md) distinguishes
-author-side proof and reproducibility from independent review and device
-validation. This tutorial changes none of those statuses.
+their own analysis. The [claim map](../research/MODEL_AND_CLAIMS.md) connects each
+result to its proof and supporting checks.

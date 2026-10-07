@@ -1,8 +1,6 @@
 # Calibration and duration of the nominal optimizer
 
-**Initialization, 5 October 2026. Author-side argument; independent review is pending.**
-
-This is an editorially consolidated passage from the preserved [SCOUT_10.md](../archive/scouts/scout10/SCOUT_10.md). Equations, assumptions and proof steps are retained; display delimiters are adapted for GitHub. Historical scout decisions and reading labels are not active status. See [MODEL_AND_CLAIMS](MODEL_AND_CLAIMS.md) and [current prior-art ledger](../literature/PRIOR_ART.md).
+This page evaluates how accurately the equal-mixing energy optimizer must be calibrated and how its energy-weighted duration grows at high fidelity. These are properties of the fixed nominal optimizer, as specified by C5 in the [claim map](MODEL_AND_CLAIMS.md).
 
 ## 3. Exact sensitivity of the nominal energy optimizer
 
@@ -27,7 +25,7 @@ K_\mu=4\int_0^\infty
 
 This is exact in the same model, not a first-order expansion in epsilon. The integral is finite for every mu>0; near zero its integrand is O(x). It quantifies the fidelity of the **fixed nominal optimizer**, not the optimum for the actual asymmetric channel and not a minimax-robust design.
 
-Define
+Use $x_k=(2k+1)\pi$ and write $B_0(a)=B(a)$ for the positive sum in [Frontier, Section 4](FIDELITY_FRONTIER.md#4-exact-high-fidelity-cost-at-equal-mixing). Define
 
 ```math
 B_1(a)=\pi\sum_{k\ge0}\frac{e^{-a x_k}}{x_k^{3/2}}.
@@ -41,7 +39,7 @@ K_\mu\sim\frac{4B_1}{\sqrt\mu},\qquad
 \tag{2}
 ```
 
-The exponentially decreasing node weights make the residue sum convergent. One can first control finitely many isolated nodes, bound the remaining local contributions by their summable exponential weights, and separate the very large x region, where the exponential beats the inverse powers of mu. The nonsingular near-zero and inter-node contributions are subleading. This is the same fixed-width limit as in scout 09, not a simultaneous large-width assertion.
+The exponentially decreasing node weights make the residue sum convergent. One can first control finitely many isolated nodes, bound the remaining local contributions by their summable exponential weights, and separate the very large x region, where the exponential beats the inverse powers of mu. The nonsingular near-zero and inter-node contributions are subleading. This is the same fixed-width limit as in the [frontier](FIDELITY_FRONTIER.md).
 
 At fixed a, keeping the calibration penalty negligible relative to the nominal D requires epsilon=o(D) for this optimizer family. A simple finite prescription is
 
@@ -57,7 +55,7 @@ A known nonzero p-1/2 allows a redesigned inverse and removes the exact transmis
 
 ## 4. The pulse's energy-weighted duration is also singular
 
-Long preparation tails were already allowed, but the numerical energy table did not quantify how much of the pulse they carry. Define a normalized source-energy profile proportional to v(t)^2 and its variance
+To quantify the long preparation tails, define a normalized source-energy profile proportional to v(t)^2 and its variance
 
 ```math
 \bar t=\frac{\int t v(t)^2dt}{\int v(t)^2dt},\qquad
@@ -98,7 +96,7 @@ yields
 
 The same isolated-zero/tail argument applies. For an explicit high-frequency tail X, direct differentiation bounds |b'| by exp(-ax/2)*[(1+a)/(2mu*x)+(1/2+mu)/(mu^2*x^2)]. Squaring with (u+v)^2<=2u^2+2v^2 bounds the omitted derivative-norm integral. The independent K tail is at most exp(-aX)/(a*mu*X^2). These analytic omitted-tail bounds accompany the quadrature; floating-point roundoff is not interval-certified.
 
-Equation (5) describes the unique nominal energy optimizer. It is not a proof that every pulse with a given fidelity must have this minimum duration. A different energy, causal-start, bounded-duration, or robust-control problem would have to be posed separately. None is silently solved here.
+Equation (5) describes the duration of the unique nominal energy optimizer. Optimizing duration itself, imposing a start time or optimizing robustness defines a different control problem.
 
 ## 5. Finite target values and their interpretation
 
@@ -113,10 +111,10 @@ For nominal fidelity 99.9%, refined one-dimensional integrals give:
 
 These p errors are absolute fractions, not relative percentage errors on p. In the first row an actual p=0.501, used with the pulse designed for p=0.500, gives F_actual=0.9980105075. The pulse energy has not changed. Reoptimizing for the known actual p is a different calculation and may improve fidelity.
 
-The broad-target rows are not all in the same high-fidelity asymptotic regime as the short-target row at this particular F; the exact integrals, not Eq. (5) alone, produce the table. The width sensitivity was already present in scout 09. No laboratory time in seconds or attainable voltage precision has been assumed. The source RMS width does not specify a sharp truncation length.
+The broad-target rows are not all in the same high-fidelity asymptotic regime as the short-target row at this particular F; the exact integrals, not Eq. (5) alone, produce the table. All times are expressed relative to the mode-delay difference tau. The source RMS width measures energy spread in time rather than a sharp truncation length.
 
-The bound E_in/E_l>=213.54 for the first row remains a true optimistic benchmark when extra source constraints are imposed: restricting the allowed waveforms cannot lower its ideal minimum. However, the displayed ideal waveform is not automatically admissible with finite bandwidth, finite start time, finite voltage range or limited coherence. Those restrictions can change achievable fidelity and the optimizer.
+The bound E_in/E_l>=213.54 for the first row remains an ideal lower bound when extra waveform constraints are imposed under the same dynamics, energy account and fidelity objective. Restricting the allowed waveforms cannot lower that minimum, but may remove attainment by the displayed optimizer. A change in dynamics or coherence requires a separate analysis.
 
-## Attribution and boundary
+## Sources and provenance
 
-Bracketed source keys resolve in [PRIOR_ART](../literature/PRIOR_ART.md). No new result, coefficient, domain, or numerical reference was introduced in this import. The calibration/duration quantities describe the existing energy optimizer, not separate global optima.
+Bracketed source keys resolve in [PRIOR_ART](../literature/PRIOR_ART.md). The preserved [scout 10](../archive/scouts/scout10/SCOUT_10.md) records the derivation and numerical checks.

@@ -30,7 +30,7 @@ or for the wider field; that is the remaining significance question.
 
 ## 2. Fixed specification and central claims
 
-Use the [model map](MODEL_AND_CLAIMS.md) without changing its resources: two open
+Use the [model map](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/7bb9e91bf368324b1c5b001043022bd036245a64/research/MODEL_AND_CLAIMS.md) without changing its resources: two open
 channels; zero-temperature seas; linear, lossless dispersionless collective-mode
 scattering; a real deterministic charge-one voltage in $L^1\cap L^2$ at one input;
 fixed Lorentzian width $w>0$ and center; an unrestricted unused output. Count
@@ -49,7 +49,7 @@ R_{\min}(\mathcal F_0;p,a)
 ```
 
 **C1: the complete finite-error frontier.** Use the existing $A_\mu,R_\mu,D_\mu$
-from [Frontier, Section 3](FIDELITY_FRONTIER.md#3-exact-optimum-over-arbitrary-allowed-inputs).
+from [Frontier, Section 3](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/7bb9e91bf368324b1c5b001043022bd036245a64/research/FIDELITY_FRONTIER.md#3-exact-optimum-over-arbitrary-allowed-inputs).
 Select the unique $\mu>0$ with $D_\mu=-\ln\mathcal F_0$; then
 $R_{\min}=R_\mu$. For $R_{\rm cap}>0$, preparation with
 $\mathcal F\ge\mathcal F_0$ and $R\le R_{\rm cap}$ is possible in this class
@@ -78,11 +78,11 @@ normalization, algebraic and numerical checks; their counts are not proofs.
 
 | Intended statement | Necessary ingredients | Exact proof route | Existing supporting checks |
 |---|---|---|---|
-| Inherited full-state objective | Coherent voltage-source outputs; equal charge; neutral relative displacement; correct infrared limit | Frontier Sections 1–2, Eqs. (1)–(2); [Audit](FRONTIER_AUDIT.md), Section 1 | Finite-fidelity: overlap normalization/charge and regulated fermionic determinant checks |
+| Inherited full-state objective | Coherent voltage-source outputs; equal charge; neutral relative displacement; correct infrared limit | Frontier Sections 1–2, Eqs. (1)–(2); [Audit](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/7bb9e91bf368324b1c5b001043022bd036245a64/research/FRONTIER_AUDIT.md), Section 1 | Finite-fidelity: overlap normalization/charge and regulated fermionic determinant checks |
 | C1: lower bound over every allowed waveform | Same target, transfer, total-source budget and deterministic input class; nonnegative quadratic completion | Frontier Section 3, Eqs. (3)–(5); Audit Section 3, including infinite-$D$ competitors | Finite-fidelity: global completion/monotonicity and independent frequency quadrature |
 | C1: attainment and coverage | Hermitian spectrum; $L^1\cap L^2$ inverse, charge one and finite $D$; monotonic multiplier limits | Audit Sections 2–3 | Normalization and monotonicity checks support the analytic existence argument; they do not test arbitrary tails |
-| C2: fixed-width singular endpoint | Equal splitting; nonzero Lorentzian spectrum at transfer zeros; summable full-axis asymptotic bounds | [Reachability](EXACT_REACHABILITY.md), Section 3; Frontier Section 4; Audit Section 4 | Reachability: one-port zero; finite-fidelity: high-fidelity/width dependence and finite-error continuity |
-| Interpretation: access to both inputs reduces cost at the same fidelity | Same unitary matrix, target and error; inputs of net charges $(1,0)$; combined launched-edge energy | [Control comparison](CONTROL_COMPARISON.md), Sections 1–3; C1 with $H=1$ and unitarity | Analytic reduction, admissibility and strict inequality; existing exact two-input recovery/energy check supports the endpoint, not a newly counted test |
+| C2: fixed-width singular endpoint | Equal splitting; nonzero Lorentzian spectrum at transfer zeros; summable full-axis asymptotic bounds | [Reachability](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/7bb9e91bf368324b1c5b001043022bd036245a64/research/EXACT_REACHABILITY.md), Section 3; Frontier Section 4; Audit Section 4 | Reachability: one-port zero; finite-fidelity: high-fidelity/width dependence and finite-error continuity |
+| Interpretation: access to both inputs reduces cost at the same fidelity | Same unitary matrix, target and error; inputs of net charges $(1,0)$; combined launched-edge energy | [Control comparison](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/7bb9e91bf368324b1c5b001043022bd036245a64/research/CONTROL_COMPARISON.md), Sections 1–3; C1 with $H=1$ and unitarity | Analytic reduction, admissibility and strict inequality; existing exact two-input recovery/energy check supports the endpoint, not a newly counted test |
 | Interpretation: optimal energy flows to the unused output | Existing optimizer and unitarity; dominated convergence applied to its selected spectrum | Frontier Section 6, output-energy calculation | Existing energy-conservation check supports accounting; the new explicit limit has an analytic proof, not a separately counted test |
 
 ## 4. What changes in understanding or design
@@ -94,7 +94,7 @@ normalization, algebraic and numerical checks; their counts are not proofs.
 | Does an almost correct selected output imply modest source energy? | Along $A_\mu$, $R_{\rm sel}\le1$ and $R_{\rm sel}\to1$, but at equal splitting $R_{\rm unused}\sim R_\mu\to\infty$. | This follows from the optimizer's spectrum; fidelity convergence alone does not imply energy convergence. It is not a heat-production claim or an allocation law for every waveform. |
 | Apply the benchmark to restricted hardware? | Extra waveform restrictions under the same transfer, energy and fidelity definitions cannot lower the minimum and may destroy attainment. | Changed dynamics, thermal states, noise or a different observable need their own analysis. No device operating window or detector certificate is supplied. |
 
-Write $D_0=-\ln\mathcal F_0$. The [supporting corollary](CONTROL_COMPARISON.md)
+Write $D_0=-\ln\mathcal F_0$. The [supporting corollary](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/7bb9e91bf368324b1c5b001043022bd036245a64/research/CONTROL_COMPARISON.md)
 gives $0<R_2(D_0)<1$ and $R_2(D_0)<R_1(D_0;p,a)$ for $0<p<1$ and
 $D_0>0$. At equal splitting and fixed $a$, $R_2\to1$ while
 $R_1/R_2\sim C(a)/D_0$ as $D_0\downarrow0$. This compares both control classes
@@ -107,13 +107,13 @@ regularization at known transmission zeros. Address it through the complete
 preparation statement and the two resource comparisons above. Attribute the
 transfer and coherent-state metric to their established sources; do not present
 the method or exponent as a new general principle. The
-[control-prior-art comparison](../literature/CONTROL_PRIOR_ART.md) also records
+[control-prior-art comparison](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/7bb9e91bf368324b1c5b001043022bd036245a64/literature/CONTROL_PRIOR_ART.md) also records
 M18's prescribed-current synthesis, B19's calibrated upstream interaction
 precompensation, and R20's two-input eigenmode protection. These ideas are
 established; the candidate contribution is the complete constrained preparation
 cost. The same-fidelity corollary supports its interpretation and carries no
 separate control-principle priority claim. Actual reading depths remain in
-[PRIOR_ART](../literature/PRIOR_ART.md), without exhaustive priority evidence.
+[PRIOR_ART](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/7bb9e91bf368324b1c5b001043022bd036245a64/literature/PRIOR_ART.md), without exhaustive priority evidence.
 Additional decimal places would not settle the significance objection.
 
 ## 5. Planned order and exclusions
@@ -142,14 +142,14 @@ fixed target ratio and limits explicit.
 | Open item | Effect on this plan |
 |---|---|
 | No independent critical report | C1–C2 have an author-side proof/audit, not independent certification. The present review adds no such certification. |
-| Formal precedent benchmark met; joint operating regime absent | The [precedent map](../literature/PRECEDENT_MAP.md) supplies five relevant formal precedents per stated convention, including explicit translations and actual reading depths. These are not five independent derivations or device demonstrations. The [premise audit](../literature/PREMISE_AUDIT.md) retains experimental mismatches; no joint apparatus feasibility claim is allowed. |
+| Formal precedent benchmark met; joint operating regime absent | The [precedent map](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/7bb9e91bf368324b1c5b001043022bd036245a64/literature/PRECEDENT_MAP.md) supplies five relevant formal precedents per stated convention, including explicit translations and actual reading depths. These are not five independent derivations or device demonstrations. The [premise audit](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/7bb9e91bf368324b1c5b001043022bd036245a64/literature/PREMISE_AUDIT.md) retains experimental mismatches; no joint apparatus feasibility claim is allowed. |
 | Incomplete priority and impact case | Preserve the narrow candidate contribution. A directly covering prior result would change originality; usefulness to a concrete source-design problem remains unestablished. |
 | C3's separate proof check | Omission removes it as a dependency of the planned argument. It must be checked before being promoted into a later manuscript. |
 
 The [readiness decision](READINESS.md) finds no remaining named mathematical or
 source-evidence task required to state this conditional C1–C2 argument. The
 same-fidelity corollary closes the resource-comparison gap, and the
-[change record](../provenance/READINESS_CHANGE.md) records the correction limiting
+[change record](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/7bb9e91bf368324b1c5b001043022bd036245a64/provenance/READINESS_CHANGE.md) records the correction limiting
 lower-bound inheritance to waveform restrictions under unchanged dynamics,
 energy and fidelity. Neither changes the central frontier.
 
@@ -158,4 +158,4 @@ drafting is requested. It does not certify exhaustive priority, substantial
 impact, independent validation or a realized operating regime. **Stop scientific
 expansion after integration and verification.** No manuscript prose, expanded
 model, numerical campaign or outside contact is initiated by this plan. The
-[work order](../work_orders/CURRENT.md) records the handoff.
+[work order](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/7bb9e91bf368324b1c5b001043022bd036245a64/work_orders/CURRENT.md) records the handoff.

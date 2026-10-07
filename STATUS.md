@@ -1,45 +1,45 @@
-# Research status
+# Scope and evidence
 
-**6 October 2026. Single-source tutorial route added to the completed conditional C1–C2 research record.**
+The repository develops an energy–fidelity frontier for preparing a prescribed
+Lorentzian electron and its Fermi sea through two interacting quantum Hall edge
+channels. One upstream voltage is controlled; the target width and center,
+channel dynamics and full-state fidelity are fixed.
 
-The dedicated destination is `GoGoKo699/Upstream-Electron-Preparation`. It was created by the owner as a public repository with an MIT license; this import retains both and does not modify another repository. Initial base: `7561c5d655087bde481bff26634be54ccc11c843`.
+## Results and proof route
 
-## What the record supports
+| Result | Read |
+|---|---|
+| Exact minimum source energy at prescribed fidelity, attained by an explicit waveform | [Fidelity frontier](research/FIDELITY_FRONTIER.md), Sections 2–4 |
+| Inverse-error energy divergence at equal splitting and fixed target width | [Frontier](research/FIDELITY_FRONTIER.md), Section 4, and [whole-axis proof](research/FRONTIER_AUDIT.md#4-a-bound-over-the-entire-frequency-axis) |
+| Lower energy with two controlled inputs at the same target and fidelity | [Control comparison](research/CONTROL_COMPARISON.md) |
 
-The [model and claim map](research/MODEL_AND_CLAIMS.md) identifies the author-side energy–many-body-fidelity frontier, constructive waveform and equal-splitting asymptote. Exact clean-target reachability supports that core. The retained hole relation is outside the planned manuscript dependency chain. Duration and splitting sensitivity describe the existing optimizer only. The original frontier comes from the preserved scouts. The [bounded audit](research/FRONTIER_AUDIT.md) now supplies explicit equal-charge normalization, optimizer admissibility, all-competitor completion and whole-axis asymptotic bounds. It identifies one necessary qualification: the entire charge-one L1/L2 class need not have finite relative displacement norm, so divergent cases use the already stated zero-fidelity infrared limit rather than an unqualified common-Fock-space ket. Every optimizer has finite norm; C1–C2 and their coefficients remain unchanged. The separate C3 occupied-space proof was not newly certified. The [change record](provenance/FRONTIER_AUDIT_CHANGE.md) retains the old/new distinction.
+The [model and claim map](research/MODEL_AND_CLAIMS.md) defines the input class,
+infrared convention and dependencies. General clean-target
+[reachability](research/EXACT_REACHABILITY.md) and the nominal optimizer's
+[duration and calibration sensitivity](research/OPTIMIZER_LIMITATIONS.md)
+provide supporting results.
 
-The named Cabart full-text-reading gap is closed at construction level using the supplied 2018 paper. The [comparison](literature/CABART_2018_COMPARISON.md) distinguishes its changed-geometry control from the fixed open-channel, upstream-only problem. It also separates HOM and elastic single-electron quantities from global target fidelity. The publisher PDF is not committed.
+## Physical scope
 
-The [significance assessment](research/SIGNIFICANCE.md) supports planning around C1–C2: restricted access to one source produces a sharp, attainable full-state preparation cost in a lossless device. Direct L11/R21 comparisons do not subsume this fixed optimization at the inspected depth. The solution method remains elementary regularized inversion; this is not a novelty or broad-impact certificate. The optimizer's output-energy allocation is now explicit in the frontier as a supporting consequence, with no change to the original frontier equations or coefficients.
+The theory uses zero-temperature, linear, elastic, lossless and dispersionless
+bosonic scattering in two open channels. The input is a deterministic real
+charge-one voltage with integrable, finite-energy tails. The unused output is
+unrestricted, and its energy is included in the launched-edge budget.
 
-The [manuscript plan](research/MANUSCRIPT_PLAN.md) is complete. It presents C1–C2 as an exact ideal feasibility test, maps their assumptions to proof passages and existing checks, and uses two-input control and optimal-output energy allocation for interpretation. C3 is omitted from the planned dependency chain; general target classification and nominal duration/calibration remain subordinate. The original planning pass added no scientific result or numerical test and left substantial impact unestablished. The subsequent supporting derivation is recorded below.
+The [assumptions](literature/ASSUMPTIONS.md) and
+[premise comparison](literature/PREMISE_AUDIT.md) connect this ideal model to
+the primary literature. The [control comparison](literature/CONTROL_PRIOR_ART.md)
+identifies which earlier constructions use different controls or observables.
 
-The [premise audit](literature/PREMISE_AUDIT.md) now maps the three inherited premises to exact source passages, separates formal support from experimental ingredients, and records concrete dispersion, attenuation, temperature and observable mismatches. It clarifies that source energy is excess energy launched into the driven edge, not full bias-circuit work. No formula or numerical reference changes. At that pass the audit identified no concrete blocker to conditional C1–C2, but did not complete the requested precedent benchmark. Its experimental mismatches remain active.
+## Evidence and reproduction
 
-The subsequent [readiness decision](research/READINESS.md) completes the bounded pre-manuscript work. The [precedent map](literature/PRECEDENT_MAP.md) identifies five formal publications for each physical subpremise, distinguishes direct formulas, model uses and explicit translations, and does not count shared theoretical ancestry as independent confirmation. The [control comparison](literature/CONTROL_PRIOR_ART.md) attributes earlier current engineering, experimental precompensation and two-input protection. No named potentially covering result found in the targeted pass remains uninspected at its identified relevant passage.
+The analytic proof is supported by **18 scientific groups in three suites**,
+with **eight separate infrastructure tests**. The [verification policy](VERIFICATION.md)
+defines the checks and distinguishes passing assertions, numerical agreement
+and exact-byte reproduction. Each verification artifact records its own commit,
+source hashes, raw reports and comparisons.
 
-A new explicit [supporting corollary](research/CONTROL_COMPARISON.md) compares one and two input contacts at the same target fidelity. It proves the two-input frontier by reduction to C1 and a strict one-input energy penalty for interior mixing. A separate [change record](provenance/READINESS_CHANGE.md) corrects an overbroad scope sentence: restrictions on waveforms inherit the ideal bound only with the same dynamics and objective. Neither change alters the central equations, scientific code or numerical references.
-
-The author selected Fève–Berroir–Plaçais (2016) as the single external tutorial anchor. The [learning guide](tutorial/README.md) maps its relevant sections; the original [bridge](tutorial/BRIDGE.md) explains the clean target, state overlap, energy normalization, all-waveform optimum and endpoint. This is a teaching presentation of existing material, with no new scientific claim or changed verification standard.
-
-## What is not established
-
-There is no independent critical report and no exhaustive priority certificate. The formal precedent benchmark is complete at the recorded depths, but five unrelated derivations or five joint-regime experiments are not supplied. No complete joint operating regime is demonstrated in the inspected sources. No finite-temperature, finite-start, finite-bandwidth, peak-voltage, repetition-rate or minimax-robust optimization is asserted. No joint apparatus, achieved fidelity, or direct detector certification is supplied. No manuscript or release is initiated.
-
-## Verification and integrity
-
-There are **three original scientific suites, 18 groups: 6 reachability, 7 fidelity, 5 control**. The four active scientific files and three original reference reports are byte-preserved; the import also preserves all 64 scout-10 archive members (including its manifest), all 11 readiness-package members and the existing license. This is 83 protected file copies, some deliberately identical by content. Infrastructure checks are counted separately.
-
-The fresh pre-import baseline passed all 18 groups and reproduced all three reference JSON files byte-for-byte. Its recorded evidence is [IMPORT_RECORD](provenance/IMPORT_RECORD.json). The historical archive preserves warning-bearing development attempts. Exact-byte reproduction, numerical agreement and scientific assertion success are distinct in [VERIFICATION](VERIFICATION.md).
-
-Candidate, PR and merged-main outcomes must be read from their own actual reports and source snapshots. They are not inferred here from the local baseline. In particular, a passing workflow is not independent scientific validation and historical `PASS` records do not describe a later tree.
-
-## Next bounded action
-
-The selected tutorial and bridge complete this furnishing pass after review,
-local checks, merged PR and actual main artifact inspection. Use the learning
-route to study the fixed argument; repair a named exposition gap if one appears.
-Scientific research and the scoped plan remain complete at their recorded
-conditional scope. Drafting is a separate action when requested. Exact revision
-and candidate/PR/main outcomes belong to the PR handoff. Independent critical
-reading remains open and is not supplied by another assistant pass.
+For learning, start with the [tutorial guide](tutorial/README.md) and
+[bridge](tutorial/BRIDGE.md). The [archive](archive/README.md) retains development
+attempts and internal planning records; [provenance](provenance/IMPORT_MANIFEST.json)
+identifies the 83 protected source and reference copies.

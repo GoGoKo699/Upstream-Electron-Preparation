@@ -1,8 +1,6 @@
 # Exact reachability and control counterexamples
 
-**Initialization, 5 October 2026. Author-side argument; independent review is pending.**
-
-This is an editorially consolidated passage from the preserved [SCOUT_08.md](../archive/scouts/scout10/prior/prior/SCOUT_08.md). Equations, assumptions and proof steps are retained; display delimiters are adapted for GitHub. Historical scout decisions and reading labels are not active status. See [MODEL_AND_CLAIMS](MODEL_AND_CLAIMS.md) and [current prior-art ledger](../literature/PRIOR_ART.md).
+This page characterizes finite clean targets that a single upstream voltage can prepare exactly. It supplies the exact-preparation endpoint and supporting reachability result in the [claim map](MODEL_AND_CLAIMS.md).
 
 ## 2. Fixed physical model and the meaning of clean
 
@@ -26,7 +24,7 @@ z=e^{i\omega\tau}.
 
 This matrix is unitary. A voltage drives a coherent displacement of the collective modes. Linear lossless scattering therefore leaves each output in the voltage-generated class; this is an inherited property, not a claim that an arbitrary injected electron state has no many-body decoherence [G13]. The unused input has zero applied voltage. Its output is unrestricted and can carry neutral electron–hole excitations. Neither output is measured or postselected in the construction.
 
-We allow a real input v in L1(R) intersect L2(R), including negative voltage lobes, electron–hole production, and arbitrarily long decaying tails. We do not impose a positive-voltage, single-Lorentzian, fixed-duration, or strict finite-start restriction. Finite source energy in the linear chiral model requires the L2 norm to be finite; the impossibility below already holds without the additional L1 condition.
+We allow a real input v in L1(R) intersect L2(R), including negative voltage lobes, electron–hole production, and arbitrarily long decaying tails over the whole time axis. Finite source energy in the linear chiral model requires the L2 norm to be finite; the impossibility below already holds without the additional L1 condition.
 
 A **clean N-electron target** has exactly N extra electrons and no holes in the selected outgoing channel, over the full time axis. This is stricter than net charge Ne or one counted electron in a finite detector gate. In the standard regular finite-excitation voltage-source class, minimality gives the finite Lorentzian/Blaschke form [K06,G13]
 
@@ -37,7 +35,7 @@ L_w(t)=\frac{2w}{t^2+w^2},\quad w_j>0,\quad m_j\in\mathbb N,
 \tag{3}
 ```
 
-The corresponding phase is a product of B_j(t)=[t-t_j+iw_j]/[t-t_j-iw_j], each repeated m_j times. This characterization is inherited, not a claim about arbitrary single-electron sources, finite-temperature excess distributions, singular voltage impulses, superconducting contacts, or interacting fractional edges. Smooth finite-rank pure-electron voltage excitations are the declared target class.
+The corresponding phase is a product of B_j(t)=[t-t_j+iw_j]/[t-t_j-iw_j], each repeated m_j times. This inherited characterization specifies the target class: smooth finite-rank pure-electron voltage excitations over a zero-temperature Fermi sea.
 
 One can check their fermionic content directly. For a single factor the excess coherence kernel is
 
@@ -120,7 +118,7 @@ v(t)=2[L_w(t)-L_w(t-\tau)+L_w(t-2\tau)]
 
 The incoming waveform is not itself a clean positive pulse. This distinguishes arbitrary-waveform synthesis from merely sending an even-charge Lorentzian through the device. The adjacent-pair special case v=2L_w is already the integer-fractionalization example of G13; neither it nor the existence of even clean output is novel here.
 
-No charge-2e quasiparticle, pairing interaction, or fundamental prohibition of odd charge is implied. Charge is conserved separately at zero frequency, S_p(0)=I. Odd net output charge is possible with additional electron–hole excitations. An infinite periodic train is also outside (3): if its voltage has period tau, (1) just reproduces it, and one clean electron per repetition period is possible. This is consistent with the periodic revivals in G13. The limits of infinite drive duration and finite total electron count must not be conflated.
+The even-count condition concerns clean finite targets under this restricted control. Charge is conserved separately at zero frequency, S_p(0)=I, and odd net output charge is possible with additional electron–hole excitations. An infinite periodic train is outside (3): if its voltage has period tau, (1) just reproduces it, and one clean electron per repetition period is possible. This is consistent with the periodic revivals in G13. Infinite drive duration and finite total electron count are distinct limits.
 
 ## 5. Breaking the equality restores exact reachability but costs energy
 
@@ -137,7 +135,7 @@ v(t)=\frac1p\sum_{n=0}^\infty\left(-\frac{1-p}{p}\right)^n f(t-n\tau).
 \tag{7}
 ```
 
-Its convergence is absolute in both norms. For p<1/2 the corresponding expansion is advanced: v(t)=[1/(1-p)] sum_{n>=0}[-p/(1-p)]^n f(t+(n+1)tau). Pre-emission is allowed in this whole-line control problem. A real laboratory pulse of finite duration only approximates these waveforms; no finite-start exact-control theorem is implied. For p=0 or 1 there is only a delay or identity.
+Its convergence is absolute in both norms. For p<1/2 the corresponding expansion is advanced: v(t)=[1/(1-p)] sum_{n>=0}[-p/(1-p)]^n f(t+(n+1)tau). Pre-emission is allowed in this whole-line control problem; finite-duration pulses approximate these waveforms. For p=0 or 1 there is only a delay or identity.
 
 For a specified single-electron target of width w, the source energy in the chiral linear model is
 
@@ -172,9 +170,9 @@ For fixed positive a, dominated convergence yields
 
 This cost cannot be reduced by selecting a different exact waveform: the L2 inverse is unique. It is an exact-target statement, not a bound on achievable electron fidelity or hole number at finite error. The source energy also includes excitations emitted into the second channel. Unitarity of (2) implies it equals the sum of both output energies, rather than excess dissipation magically appearing in the interaction region.
 
-For w=tau/2, p=0.505 gives energy ratio about 28.276; p=0.5005 gives about 273.107. The leading coefficient is pi/sinh(pi)=0.272029..., and the divergence is at fixed target duration. Widening the target reduces that coefficient exponentially, so there is no width-independent resource claim or universal finite-accuracy threshold here. These numbers come from one-dimensional quadrature of (8), independently checked against time-domain overlaps of the geometric input train. No many-electron lattice simulation was used.
+For w=tau/2, p=0.505 gives energy ratio about 28.276; p=0.5005 gives about 273.107. The leading coefficient is pi/sinh(pi)=0.272029..., and the divergence is at fixed target duration. Widening the target reduces that coefficient exponentially. These numbers come from one-dimensional quadrature of (8), checked against time-domain overlaps of the geometric input train. The [frontier](FIDELITY_FRONTIER.md) gives the separate finite-error optimization.
 
-## 6. Two controls prevent an overstatement
+## 6. Additional control and time-gated observation
 
 **Control of both inputs removes the restriction.** At equal mixing the two finite waveforms
 
@@ -194,6 +192,6 @@ v_N(t)=2\sum_{n=0}^N(-1)^n f(t-n\tau)
 
 For even N and a one-electron Lorentzian f, this is two clean electrons separated by an arbitrarily long but finite delay. For odd N it is a zero-net-charge electron/hole-type pulse pair, not a hole-free single electron. Increasing the delay can make an early measurement look single-particle while the global output remains different. The theorem does not rule out useful time-gated operation.
 
-## Attribution and boundary
+## Sources and provenance
 
-Bracketed source keys resolve in [PRIOR_ART](../literature/PRIOR_ART.md). No new result, coefficient, domain, or numerical reference was introduced in this import. The calibration/duration quantities describe the existing energy optimizer, not separate global optima.
+Bracketed source keys resolve in [PRIOR_ART](../literature/PRIOR_ART.md). The preserved [scout 08](../archive/scouts/scout10/prior/prior/SCOUT_08.md) records the derivation history.
