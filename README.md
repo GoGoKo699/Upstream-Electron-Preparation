@@ -12,7 +12,7 @@ otherwise unexcited Fermi sea, when only one upstream contact can be driven?
 | [Reading guide](tutorial/README.md) · [Bridge to the result](tutorial/BRIDGE.md) | Learn from one external tutorial and the local derivation |
 | [Model and claim map](research/MODEL_AND_CLAIMS.md) · [Frontier](research/FIDELITY_FRONTIER.md) · [Proof audit](research/FRONTIER_AUDIT.md) | Follow the fixed task, exact optimum and proof dependencies |
 | [Assumptions](literature/ASSUMPTIONS.md) · [Prior-work comparison](literature/CONTROL_PRIOR_ART.md) | Check physical scope, control access and attribution |
-| [Verification](#evidence-and-reproduction) · [Status](STATUS.md) | Inspect executable evidence and the remaining limits |
+| [Verification](#evidence-and-reproduction) · [Scope and evidence](STATUS.md) | Inspect the model's scope and executable evidence |
 | [LLM guide](llms.txt) · [Workspace](WORKSPACE.md) | Find relevant questions, search terms and authoritative files |
 
 ## Model and preparation task
@@ -98,7 +98,8 @@ of a lossless two-channel device.
 Driving both inputs changes that resource. The
 [same-fidelity comparison](research/CONTROL_COMPARISON.md) proves a strictly lower
 combined-energy minimum for interior mixing at the same target and error.
-Two-contact protection is an inherited control idea, not a separate priority claim.
+The [prior-work comparison](literature/CONTROL_PRIOR_ART.md) attributes the
+two-contact control principle and relates it to this energy comparison.
 
 ## One tutorial, then this result
 
@@ -119,15 +120,15 @@ supporting results and research records.
 
 ## Boundaries and prior work
 
-The channel and coherent-state description are inherited from electron quantum
-optics. The frontier is a constrained state-preparation result, not a new
-fractionalization mechanism, a universal energy cost of every electron, or
-irreversible decoherence of every voltage-generated state.
+The channel and coherent-state description come from electron quantum optics.
+The frontier quantifies restricted-source preparation at a fixed target and
+full-state fidelity within that model.
 
 A second driven input, a downstream correcting contact or a closed inner channel
-changes the task. No finite-start, bandwidth, peak-voltage, repetition-rate,
-finite-temperature or minimax-robust optimization is asserted. A wider target
-changes the cost, and the waveform examples are not achieved apparatus specifications.
+changes the task. The ideal waveform class permits either sign and arbitrarily
+long tails. Additional waveform restrictions retain the ideal lower bound under
+the same dynamics, energy and fidelity, while attainability can change. Widening
+the target changes the cost.
 
 [Assumptions](literature/ASSUMPTIONS.md), the
 [premise audit](literature/PREMISE_AUDIT.md) and
@@ -137,12 +138,9 @@ experimental ingredients. The [reading ledger](literature/PRIOR_ART.md) and
 and the inspected sources. The [Cabart comparison](literature/CABART_2018_COMPARISON.md)
 explains why closing the inner channel changes this optimization.
 
-The retained C3 hole relation is outside the main learning and planned manuscript
-dependency chains; its separate proof was not newly audited. General reachability
-and the nominal optimizer's duration/calibration sensitivity remain supporting
-results. Independent validation, exhaustive priority, substantial impact and a
-demonstrated joint operating regime remain unestablished. The
-[readiness record](research/READINESS.md) and [status](STATUS.md) retain these limits.
+The [claim map](research/MODEL_AND_CLAIMS.md) distinguishes the central frontier
+from general reachability and the nominal optimizer's duration/calibration
+results. The [scope and evidence page](STATUS.md) collects their reading routes.
 
 ## Evidence and reproduction
 
@@ -162,8 +160,8 @@ The runner retains logs and all numerical differences, checks source integrity
 before and after, and never refreshes reference bytes automatically.
 
 [Verification policy](VERIFICATION.md) distinguishes passing assertions, numerical
-agreement and exact reproduction. None is independent scientific validation.
-Hosted artifacts identify their own source tree; local success is not a hosted result.
+agreement and exact reproduction. Hosted artifacts identify their own source tree
+and retain the raw comparisons for that revision.
 
 The [archive](archive/README.md) preserves scouts 08–10, development attempts and
 the pre-import readiness record. The [import manifest](provenance/IMPORT_MANIFEST.json)

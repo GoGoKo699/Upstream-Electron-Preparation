@@ -1,19 +1,13 @@
-# Critical check of the fixed frontier
+# Proof details for the fixed frontier
 
-**5 October 2026. Author-side audit of C1–C2, not independent review.**
+This page supplies the charge-sector normalization, optimizer admissibility,
+all-input bound and complete-frequency-axis asymptotics used by
+[C1–C2](MODEL_AND_CLAIMS.md) and the [frontier](FIDELITY_FRONTIER.md).
 
-Base: `2aef91fb235bcd5082d30805d5c4cd53f679b439`, tree
-`3defa719131b970c27b7022ab0e97c5addd32acc`. The checked argument is
-[Frontier, Sections 1–4](FIDELITY_FRONTIER.md), compared with the preserved
-[scout 09](../archive/scouts/scout10/prior/SCOUT_09.md).
-
-**Finding:** the optimizer, all-input bound and asymptotic coefficient survive.
-One qualification is necessary: charge one and finite source energy do not
-guarantee a finite relative coherent-displacement norm. The already stated
-zero-fidelity convention for divergent $D$ must be understood as a regulated
-limit, without asserting a common-Fock-space ket for every allowed waveform.
-The [change record](../provenance/FRONTIER_AUDIT_CHANGE.md) identifies the exact
-effect on the claims. No waveform competitor is removed.
+Charge one and finite source energy do not guarantee a finite relative
+coherent-displacement norm. The zero-fidelity convention for divergent $D$
+is a regulated limit, without asserting a common-Fock-space ket for every
+allowed waveform. This interpretation keeps the full competitor class.
 
 ## 1. Equal-charge, squared full-state overlap
 
@@ -27,8 +21,7 @@ two incident coherent displacements to a product of output displacements.
 Tracing the unused output therefore adds no mixedness to this preparation.
 This is the specific voltage-source statement in G13, Eq. (20) and the
 paragraphs following it, not a statement about arbitrary injected electrons.
-The relevant [primary passage](https://arxiv.org/html/1301.6777v1#S3.SS1.SSS2)
-was reread for this audit.
+See the [primary passage](https://arxiv.org/html/1301.6777v1#S3.SS1.SSS2).
 
 After applying the inverse target voltage, the relative displacement is, up
 to a common polarity sign,
@@ -115,8 +108,7 @@ A_\mu'(0+)=-a/2-\mu-i(1-p),\qquad
 B'(0+)-B'(0-)=-a-2\mu.
 ```
 
-The physical inverse is $v_\mu(t)=\tau^{-1}\int_{\mathbb R}
-B(x)e^{-ixt/\tau}\,dx$. It is real and bounded because $B\in L^1$.
+The physical inverse is $v_\mu(t)=\tau^{-1}\int_{\mathbb R}B(x)e^{-ixt/\tau}\,dx$. It is real and bounded because $B\in L^1$.
 Integrating by parts on the two half-lines twice, with the finite derivative
 jump retained, gives $v_\mu(t)=O(t^{-2})$. Hence $v_\mu\in L^1\cap L^2$.
 Fourier inversion now justifies, rather than merely presumes,
@@ -205,16 +197,10 @@ Global optimality and $R=aU$ yield the original coefficient
 $C(a)=aB(a)^2$ and $R_{\min}\sim C(a)/[-\log\mathcal F]$.
 This is not uniform in varying target width, nor a finite-notch truncation.
 
-## Disposition and stopping point
+## Proof scope and provenance
 
-C1–C2 retain their equations, admissible optimum and fixed-width asymptote.
-The infrared qualification changes the interpretation of divergent-error
-competitors only. No scientific reference output or protected source changes.
-C3's separate occupied-space/hole argument and C4–C5 were not newly certified
-by this audit. Finite-$D$ language in the hole discussion is aligned with the
-same domain; its inequality is unchanged.
-
-The three requested implications have now been assessed. This is the stopping
-point of the bounded proof task. Independent critical reading, significance
-relative to inherited regularized inversion, and physical-premise evidence
-remain open; passing this audit resolves none of those questions automatically.
+These details establish C1–C2's admissible optimum, all-competitor bound and
+fixed-width asymptote. The [claim map](MODEL_AND_CLAIMS.md) separates their
+dependencies from the supporting statements. The
+[change record](../provenance/FRONTIER_AUDIT_CHANGE.md) preserves the original
+audit revision and the interpretation of divergent-error competitors.

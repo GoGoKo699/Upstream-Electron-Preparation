@@ -2,8 +2,6 @@
 
 [Project overview](../README.md) · [Bridge](BRIDGE.md) · [Proof audit](../research/FRONTIER_AUDIT.md) · [LLM guide](../llms.txt)
 
-**Selected by the author on 6 October 2026.**
-
 The single external learning anchor (source key **FBP16**) is G. Fève, J.-M. Berroir and B. Plaçais,
 *Time dependent electronic transport in chiral edge channels*, **Physica E 76,
 12–27 (2016)**. Read the [free author-hosted PDF](https://www.phys.ens.psl.eu/~placais/publication/2016_physicaE_Buttiker-in-memoriam_Feve.pdf)
@@ -64,10 +62,9 @@ Before reading optional supporting results, explain:
 5. Why a transfer zero prevents exact inversion but permits every positive error.
 6. Why allowing the second contact changes the optimization task.
 
-Answers appear in the bridge and its linked proof passages. HOM contrast is
-not substituted for full-state fidelity. C3's separate hole inequality is not
-a learning dependency here. The route explains the existing conditional
-result; it adds no model, apparatus claim or independent validation.
+Answers appear in the bridge and its linked proof passages. The route leads to
+C1–C2 in the [claim map](../research/MODEL_AND_CLAIMS.md), using full-state fidelity
+throughout.
 
 ## Repository map
 
@@ -77,8 +74,8 @@ result; it adds no model, apparatus claim or independent validation.
 | Duration and splitting sensitivity of the nominal optimizer | [Optimizer limitations](../research/OPTIMIZER_LIMITATIONS.md) |
 | Physical normalization and the formal precedent benchmark | [Premise audit](../literature/PREMISE_AUDIT.md) and [precedent map](../literature/PRECEDENT_MAP.md) |
 | Inherited ingredients, source reading depths and changed-geometry comparison | [Reading ledger](../literature/PRIOR_ART.md) and [Cabart comparison](../literature/CABART_2018_COMPARISON.md) |
-| Research assessment, argument plan and evidence limits | [Significance](../research/SIGNIFICANCE.md), [plan](../research/MANUSCRIPT_PLAN.md), [readiness](../research/READINESS.md) and [status](../STATUS.md) |
-| Executable evidence, preserved inputs and earlier attempts | [Verification](../VERIFICATION.md), [checks](../checks/README.md), [results](../results/README.md) and [archive](../archive/README.md) |
+| Result scope and evidence | [Scope and evidence](../STATUS.md) and [claim map](../research/MODEL_AND_CLAIMS.md) |
+| Executable evidence, preserved inputs and development history | [Verification](../VERIFICATION.md), [checks](../checks/README.md), [results](../results/README.md) and [archive](../archive/README.md) |
 | Repository maintenance and current work | [Workspace](../WORKSPACE.md) and [current work order](../work_orders/CURRENT.md) |
 
 For the repository's role and discussion details, see

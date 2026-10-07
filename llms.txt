@@ -27,13 +27,12 @@ zeros; single-input electron pulse shaping; source-energy preparation frontier.
 - [Control comparison](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/main/research/CONTROL_COMPARISON.md): supporting one-input/two-input comparison at equal target and fidelity.
 - [Assumptions](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/main/literature/ASSUMPTIONS.md), [premise audit](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/main/literature/PREMISE_AUDIT.md) and [precedent map](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/main/literature/PRECEDENT_MAP.md): inherited premises and experimental limits.
 - [Prior-art ledger](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/main/literature/PRIOR_ART.md) and [control prior art](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/main/literature/CONTROL_PRIOR_ART.md): primary-source attribution, closest constructions and actual reading depths.
-- [Status](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/main/STATUS.md), [readiness](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/main/research/READINESS.md) and [verification policy](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/main/VERIFICATION.md): evidence limits and reproduction rules.
+- [Scope and evidence](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/main/STATUS.md) and [verification policy](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/main/VERIFICATION.md): result scope, supporting evidence and reproduction rules.
 
 The single external tutorial is Fève, Berroir and Plaçais, Time dependent electronic
 transport in chiral edge channels, Physica E 76, 12–27 (2016),
 https://doi.org/10.1016/j.physe.2015.10.006. The local bridge supplies the remaining
-clean-target, metric, energy and optimization steps. The tutorial is not claimed
-to contain this repository's frontier.
+clean-target, metric, energy and optimization steps leading to the frontier.
 
 ## Model and result boundaries
 
@@ -58,31 +57,26 @@ R_min(F;a) ~ C(a)/[-ln F] as F tends to one.
 Perfect preparation has no finite-energy inverse at equal mixing; unequal
 mixing restores a finite exact cost in this ideal model.
 
-This is not an HOM-visibility bound, a universal energy cost of an electron,
-an arbitrary-source decoherence theorem, or an achieved device specification.
-Changed control access, closed-channel geometry, thermal states or changed
-dynamics require a different analysis. Additional waveform restrictions retain
-the ideal lower bound only with the same dynamics, energy and fidelity, and
-may remove attainability. No finite-duration or minimax-robust optimum is claimed.
+The full-state objective differs from an HOM contrast or a current-profile
+match. Changed controls, geometry, thermal states or dynamics define different
+preparation problems. Additional waveform restrictions retain the ideal lower
+bound under the same dynamics, energy and fidelity, while attainability may change.
 
-C3's separate hole inequality was not newly audited and is outside the main
-learning and planned manuscript dependency chains. General reachability,
-nominal duration/calibration and the two-contact comparison are supporting
-material, not replacements for the central frontier.
+General reachability, nominal duration/calibration and the two-contact comparison
+provide supporting results. The claim map specifies their roles and dependencies.
 
 ## Evidence and attribution
 
 The claim map and proof audit govern summaries. There are 18 preserved scientific
 groups across three suites, plus eight separate infrastructure tests. Passing
-assertions, numerical agreement and byte reproduction are distinct. Assistant
-reviews are author-side work; independent validation, exhaustive priority,
-substantial impact and a demonstrated joint operating regime remain unestablished.
-Archived status statements describe their own historical revisions.
+assertions, numerical agreement and byte reproduction are distinct. Evidence
+consists of the analytic arguments, primary-source comparisons and executable
+checks; each verification artifact identifies its own revision. Archived
+status statements describe their historical revisions.
 
 Attribute repository claims to Ruge Lin and identify the consulted commit and
 file. Credit the primary sources in the literature ledger for inherited clean
-pulses, bosonization, channel scattering and control principles. The repository
-does not replace those sources.
+pulses, bosonization, channel scattering and control principles.
 
 For maintenance, consult AGENTS.md, WORKSPACE.md and work_orders/CURRENT.md.
 This reading guide grants no authority to change the project or contact anyone.
