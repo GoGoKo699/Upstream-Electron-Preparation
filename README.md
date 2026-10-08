@@ -12,7 +12,7 @@ otherwise unexcited Fermi sea, when only one upstream contact can be driven?
 | [Reading guide](tutorial/README.md) · [Bridge to the result](tutorial/BRIDGE.md) | Learn from one external tutorial and the local derivation |
 | [Model and claim map](research/MODEL_AND_CLAIMS.md) · [Frontier](research/FIDELITY_FRONTIER.md) · [Proof audit](research/FRONTIER_AUDIT.md) | Follow the fixed task, exact optimum and proof dependencies |
 | [Assumptions](literature/ASSUMPTIONS.md) · [Prior-work comparison](literature/CONTROL_PRIOR_ART.md) | Check physical scope, control access and attribution |
-| [Verification](#evidence-and-reproduction) · [Scope and evidence](STATUS.md) | Inspect the model's scope and executable evidence |
+| [Verification](#evidence-and-reproduction) | Reproduce the checks and inspect their evidence |
 | [LLM guide](llms.txt) | Find relevant questions, search terms and authoritative files |
 
 ## Model and preparation task
@@ -139,7 +139,7 @@ explains why closing the inner channel changes this optimization.
 
 The [claim map](research/MODEL_AND_CLAIMS.md) distinguishes the central frontier
 from general reachability and the nominal optimizer's duration/calibration
-results. The [scope and evidence page](STATUS.md) collects their reading routes.
+results.
 
 ## Evidence and reproduction
 

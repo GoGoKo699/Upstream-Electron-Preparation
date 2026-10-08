@@ -63,7 +63,7 @@ class RepositoryTests(unittest.TestCase):
 
     def test_exact_source_snapshot_contains_new_files(self):
         snap = verify.snapshot()
-        for name in ("README.md", ".github/MAINTENANCE.md", "verify.py", "checks/check_finite_accuracy.py", "results/finite_fidelity.json", "literature/CABART_2018_COMPARISON.md"):
+        for name in ("README.md", "AGENTS.md", ".github/workflows/verify.yml", "verify.py", "checks/check_finite_accuracy.py", "results/finite_fidelity.json", "literature/CABART_2018_COMPARISON.md"):
             self.assertEqual(snap[name], verify.digest((ROOT / name).read_bytes()))
 
     def test_safe_import_paths_and_fixed_scientific_count(self):

@@ -1,8 +1,8 @@
 # Development and planning records
 
 These records preserve the project's internal assessments and earlier status
-pages. The reader route starts with the [project overview](../../README.md),
-[scope and evidence](../../STATUS.md), and [model and claims](../../research/MODEL_AND_CLAIMS.md).
+pages. The reader route starts with the [project overview](../../README.md)
+and [model and claims](../../research/MODEL_AND_CLAIMS.md).
 
 | Record | Historical purpose |
 |---|---|
