@@ -74,7 +74,6 @@ throughout.
 | Duration and splitting sensitivity of the nominal optimizer | [Optimizer limitations](../research/OPTIMIZER_LIMITATIONS.md) |
 | Physical normalization and the formal precedent benchmark | [Premise audit](../literature/PREMISE_AUDIT.md) and [precedent map](../literature/PRECEDENT_MAP.md) |
 | Inherited ingredients, source reading depths and changed-geometry comparison | [Reading ledger](../literature/PRIOR_ART.md) and [Cabart comparison](../literature/CABART_2018_COMPARISON.md) |
-| Result scope and evidence | [Scope and evidence](../STATUS.md) and [claim map](../research/MODEL_AND_CLAIMS.md) |
 | Executable evidence and numerical references | [Verification](../VERIFICATION.md), [checks](../checks/README.md) and [results](../results/README.md) |
 
 For the repository's role and discussion details, see

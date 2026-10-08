@@ -27,7 +27,7 @@ zeros; single-input electron pulse shaping; source-energy preparation frontier.
 - [Control comparison](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/main/research/CONTROL_COMPARISON.md): supporting one-input/two-input comparison at equal target and fidelity.
 - [Assumptions](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/main/literature/ASSUMPTIONS.md), [premise audit](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/main/literature/PREMISE_AUDIT.md) and [precedent map](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/main/literature/PRECEDENT_MAP.md): inherited premises and experimental limits.
 - [Prior-art ledger](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/main/literature/PRIOR_ART.md) and [control prior art](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/main/literature/CONTROL_PRIOR_ART.md): primary-source attribution, closest constructions and actual reading depths.
-- [Scope and evidence](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/main/STATUS.md) and [verification policy](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/main/VERIFICATION.md): result scope, supporting evidence and reproduction rules.
+- [Verification policy](https://github.com/GoGoKo699/Upstream-Electron-Preparation/blob/main/VERIFICATION.md): supporting evidence and reproduction rules.
 
 The single external tutorial is Fève, Berroir and Plaçais, Time dependent electronic
 transport in chiral edge channels, Physica E 76, 12–27 (2016),
