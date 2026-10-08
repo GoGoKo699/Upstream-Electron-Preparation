@@ -192,6 +192,6 @@ v_N(t)=2\sum_{n=0}^N(-1)^n f(t-n\tau)
 
 For even N and a one-electron Lorentzian f, this is two clean electrons separated by an arbitrarily long but finite delay. For odd N it is a zero-net-charge electron/hole-type pulse pair, not a hole-free single electron. Increasing the delay can make an early measurement look single-particle while the global output remains different. The theorem does not rule out useful time-gated operation.
 
-## Sources and provenance
+## Sources
 
-Bracketed source keys resolve in [PRIOR_ART](../literature/PRIOR_ART.md). The preserved [scout 08](../archive/scouts/scout10/prior/prior/SCOUT_08.md) records the derivation history.
+Bracketed source keys resolve in [PRIOR_ART](../literature/PRIOR_ART.md).

@@ -4,7 +4,7 @@ This page evaluates how accurately the equal-mixing energy optimizer must be cal
 
 ## 3. Exact sensitivity of the nominal energy optimizer
 
-The nominal device has p=1/2. Let the actual device have p=1/2+epsilon with the same delay tau, while the voltage remains the pulse designed for nominal equality. This is a deterministic calibration error in an existing parameter, not a new stochastic bath model. No change is made to the target or total input charge.
+The nominal device has p=1/2. Let the actual device have p=1/2+epsilon with the same delay tau, while the voltage remains the pulse designed for nominal equality. The calibration error is deterministic; the target and total input charge stay fixed.
 
 Set H_0=e^{ix/2}cos(x/2), h=cos^2(x/2), and G=1-e^{ix}. The nominal residual and the parameter derivative obey
 
@@ -23,7 +23,7 @@ K_\mu=4\int_0^\infty
 \tag{1}
 ```
 
-This is exact in the same model, not a first-order expansion in epsilon. The integral is finite for every mu>0; near zero its integrand is O(x). It quantifies the fidelity of the **fixed nominal optimizer**, not the optimum for the actual asymmetric channel and not a minimax-robust design.
+This identity is exact throughout the stated range of epsilon. The integral is finite for every mu>0; near zero its integrand is O(x). It quantifies the fidelity of the **fixed nominal optimizer** on the actual asymmetric channel.
 
 Use $x_k=(2k+1)\pi$ and write $B_0(a)=B(a)$ for the positive sum in [Frontier, Section 4](FIDELITY_FRONTIER.md#4-exact-high-fidelity-cost-at-equal-mixing). Define
 
@@ -115,6 +115,6 @@ The broad-target rows are not all in the same high-fidelity asymptotic regime as
 
 The bound E_in/E_l>=213.54 for the first row remains an ideal lower bound when extra waveform constraints are imposed under the same dynamics, energy account and fidelity objective. Restricting the allowed waveforms cannot lower that minimum, but may remove attainment by the displayed optimizer. A change in dynamics or coherence requires a separate analysis.
 
-## Sources and provenance
+## Sources
 
-Bracketed source keys resolve in [PRIOR_ART](../literature/PRIOR_ART.md). The preserved [scout 10](../archive/scouts/scout10/SCOUT_10.md) records the derivation and numerical checks.
+Bracketed source keys resolve in [PRIOR_ART](../literature/PRIOR_ART.md).

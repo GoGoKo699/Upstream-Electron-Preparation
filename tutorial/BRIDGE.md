@@ -15,7 +15,8 @@ launch to meet a specified fidelity?
 Keep the electron's width and center fixed. Allow any deterministic real
 voltage of either sign, with one net electron, finite energy and integrable
 tails. The second input stays in equilibrium; the second output is free to
-carry excitations. There is no finite start, duration or bandwidth constraint.
+carry excitations. The waveform is defined over the whole time axis, with
+unrestricted duration and bandwidth.
 Propagation is linear, elastic, lossless and dispersionless in the bosonic
 description. The bosons here represent collective electron-density waves
 (edge magnetoplasmons). These are the premises of the conditional optimization.
@@ -238,7 +239,7 @@ This would be only a formal frequency optimum without an admissible inverse.
 The [audit](../research/FRONTIER_AUDIT.md#2-the-constructive-optimum-is-an-admissible-waveform)
 proves that Hermitian extension gives a real, bounded inverse with
 $O(t^{-2})$ tails, integral $2\pi$ and finite $D$. Thus the lower bound is
-attained in the stated $L^1\cap L^2$ class. Finite temporal support is not claimed.
+attained in the stated $L^1\cap L^2$ class.
 
 The attainable frontier is
 

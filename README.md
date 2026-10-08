@@ -13,7 +13,7 @@ otherwise unexcited Fermi sea, when only one upstream contact can be driven?
 | [Model and claim map](research/MODEL_AND_CLAIMS.md) · [Frontier](research/FIDELITY_FRONTIER.md) · [Proof audit](research/FRONTIER_AUDIT.md) | Follow the fixed task, exact optimum and proof dependencies |
 | [Assumptions](literature/ASSUMPTIONS.md) · [Prior-work comparison](literature/CONTROL_PRIOR_ART.md) | Check physical scope, control access and attribution |
 | [Verification](#evidence-and-reproduction) · [Scope and evidence](STATUS.md) | Inspect the model's scope and executable evidence |
-| [LLM guide](llms.txt) · [Workspace](WORKSPACE.md) | Find relevant questions, search terms and authoritative files |
+| [LLM guide](llms.txt) | Find relevant questions, search terms and authoritative files |
 
 ## Model and preparation task
 
@@ -80,8 +80,8 @@ C(a)=a\left[
 ```
 
 The [frontier](research/FIDELITY_FRONTIER.md) supplies the exact finite-error
-integrals. This is the C1–C2 result in the [claim map](research/MODEL_AND_CLAIMS.md);
-the asymptote does not replace those integrals or optimize over target width.
+integrals at fixed target width. The [claim map](research/MODEL_AND_CLAIMS.md)
+collects this C1–C2 result and its proof dependencies.
 
 ## Why lossless propagation can still be costly
 
@@ -114,9 +114,8 @@ The selected external learning anchor is:
 The [reading guide](tutorial/README.md) maps its sections. The original
 [bridge](tutorial/BRIDGE.md) supplies the clean Lorentzian target, notation,
 charge-aware overlap, launched-energy normalization and optimization steps.
-No second external tutorial is compulsory; other references provide attribution
-and evidence. The [repository map](tutorial/README.md#repository-map) locates the
-supporting results and research records.
+Other references provide attribution and evidence. The
+[repository map](tutorial/README.md#repository-map) locates the supporting results.
 
 ## Boundaries and prior work
 
@@ -154,7 +153,7 @@ python checks/test_repository.py
 python verify.py --output-dir local-evidence-001
 ```
 
-The output directory must be new. The three unchanged scientific suites cover
+The output directory must be new. The three scientific suites cover
 **6 + 7 + 5 = 18 groups**; the eight infrastructure tests are separate.
 The runner retains logs and all numerical differences, checks source integrity
 before and after, and never refreshes reference bytes automatically.
@@ -163,18 +162,10 @@ before and after, and never refreshes reference bytes automatically.
 agreement and exact reproduction. Hosted artifacts identify their own source tree
 and retain the raw comparisons for that revision.
 
-The [archive](archive/README.md) preserves scouts 08–10, development attempts and
-the pre-import readiness record. The [import manifest](provenance/IMPORT_MANIFEST.json)
-pins all 83 protected copies. Earlier infrared and scope clarifications remain in
-their [frontier](provenance/FRONTIER_AUDIT_CHANGE.md) and
-[readiness](provenance/READINESS_CHANGE.md) change records.
-
 ## Purpose and contact
 
 This repository serves as a record of the work and a guide for the author’s self-directed learning. For discussion or potential collaboration, please contact Ruge Lin at [gogoko699@gmail.com](mailto:gogoko699@gmail.com).
 
 The [LLM guide](llms.txt) describes relevant research questions, search terms and
 the authoritative reading order for automated assistants and other readers.
-The [workspace](WORKSPACE.md) and [current work order](work_orders/CURRENT.md)
-describe continuing work. The repository retains the owner's existing
-[MIT license](LICENSE).
+The repository is available under the [MIT license](LICENSE).

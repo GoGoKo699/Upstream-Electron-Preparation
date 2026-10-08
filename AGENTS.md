@@ -2,7 +2,7 @@
 
 ## Identity and scope
 
-Work only in `GoGoKo699/Upstream-Electron-Preparation` for this task. Pin the live base commit before edits and read README.md, WORKSPACE.md, STATUS.md, research/MODEL_AND_CLAIMS.md and work_orders/CURRENT.md. Previous chats and research repositories are not alternative authority for this project.
+Work only in `GoGoKo699/Upstream-Electron-Preparation` for this task. Pin the live base commit before edits and read README.md, STATUS.md, research/MODEL_AND_CLAIMS.md and [.github/MAINTENANCE.md](.github/MAINTENANCE.md). Previous chats and research repositories are not alternative authority for this project.
 
 The model has two **open**, fixed, co-propagating channels and one deterministic upstream voltage. Keep the target width, full many-body fidelity, source-energy budget, equal-charge convention and unused-output freedom explicit. Do not rename HOM visibility as many-body fidelity or source energy as heat. New controls or changed geometry change the theorem's task. Preserve the distinction between an author-side argument, reproducibility and independent review.
 
@@ -18,6 +18,6 @@ Run `python verify.py --integrity-only`, `python checks/test_repository.py` and 
 
 Keep the active reading route claim-driven. No journal-targeting language is needed in active scientific documents; unchanged historical scout statements are archival context, not current publication commitments. Mathematics should render with GitHub-supported inline/display notation. Keep citations precise about model, control location, objective and reading depth. Unknown or unread sources are not negative novelty evidence.
 
-Do not broaden into a new channel, detector, temperature regime, robustness objective or duration optimization to prolong work. The remaining task is a critical check of the fixed argument and directly relevant assumptions. New numerics should address a named uncertainty, not pad test counts. Keep successful but unnecessary experiments and failed approaches under archive/ rather than on the proof route.
+Do not broaden into a new channel, detector, temperature regime, robustness objective or duration optimization to prolong work. Changes should address a specific reader issue or scientific question within the fixed argument and directly relevant assumptions. New numerics should address a named uncertainty, not pad test counts. Keep successful but unnecessary experiments and failed approaches under archive/ rather than on the proof route.
 
 End each work session with exact revision identifiers, actual test outcomes, preserved failure/difference records and a bounded next action. An additional assistant pass is author-side work, not an independent reviewer report.

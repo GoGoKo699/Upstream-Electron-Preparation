@@ -1,5 +1,5 @@
 # Immutable numerical references
 
-These are exact copies of the three canonical incoming JSON reports, not outputs refreshed during repository initialization. Their hashes and source locations are in `provenance/IMPORT_MANIFEST.json`.
+These three canonical JSON reports are the fixed numerical references for the scientific suites. Their hashes and source locations are in `provenance/IMPORT_MANIFEST.json`.
 
-New executions belong in fresh output directories. The runner records actual report bytes, all changed JSON fields, numeric agreement and scientific assertions separately. Never replace these files to make a hosted run pass. Numerical quadrature error estimates are not interval certificates; the analytical proofs are separate from the finite diagnostics.
+Each execution uses a fresh output directory and preserves these references. The runner records actual report bytes, all changed JSON fields, numerical agreement and scientific assertions separately; see [VERIFICATION](../VERIFICATION.md). Quadrature error estimates are numerical diagnostics. The [claim map](../research/MODEL_AND_CLAIMS.md) supplies the separate analytic proof route.

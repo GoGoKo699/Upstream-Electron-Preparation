@@ -1,0 +1,19 @@
+{
+  "base_commit": "994c845fca95f065625be0e1852b9096c6f138e2",
+  "files": [
+    {
+      "original_path": "WORKSPACE.md",
+      "archive_path": "archive/development/WORKSPACE_2026-10-08.md",
+      "original_sha256": "69015c9b5931c28a67ae9298bb6816c3aca2e3d39eab4818086afdb1c1b056b7",
+      "archive_sha256": "da39a1958f4f540e7372469769851cf2774a9b1f6af5b84dc5fe874f07b3cee4",
+      "change": "Relative link destinations rebased; all other content preserved"
+    },
+    {
+      "original_path": "work_orders/CURRENT.md",
+      "archive_path": "archive/development/WORK_ORDER_2026-10-08.md",
+      "original_sha256": "bca6661e01d7c22590d5aad174f179ceda1dcc24284b7edede7b0f826eeac68f",
+      "archive_sha256": "88d8e946eeb4f986861746fec6b8b9e0290be4dde51cdaa0d910b30cb7053d87",
+      "change": "Relative link destinations rebased; all other content preserved"
+    }
+  ]
+}
