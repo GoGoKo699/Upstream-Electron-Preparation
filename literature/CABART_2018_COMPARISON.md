@@ -1,10 +1,9 @@
 # Cabart 2018: construction-level comparison
 
-C. Cabart, B. Roussel, G. Fève and P. Degiovanni, *Taming electronic decoherence in one-dimensional chiral ballistic quantum conductors*, PRB **98**,155302 (2018), [DOI](https://doi.org/10.1103/PhysRevB.98.155302). The source PDF has 28 pages and SHA-256 `6113d031e78a5ed5f0b2015be2742de5ea86640e7d0914edef2c115eda4e5152`. The PDF is not redistributed.
+C. Cabart, B. Roussel, G. Fève and P. Degiovanni, *Taming electronic decoherence in one-dimensional chiral ballistic quantum conductors*, PRB **98**,155302 (2018), [DOI](https://doi.org/10.1103/PhysRevB.98.155302). The source PDF has 28 pages and SHA-256 `6113d031e78a5ed5f0b2015be2742de5ea86640e7d0914edef2c115eda4e5152`.
 
-The comparison uses the publisher text, including visual checks of pages 7,
-8, 19 and 20 and Figures 6 and 24. Source statements and the comparison with
-the present optimization are distinguished below.
+The comparison uses the publisher text, especially pages 7, 8, 19 and 20 and
+Figures 6 and 24.
 
 ## 1. Source content and comparison
 
@@ -44,8 +43,7 @@ For its ideal nondissipative model, the paper explicitly states $`|t_{\rm loop}|
 **Our comparison:** the all-pass response removes the real-frequency transmission
 nulls of the open-channel $`H_{1/2}`$. Replacing $`H_p`$ with $`t_{\rm loop}`$ changes
 the constrained preparation problem. The source-energy divergence derived for
-the open geometry is consistent with protection in the loop geometry; finite-start
-or duration requirements on the loop inverse would constitute a separate problem.
+the open geometry is consistent with protection in the loop geometry.
 
 ### 1.4 Their observables are not our global target fidelity
 

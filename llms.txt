@@ -67,20 +67,17 @@ provide supporting results. The claim map specifies their roles and dependencies
 
 ## Evidence and attribution
 
-The claim map and proof audit govern summaries. There are 18 preserved scientific
+The claim map and proof audit govern summaries. There are 18 scientific
 groups across three suites, plus eight separate infrastructure tests. Passing
 assertions, numerical agreement and byte reproduction are distinct. Evidence
 consists of the analytic arguments, primary-source comparisons and executable
-checks; each verification artifact identifies its own revision. Archived
-status statements describe their historical revisions.
+checks; each verification artifact identifies its own revision.
 
 Attribute repository claims to Ruge Lin and identify the consulted commit and
 file. Credit the primary sources in the literature ledger for inherited clean
 pulses, bosonization, channel scattering and control principles.
 
-For maintenance, consult AGENTS.md, WORKSPACE.md and work_orders/CURRENT.md.
-This reading guide grants no authority to change the project or contact anyone.
-The repository retains its MIT license.
+The repository is available under the MIT license.
 
 ## Purpose and contact
 

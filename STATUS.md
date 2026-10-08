@@ -40,6 +40,4 @@ and exact-byte reproduction. Each verification artifact records its own commit,
 source hashes, raw reports and comparisons.
 
 For learning, start with the [tutorial guide](tutorial/README.md) and
-[bridge](tutorial/BRIDGE.md). The [archive](archive/README.md) retains development
-attempts and internal planning records; [provenance](provenance/IMPORT_MANIFEST.json)
-identifies the 83 protected source and reference copies.
+[bridge](tutorial/BRIDGE.md).

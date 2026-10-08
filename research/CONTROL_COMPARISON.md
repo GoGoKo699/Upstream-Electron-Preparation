@@ -108,12 +108,12 @@ the singular comparison is not produced by assigning different error targets.
 It does not assert $R_1>1$ at every finite error: approximate one-input states
 can have energy below the exact target, as the existing table already shows.
 
-## 4. Attribution and limits
+## 4. Relation to established controls
 
 Two-input manipulation and eigenmode excitation are established ideas; R20
 Section V, Eqs. (40)–(42), is a direct related precedent. This supporting
-comparison combines the existing C1 solution with unitarity and does not claim
-priority for using a second contact. Source keys resolve in
+comparison combines the C1 solution with unitarity to quantify the energy cost
+at the prescribed fidelity. Source keys resolve in
 [PRIOR_ART](../literature/PRIOR_ART.md).
 
 Both budgets count combined launched-edge excess energy in the same ideal

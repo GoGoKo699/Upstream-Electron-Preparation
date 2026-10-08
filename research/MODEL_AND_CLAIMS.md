@@ -25,7 +25,7 @@ A neutral *relative* displacement justifies this expression. A charged state's o
 
 ## Claim hierarchy
 
-| ID | Statement and status | Author-side proof | Supporting suite |
+| ID | Statement | Proof | Supporting suite |
 |---|---|---|---|
 | C1 (central) | Exact all-waveform energy–fidelity frontier and an admissible constructive optimum at positive energy. | [Frontier](FIDELITY_FRONTIER.md), Sections 2–4. | `checks/check_finite_accuracy.py`, 7 groups. |
 | C2 | At equal splitting and fixed target width, $R_{\min}\sim C(a)/[-\ln\mathcal F]$; no finite-energy exact one-electron inverse. | [Frontier](FIDELITY_FRONTIER.md), Section 4; [Reachability](EXACT_REACHABILITY.md), Section 3. | Finite-fidelity and reachability. |
@@ -35,7 +35,7 @@ A neutral *relative* displacement justifies this expression. A charged state's o
 
 C1 needs the inherited pure coherent-state transfer, equal-charge overlap normalization, and the optimization identity. Its existence argument also needs the inverse waveform to belong to the stated $L^1\cap L^2$ class. C2 adds isolated-zero asymptotics over the complete frequency axis. The [proof audit](FRONTIER_AUDIT.md) supplies these dependencies and explicit bounds, including the infrared qualification above.
 
-C3 is an auxiliary retained statement with a separate Slater-state/occupied-space proof. That proof is outside the C1–C2 audit and the central learning and claim dependencies. C4–C5 provide reachability and nominal-optimizer qualifications. The proofs are author-side arguments; the suites check specified analytic and numerical consequences.
+C3 has a separate Slater-state/occupied-space proof, outside the C1–C2 audit and central proof dependencies. C4–C5 provide reachability and nominal-optimizer qualifications. The suites check specified analytic and numerical consequences of the proofs.
 
 ## Controls and orders of limits
 
@@ -59,12 +59,11 @@ The optimization covers deterministic, whole-line voltages in the stated zero-te
 
 The clean Lorentzian criterion, bosonization, channel and correction frameworks
 are inherited. The optimization is elementary completion of a quadratic form.
-The candidate contribution is the complete restricted-source preparation law
+The result is the complete restricted-source preparation law
 for the prescribed electron and sea. [CONTROL_PRIOR_ART](../literature/CONTROL_PRIOR_ART.md)
 attributes prescribed-current synthesis to M18, calibrated upstream interaction
 precompensation to B19, and two-input eigenmode protection to R20, alongside the
-existing L11/R21/C18 comparisons. The supporting energy comparison does not
-claim a new control principle. [PRIOR_ART](../literature/PRIOR_ART.md) states the
+L11/R21/C18 comparisons. [PRIOR_ART](../literature/PRIOR_ART.md) states the
 actual reading depths.
 
 C1–C2 give an exact ideal feasibility statement at fixed target, transfer and

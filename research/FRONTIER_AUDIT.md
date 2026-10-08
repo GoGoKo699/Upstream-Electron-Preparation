@@ -83,8 +83,9 @@ D\ge\tfrac14\int_0^{\omega_0}
 ```
 
 Neutrality removes the constant charge mismatch, but supplies no rate of
-approach at zero frequency. This analytic counterexample corrects the
-unqualified ket language; it does not challenge a positive-fidelity optimum.
+approach at zero frequency. This counterexample shows why the full competitor
+class requires the infrared-limit definition; the positive-fidelity optimizers
+have finite relative norm.
 The distinction between a formal displacement and an implementer in the
 usual Fock representation is standard; see the introduction of
 [Lill (2025)](https://doi.org/10.1007/s10955-025-03415-y). Only that general
@@ -116,9 +117,8 @@ $\int v_\mu=\widehat v_\mu(0)=2\pi$.
 
 Moreover $H_pA_\mu-e^{-ax/2}=-\mu x e^{-ax/2}/(h+\mu x)=O(x)$ near
 zero, so $D_\mu<\infty$. Every constructed optimum has a genuine target-relative
-state vector. No finite temporal support or finite start is inferred from
-these estimates. They hold for every fixed $\mu,a>0$ and $p\in[0,1]$;
-uniform tail constants as $\mu\downarrow0$ are neither needed nor asserted.
+state vector. These whole-line tail estimates hold for every fixed
+$\mu,a>0$ and $p\in[0,1]$, with constants that can depend on these parameters.
 
 ## 3. Completion without subtracting infinities
 
@@ -192,15 +192,13 @@ in $y$, and the two local limits are
 On $E$, $h\ge1/2$, so the two scaled contributions are
 $O(\sqrt\mu)$ and $O(\mu^{3/2})$. Dominated convergence over the intervals
 therefore proves $\sqrt\mu U_\mu\to B(a)$ and
-$D_\mu/\sqrt\mu\to B(a)$ with the original convergent sum $B(a)$.
-Global optimality and $R=aU$ yield the original coefficient
+$D_\mu/\sqrt\mu\to B(a)$ with the convergent sum $B(a)$.
+Global optimality and $R=aU$ yield the coefficient
 $C(a)=aB(a)^2$ and $R_{\min}\sim C(a)/[-\log\mathcal F]$.
 This is not uniform in varying target width, nor a finite-notch truncation.
 
-## Proof scope and provenance
+## Proof scope
 
 These details establish C1–C2's admissible optimum, all-competitor bound and
 fixed-width asymptote. The [claim map](MODEL_AND_CLAIMS.md) separates their
-dependencies from the supporting statements. The
-[change record](../provenance/FRONTIER_AUDIT_CHANGE.md) preserves the original
-audit revision and the interpretation of divergent-error competitors.
+dependencies from the supporting statements.

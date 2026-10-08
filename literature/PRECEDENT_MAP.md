@@ -5,7 +5,7 @@ C1–C2. This map identifies five relevant primary sources for each convention
 and states the exact role of each passage. The [premise audit](PREMISE_AUDIT.md)
 records experimental ingredients and model mismatches separately.
 
-## 1. What the counts mean
+## 1. Sources by premise
 
 A counted paper contains a relevant formal construction, explicit use or a
 printed model from which the stated translation follows. Each publication
@@ -59,8 +59,8 @@ S(\omega,L)=U\operatorname{diag}(e^{i\omega L/u_+},e^{i\omega L/u_-})U^T.
 ```
 
 Its selected diagonal element has two phase factors weighted by squared mixing
-coefficients; removing one common delay gives $`H_p`$. This is our algebraic
-translation, not a claim that those papers print the present scalar optimum.
+coefficients; removing one common delay gives $`H_p`$. This algebraic
+translation connects the cited Hamiltonians to the transfer used here.
 The low-energy/local-interaction approximation remains explicit.
 
 **Amplitude-to-energy translation.** G13 and C18 give
@@ -94,10 +94,3 @@ the mathematical optimization. Relating its frontier to a device requires a
 transfer model valid over the optimized spectrum and a justified connection
 between the measured observable and the target-state overlap. These requirements
 are particularly relevant in the high-fidelity limit.
-
-## 4. Source coverage
-
-Every counted paper is tied to an inspected primary passage. The [reading
-ledger](PRIOR_ART.md) states versions and exact depths; the [control
-comparison](CONTROL_PRIOR_ART.md) distinguishes the preparation task from
-established correction and pulse-shaping constructions.

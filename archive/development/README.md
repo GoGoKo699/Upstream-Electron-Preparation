@@ -18,3 +18,11 @@ The records come from commit
 Only relative link destinations were adjusted during relocation; all other
 content is preserved. Links into the former active tree use that fixed revision.
 [Relocation metadata](RELOCATION.json) records original and relocated hashes.
+
+## Maintenance records
+
+The [earlier workspace](WORKSPACE_2026-10-08.md) and
+[release work order](WORK_ORDER_2026-10-08.md) come from
+[`994c845`](https://github.com/GoGoKo699/Upstream-Electron-Preparation/tree/994c845fca95f065625be0e1852b9096c6f138e2).
+Only relative link destinations were rebased to that revision.
+[Relocation metadata](READER_RELOCATION.json) records both sets of hashes.

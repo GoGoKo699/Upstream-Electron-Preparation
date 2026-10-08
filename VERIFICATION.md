@@ -2,29 +2,27 @@
 
 ## Commands and outputs
 
-`python verify.py --integrity-only` checks the 83 imported file copies, the existing license, active local links and excluded publication/font/bytecode extensions. `python checks/test_repository.py` runs eight infrastructure tests. `python verify.py --output-dir NEW_DIRECTORY` executes all three unchanged scientific suites and stores their complete logs, observed and reference reports, comparisons, environment, before/after integrity, exact source hashes and tracked-source ZIP.
+`python verify.py --integrity-only` checks the 83 protected files, the license, active local links and excluded publication/font/bytecode extensions. `python checks/test_repository.py` runs eight infrastructure tests. `python verify.py --output-dir NEW_DIRECTORY` executes all three scientific suites and stores their complete logs, observed and reference reports, comparisons, environment, before/after integrity, exact source hashes and tracked-source ZIP.
 
-The total remains **18 scientific groups**. The eight runner/infrastructure tests are separate. No claimed theorem is established by test counts. The full run requires a fresh output directory and does not update anything under results/ or archive/. A failure does not authorize changing an original assertion or reference.
+The scientific suites contain **18 groups**; the eight infrastructure tests exercise the runner and its records. The [claim map](research/MODEL_AND_CLAIMS.md) links the analytic proofs and their supporting checks. Each full run uses a fresh output directory and preserves the assertions and immutable references under results/ and archive/.
 
-## Four separate questions
+## Report contents
 
-1. Did each original suite exit successfully and report its expected number of passing groups?
-2. Did it numerically agree with its canonical original report under this comparison policy?
-3. Were the observed JSON bytes identical to the reference bytes?
-4. Did the exact checked source and every imported file remain unchanged during execution?
+1. Suite exit status and expected passing-group counts.
+2. Numerical agreement with the canonical report under the comparison policy.
+3. Byte-for-byte agreement between observed and reference JSON.
+4. Source and protected-file integrity before and after execution.
 
-The machine report answers each separately. A successful numerical comparison is not byte reproduction. Neither is independent scientific review.
+The machine report records these separately so that numerical agreement and byte reproduction remain distinguishable.
 
 ## Fixed numerical policy
 
 JSON dictionary keys, list lengths, value types, integers, booleans and strings must agree exactly. Floats must be finite; all changed float values are recorded, including accepted changes. Numerical comparison uses relative tolerance **1e-9** and absolute tolerance **5e-10**, applying the standard `abs(a-b) <= max(rtol*max(abs(a),abs(b)), atol)` criterion. The original scientific tests retain their own unchanged assertions and tolerances; this policy is an additional cross-environment reproduction check, not a replacement for those assertions.
 
-No workload-counter override or special source-scoped waiver is imported from another project. No raw difference is hidden. A changed quadrature error estimate is still reported as a changed field; these estimates are diagnostics rather than physical observables or interval-certified bounds. If a future hosted run exceeds the policy, inspect its precise differences and underlying suite assertions before proposing a documented change. Do not refresh the reference.
+Every changed field is reported, including quadrature error estimates. These estimates are diagnostics rather than physical observables or interval-certified bounds. A result outside the policy requires inspection of its precise differences and underlying suite assertions; the reference remains fixed.
 
 ## Source and hosted evidence
 
-The incoming base is recorded in provenance/IMPORT_MANIFEST.json. Scientific source files are mapped to the original scout member and SHA-256. Original archives are byte-preserved as extracted members; their original ZIP byte hashes are recorded separately. The repository's MIT license was already supplied by the owner.
+`provenance/IMPORT_MANIFEST.json` records the protected source files, canonical reports and their SHA-256 hashes.
 
-Continuous integration runs on the head revision, records the actual commit/tree in REPORT.json and tracked-source.zip, and uploads evidence even if a check fails. It uses read-only content permissions. Inspect both the pull-request and merged-main runs: one does not prove the other. A downloaded artifact's source hashes should match the intended complete tree before its numerical report is used.
-
-The pre-import local run is preserved in IMPORT_RECORD.json. Fresh candidate and hosted results belong to their own artifacts and PR handoff; none is fabricated prospectively in that record. No ongoing monitoring or scheduled external delivery is part of initialization.
+Continuous integration runs on the head revision, records the actual commit/tree in REPORT.json and tracked-source.zip, and uploads evidence even if a check fails. It uses read-only content permissions. Pull-request and merged-main revisions each receive a separate run. Match a downloaded artifact's source hashes to the intended complete tree before using its numerical report.

@@ -1,4 +1,4 @@
-# Closest control precedents and the remaining contribution
+# Closest control precedents and the preparation law
 
 Correction, prescribed-current synthesis, experimental precompensation and
 two-input protection are established control ideas. This comparison identifies
@@ -22,9 +22,8 @@ launched-edge energy budget**. It includes the lower bound over all admitted
 real charge-one $`L^1\cap L^2`$ waveforms, an admissible attaining pulse at every
 positive error, and the explicit fixed-width singular endpoint.
 
-Quadratic completion is standard. The inverse-infidelity exponent reflects
-simple transfer zeros and is not a new general principle or a uniquely
-fermionic exponent. The physical contribution rests on specifying the complete
+Quadratic completion is standard. The inverse-infidelity exponent follows from
+the simple transfer zeros. The physical contribution rests on specifying the complete
 state-preparation task and its restricted-control cost. The comparisons above
 are limited to the identified passages and distinguish their control resources
 and objectives from this preparation law.
@@ -34,16 +33,5 @@ shows that the interpretation survives assigning both control classes the same
 target and error. The two-input construction is attributed to the established
 control idea; the corollary quantifies its cost for the stated target fidelity.
 
-## Reading scope
-
-B19's source/observable setup, Lorentzian subsection and Methods A–B were
-inspected in its author PDF. M18's model, current-response equations and noise
-definitions, and R20's model and two-input section, were checked at the depths
-listed in the [reading ledger](PRIOR_ART.md). These are construction-level
-comparisons, rather than reproductions of those papers' full algorithms,
-appendices or data.
-
-The source selection follows precompensation, prescribed-current synthesis,
-voltage/fidelity/energy optimization and directly relevant references. The
-comparison is anchored to the exact target, dynamics, objective and control
-class in the [claim map](../research/MODEL_AND_CLAIMS.md).
+The [source passages](PRIOR_ART.md) identify the versions and exact reading
+scope for these comparisons.

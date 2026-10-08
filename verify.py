@@ -86,7 +86,9 @@ def check_imports(root: Path = ROOT) -> dict[str, object]:
 
 def check_links(root: Path = ROOT) -> dict[str, object]:
     files = list(root.glob("*.md"))
-    for folder in ("research", "literature", "work_orders", "checks", "results"):
+    if (root / "llms.txt").is_file():
+        files.append(root / "llms.txt")
+    for folder in ("research", "literature", "tutorial", ".github", "checks", "results"):
         files.extend((root / folder).glob("*.md"))
     failures, count = [], 0
     for path in files:

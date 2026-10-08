@@ -12,7 +12,7 @@ Use the zero-temperature, two-channel, lossless dispersionless model in [Exact r
 H_p(\omega)=p+(1-p)e^{i\omega\tau},\qquad\tau>0.
 ```
 
-The full two-input scattering matrix is unitary. For classical voltage preparation the incident bosonic density modes are coherent displacements; passive linear scattering maps them into a product of outgoing coherent displacements [G13, Eq. (20), Appendix C]. Thus the selected output is a **pure voltage-generated electronic state**, although it need not be a pure one-electron excitation. The literal ket description relative to the target below applies when the relative displacement has finite norm; the full waveform class uses the infrared-limit convention in Section 2. This statement is not true for arbitrary sources of injected electrons and is not extended to them here.
+The full two-input scattering matrix is unitary. For classical voltage preparation the incident bosonic density modes are coherent displacements; passive linear scattering maps them into a product of outgoing coherent displacements [G13, Eq. (20), Appendix C]. Thus the selected output is a **pure voltage-generated electronic state**, although it need not be a pure one-electron excitation. The literal ket description relative to the target below applies when the relative displacement has finite norm; the full waveform class uses the infrared-limit convention in Section 2. This purity statement specifically uses the voltage-source coherent-state structure.
 
 The input is any real v=eV/hbar in L1(R) intersect L2(R), with the fixed integral 2pi and polarity chosen so this positive pulse injects an electron. Negative voltage lobes and incoming holes are allowed, as are arbitrarily long pre-emission and post-emission tails. Each preparation uses one fixed deterministic drive on the whole time axis. The unused output is unrestricted. The energy budget is the total excess energy injected at the one driven contact,
 
@@ -54,7 +54,7 @@ The factor in (1) is independently fixed by two clean electron states. For width
 \tag{2}
 ```
 
-The right side follows directly from their normalized positive-energy one-electron orbitals, with no bosonic approximation. The checker also compares a finite-circle neutral-displacement fidelity with the determinant of its fermionic occupied-space overlap. A finite bottom edge of a filled Fermi sea is avoided: the hole operator is built from cross-Fermi-level amplitudes instead. That independent check includes the actual optimized relative waveform, not only a harmonic test phase. It is a regulator check, not a finite many-electron simulation of an infinite lead.
+The right side follows directly from their normalized positive-energy one-electron orbitals. The checker also compares a finite-circle neutral-displacement fidelity with the determinant of its fermionic occupied-space overlap. The hole operator is built from cross-Fermi-level amplitudes, avoiding an artificial bottom edge of the filled sea. This regulator check includes both a harmonic test phase and the actual optimized relative waveform.
 
 Equation (1) applies the inherited voltage/coherent-state theory to the prescribed target.
 
@@ -87,7 +87,7 @@ D[A]+\mu U[A]-D[A_\mu]-\mu U[A_\mu]
 
 Therefore if U[A]<=U[A_mu], then D[A]>=D[A_mu]. Equality is possible only for A=A_mu almost everywhere. This is an **all-input optimality proof**, not comparison within a selected pulse family or the result of a numerical optimization. The [audit](FRONTIER_AUDIT.md) integrates the nonnegative pointwise completion before subtracting finite constants, covering infinite-D competitors as well; those have zero fidelity and cannot improve the optimum.
 
-The optimum is physically in the previously declared waveform class. At x=0, A_mu(0)=1, giving the correct charge. Extend its spectrum by Hermitian symmetry to negative frequency to make v real. At fixed mu>0 the denominator has no real zero, the spectrum decays exponentially, and the spectrum and its first two derivatives on each frequency half-line are integrable. Integration by parts twice gives v(t)=O(t^-2), including the finite derivative jump at zero frequency. The inverse is bounded near t=0 and thus belongs to L1 intersect L2. The [audit](FRONTIER_AUDIT.md) makes the half-line derivative bounds, jump at zero, charge justification and finite relative norm explicit. This does not assert finite temporal support; the optimizer generally has tails on both sides of the target.
+The optimum belongs to the declared waveform class. At x=0, A_mu(0)=1, giving the correct charge. Extend its spectrum by Hermitian symmetry to negative frequency to make v real. At fixed mu>0 the denominator has no real zero, the spectrum decays exponentially, and the spectrum and its first two derivatives on each frequency half-line are integrable. Integration by parts twice gives v(t)=O(t^-2), including the finite derivative jump at zero frequency. The inverse is bounded near t=0 and thus belongs to L1 intersect L2. The [audit](FRONTIER_AUDIT.md) makes the half-line derivative bounds, jump at zero, charge justification and finite relative norm explicit. The optimizer generally has tails on both sides of the target.
 
 The frontier is parameterized exactly by
 
@@ -137,7 +137,7 @@ Eliminating mu proves the sharp frontier
 at fixed a>0. This is both a lower bound and a constructive asymptote because of (3)–(4). A finite cutoff that skips isolated frequencies would not establish it: the cost comes from their shrinking neighborhoods.
 
 The target duration matters strongly. At large a,
-C(a)~pi a exp(-2pi a). There is no width-independent preparation-cost claim. The exact finite-fidelity values below use (5), not the asymptotic formula (7), which can be poor before the singular term dominates a finite baseline.
+C(a)~pi a exp(-2pi a). The exact finite-fidelity values below use (5); the asymptotic formula (7) can be poor before the singular term dominates a finite baseline.
 
 | Target width w/tau | F=0.99: minimum E/E_ell | F=0.999: minimum E/E_ell |
 |---:|---:|---:|
@@ -191,7 +191,7 @@ The energy in (7) is optimized for a specified many-body target fidelity, not fo
 
 **Finite error versus exact parity.** At every fixed F<1 the one-input optimum is finite and continuous through equal mixing. Therefore the finite odd/even exact-reachability classification is not a discontinuous finite-error phase boundary. Its operational content at fixed duration is the energy-error law, not a probability ceiling.
 
-**The rest of the device.** The other output may carry many excitations and substantial energy. Unitarity equates the total input energy to both output energies together. Fidelity is demanded only in the selected output; no claim is made that the full two-channel state equals one electron plus two untouched seas.
+**The rest of the device.** The other output may carry many excitations and substantial energy. Unitarity equates the total input energy to both output energies together. Fidelity is demanded only in the selected output.
 
 For the optimizer, let $R_{\rm sel}$ and $R_{\rm unused}$ be the
 output energies in units of $\mathcal E_\ell$. Since its selected spectral
@@ -216,6 +216,6 @@ heat production.
 
 **Coherent-drive scope.** The prescribed coherent drive, equilibrium unused input and lossless dispersionless scattering determine the state and fidelity formula. The [premise audit](../literature/PREMISE_AUDIT.md) explains how these assumptions relate to experimental ingredients; the [precedent map](../literature/PRECEDENT_MAP.md) records their formal sources. The dimensionless table evaluates this specified model.
 
-## Sources and provenance
+## Sources
 
-Bracketed source keys resolve in [PRIOR_ART](../literature/PRIOR_ART.md). The preserved [scout 09](../archive/scouts/scout10/prior/SCOUT_09.md) and [audit change record](../provenance/FRONTIER_AUDIT_CHANGE.md) document the derivation history and infrared clarification.
+Bracketed source keys resolve in [PRIOR_ART](../literature/PRIOR_ART.md).
